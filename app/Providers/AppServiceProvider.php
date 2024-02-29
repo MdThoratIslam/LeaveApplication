@@ -28,6 +28,7 @@ class AppServiceProvider extends ServiceProvider
                     'designation_arr'           =>  ArrayLibrary::getDesignation(),
                     'department_arr'            =>  ArrayLibrary::getDepartment(),
                     'leavetype_arr'             =>  ArrayLibrary::getLeaveType(),
+                    'divisions_arr'             =>  ArrayLibrary::getDivisions(),
                 ];
             $view->with($data);
         });

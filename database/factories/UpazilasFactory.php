@@ -164,7 +164,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //18
+                ], //1.18
                 [
                     'name' => 'Feni Sadar',
                     'bn_name' => 'ফেনী সদর',
@@ -172,7 +172,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], // 19
+                ], //2.19
                 [
                     'name' => 'Sonagazi',
                     'bn_name' => 'সোনাগাজী',
@@ -180,7 +180,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //20
+                ], //3.20
                 [
                     'name' => 'Fulgazi',
                     'bn_name' => 'ফুলগাজী',
@@ -188,7 +188,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //21
+                ], //4.21
                 [
                     'name' => 'Parshuram',
                     'bn_name' => 'পরশুরাম',
@@ -196,7 +196,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], // 22
+                ], //5.22
                 [
                     'name' => 'Daganbhuiyan',
                     'bn_name' => 'দাগনভূঞা',
@@ -204,7 +204,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 2,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //23
+                ], //6.23
             //==========================================================================================================
             //****************** Brahmanbaria District 3 ***************************************************************
                 [
@@ -214,7 +214,7 @@ class UpazilasFactory extends Factory
                      'district_id' => 3,
                      'status_active' => 1,
                      'is_delete' => 0,
-                 ], //24
+                 ], //1.24
                 [
                     'name' => 'Kasba',
                     'bn_name' => 'কসবা',
@@ -222,7 +222,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //25
+                ], //2.25
                 [
                     'name' => 'Nasirnagar',
                     'bn_name' => 'নাসিরনগর',
@@ -230,7 +230,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //26
+                ], //3.26
                 [
                     'name' => 'Sarail',
                     'bn_name' => 'সরাইল',
@@ -238,7 +238,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //27
+                ], //4.27
                 [
                     'name' => 'Ashuganj',
                     'bn_name' => 'আশুগঞ্জ',
@@ -246,7 +246,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //28
+                ], //5.28
                 [
                     'name' => 'Akhaura',
                     'bn_name' => 'আখাউড়া',
@@ -254,7 +254,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //29
+                ], //6.29
                 [
                     'name' => 'Nabinagar',
                     'bn_name' => 'নবীনগর',
@@ -262,7 +262,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //30
+                ], //7.30
                 [
                     'name' => 'Bancharampur',
                     'bn_name' => 'বাঞ্ছারামপুর',
@@ -270,7 +270,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //31
+                ], //8.31
                 [
                     'name' => 'Bijoynagar',
                     'bn_name' => 'বিজয়নগর',
@@ -278,7 +278,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 3,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //32
+                ], //9.32
             //==========================================================================================================
             //****************** Rangamati District 4 ******************************************************************
                 [
@@ -288,7 +288,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //33
+                ], //1.33
                 [
                     'name' => 'Kaptai',
                     'bn_name' => 'কাপ্তাই',
@@ -296,7 +296,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //34
+                ], //2.34
                 [
                     'name' => 'Kawkhali',
                     'bn_name' => 'কাউখালী',
@@ -304,7 +304,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //35
+                ], //3.35
                 [
                     'name' => 'Baghaichari',
                     'bn_name' => 'বাঘাইছড়ি',
@@ -312,7 +312,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //36
+                ], //4.36
                 [
                     'name' => 'Barkal',
                     'bn_name' => 'বরকল',
@@ -320,7 +320,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //37
+                ], //5.37
                 [
                     'name' => 'Langadu',
                     'bn_name' => 'লংগদু',
@@ -328,7 +328,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //38
+                ], //6.38
                 [
                     'name' => 'Rajasthali',
                     'bn_name' => 'রাজস্থলী',
@@ -336,7 +336,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //39
+                ], //7.39
                 [
                     'name' => 'Belaichari',
                     'bn_name' => 'বিলাইছড়ি',
@@ -344,7 +344,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //40
+                ], //8.40
                 [
                     'name' => 'Juraichari',
                     'bn_name' => 'জুরাছড়ি',
@@ -352,7 +352,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //41
+                ], //9.41
                 [
                     'name' => 'Naniarchar',
                     'bn_name' => 'নানিয়ারচর',
@@ -360,7 +360,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 4,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //42
+                ], //10.42
             //==========================================================================================================
             //****************** Noakhali District 5 *******************************************************************
                 [
@@ -370,7 +370,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //43
+                ], //1.43
                 [
                     'name' => 'Companiganj',
                     'bn_name' => 'কোম্পানীগঞ্জ',
@@ -378,7 +378,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //44
+                ], //2.44
                 [
                     'name' => 'Begumganj',
                     'bn_name' => 'বেগমগঞ্জ',
@@ -386,7 +386,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //45
+                ], //3.45
                 [
                     'name' => 'Hatia',
                     'bn_name' => 'হাতিয়া',
@@ -394,7 +394,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //46
+                ], //4.46
                 [
                     'name' => 'Subarnachar',
                     'bn_name' => 'সুবর্ণচর',
@@ -402,7 +402,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //47
+                ], //5.47
                 [
                     'name' => 'Kabirhat',
                     'bn_name' => 'কবিরহাট',
@@ -410,7 +410,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //48
+                ], //6.48
                 [
                     'name' => 'Senbug',
                     'bn_name' => 'সেনবাগ',
@@ -418,7 +418,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //49
+                ], //7.49
                 [
                     'name' => 'Chatkhil',
                     'bn_name' => 'চাটখিল',
@@ -426,7 +426,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //50
+                ], //8.50
                 [
                     'name' => 'Sonaimori',
                     'bn_name' => 'সোনাইমুড়ী',
@@ -434,7 +434,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 5,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //51
+                ], //9.51
             //==========================================================================================================
             //****************** Chandpur District 6 *******************************************************************
                 [
@@ -444,7 +444,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //52
+                ], //1.52
                 [
                     'name' => 'Kachua',
                     'bn_name' => 'কচুয়া',
@@ -452,7 +452,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //53
+                ], //2.53
                 [
                     'name' => 'Shahrasti',
                     'bn_name' => 'শাহরাস্তি',
@@ -460,7 +460,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //54
+                ], //3.54
                 [
                     'name' => 'Chandpur Sadar',
                     'bn_name' => 'চাঁদপুর সদর',
@@ -468,7 +468,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //55
+                ], //4.55
                 [
                     'name' => 'Matlab South',
                     'bn_name' => 'মতলব দক্ষিণ',
@@ -476,7 +476,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //56
+                ], //5.56
                 [
                     'name' => 'Hajiganj',
                     'bn_name' => 'হাজীগঞ্জ',
@@ -484,7 +484,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //57
+                ], //6.57
                 [
                     'name' => 'Matlab North',
                     'bn_name' => 'মতলব উত্তর',
@@ -492,7 +492,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //58
+                ], //7.58
                 [
                     'name' => 'Faridgonj',
                     'bn_name' => 'ফরিদগঞ্জ',
@@ -500,7 +500,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 6,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //59
+                ], //8.59
             //==========================================================================================================
             //****************** Lakshmipur District 7 *****************************************************************
                 [
@@ -510,7 +510,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 7,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //60
+                ], //1.60
                 [
                     'name' => 'Kamalnagar',
                     'bn_name' => 'কমলনগর',
@@ -518,7 +518,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 7,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //61
+                ], //2.61
                 [
                     'name' => 'Raipur',
                     'bn_name' => 'রায়পুর',
@@ -526,7 +526,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 7,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //62
+                ], //3.62
                 [
                     'name' => 'Ramgati',
                     'bn_name' => 'রামগতি',
@@ -534,7 +534,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 7,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //63
+                ], //4.63
                 [
                     'name' => 'Ramganj',
                     'bn_name' => 'রামগঞ্জ',
@@ -542,7 +542,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 7,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //64
+                ], //5.64
             //==========================================================================================================
             //****************** Chittagong District 8 *****************************************************************
                 [
@@ -552,7 +552,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //65
+                ], //1.65
                 [
                     'name' => 'Sitakunda',
                     'bn_name' => 'সীতাকুন্ড',
@@ -560,7 +560,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //66
+                ], //2.66
                 [
                     'name' => 'Mirsharai',
                     'bn_name' => 'মীরসরাই',
@@ -568,7 +568,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //67
+                ], //3.67
                 [
                     'name' => 'Patiya',
                     'bn_name' => 'পটিয়া',
@@ -576,7 +576,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //68
+                ], //4.68
                 [
                     'name' => 'Sandwip',
                     'bn_name' => 'সন্দ্বীপ',
@@ -584,7 +584,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //69
+                ], //5.69
                 [
                     'name' => 'Banshkhali',
                     'bn_name' => 'বাঁশখালী',
@@ -592,7 +592,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //70
+                ], //6.70
                 [
                     'name' => 'Boalkhali',
                     'bn_name' => 'বোয়ালখালী',
@@ -600,7 +600,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //71
+                ], //7.71
                 [
                     'name' => 'Anwara',
                     'bn_name' => 'আনোয়ারা',
@@ -608,7 +608,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //72
+                ], //8.72
                 [
                     'name' => 'Chandanaish',
                     'bn_name' => 'চন্দনাইশ',
@@ -616,7 +616,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //73
+                ], //9.73
                 [
                     'name' => 'Satkania',
                     'bn_name' => 'সাতকানিয়া',
@@ -624,7 +624,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //74
+                ], //10.74
                 [
                     'name' => 'Lohagara',
                     'bn_name' => 'লোহাগাড়া',
@@ -632,7 +632,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //75
+                ], //11.75
                 [
                     'name' => 'Hathazari',
                     'bn_name' => 'হাটহাজারী',
@@ -640,7 +640,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //76
+                ], //12.76
                 [
                     'name' => 'Fatikchhari',
                     'bn_name' => 'ফটিকছড়ি',
@@ -648,7 +648,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //77
+                ], //13.77
                 [
                     'name' => 'Raozan',
                     'bn_name' => 'রাউজান',
@@ -656,7 +656,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //78
+                ], //14.78
                 [
                     'name' => 'Karnafuli',
                     'bn_name' => 'কর্ণফুলী',
@@ -664,7 +664,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 8,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //79
+                ], //15.79
              //=========================================================================================================
              //****************** Coxsbazar District 9 *****************************************************************
                 [
@@ -674,7 +674,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //80
+                ], //1.80
                 [
                     'name' => 'Chakaria',
                     'bn_name' => 'চকরিয়া',
@@ -682,7 +682,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //81
+                ], //2.81
                 [
                     'name' => 'Kutubdia',
                     'bn_name' => 'কুতুবদিয়া',
@@ -690,7 +690,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //82
+                ], //3.82
                 [
                     'name' => 'Ukhiya',
                     'bn_name' => 'উখিয়া',
@@ -698,7 +698,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //83
+                ], //4.83
                 [
                     'name' => 'Moheshkhali',
                     'bn_name' => 'মহেশখালী',
@@ -706,7 +706,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //84
+                ], //5.84
                 [
                     'name' => 'Pekua',
                     'bn_name' => 'পেকুয়া',
@@ -714,7 +714,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //85
+                ], //6.85
                 [
                     'name' => 'Ramu',
                     'bn_name' => 'রামু',
@@ -722,7 +722,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //86
+                ], //7.86
                 [
                     'name' => 'Teknaf',
                     'bn_name' => 'টেকনাফ',
@@ -730,7 +730,15 @@ class UpazilasFactory extends Factory
                     'district_id' => 9,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //87
+                ], //8.87
+                [
+                    'name' => 'Eidgaon',
+                    'bn_name' => 'ঈদগাঁও',
+                    'url' => null,
+                    'district_id' => 9,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
             //==========================================================================================================
             //****************** Khagrachhari District 10 **************************************************************
                 [
@@ -740,7 +748,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //88
+                ], //1.88
                 [
                     'name' => 'Dighinala',
                     'bn_name' => 'দিঘীনালা',
@@ -748,7 +756,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //89
+                ], //2.89
                 [
                     'name' => 'Panchari',
                     'bn_name' => 'পানছড়ি',
@@ -756,7 +764,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //90
+                ], //3.90
                 [
                     'name' => 'Laxmichhari',
                     'bn_name' => 'লক্ষীছড়ি',
@@ -764,7 +772,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //91
+                ], //4.91
                 [
                     'name' => 'Mohalchari',
                     'bn_name' => 'মহালছড়ি',
@@ -772,7 +780,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //92
+                ], //5.92
                 [
                     'name' => 'Manikchari',
                     'bn_name' => 'মানিকছড়ি',
@@ -780,7 +788,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //93
+                ], //6.93
                 [
                     'name' => 'Ramgarh',
                     'bn_name' => 'রামগড়',
@@ -788,7 +796,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //94
+                ], //7.94
                 [
                     'name' => 'Matiranga',
                     'bn_name' => 'মাটিরাঙ্গা',
@@ -796,7 +804,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //95
+                ], //8.95
                 [
                     'name' => 'Guimara',
                     'bn_name' => 'গুইমারা',
@@ -804,7 +812,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 10,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //96
+                ], //9.96
             //==========================================================================================================
             //****************** Bandarban District 11 *****************************************************************
                 [
@@ -814,7 +822,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //97
+                ], //1.97
                 [
                     'name' => 'Alikadam',
                     'bn_name' => 'আলীকদম',
@@ -822,7 +830,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //98
+                ], //2.98
                 [
                     'name' => 'Naikhongchhari',
                     'bn_name' => 'নাইক্ষ্যংছড়ি',
@@ -830,7 +838,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //99
+                ], //3.99
                 [
                     'name' => 'Rowangchhari',
                     'bn_name' => 'রোয়াংছড়ি',
@@ -838,7 +846,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //100
+                ], //4.100
                 [
                     'name' => 'Lama',
                     'bn_name' => 'লামা',
@@ -846,7 +854,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //101
+                ], //5.101
                 [
                     'name' => 'Ruma',
                     'bn_name' => 'রুমা',
@@ -854,7 +862,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //102
+                ], //6.102
                 [
                     'name' => 'Thanchi',
                     'bn_name' => 'থানচি',
@@ -862,7 +870,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 11,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //103
+                ], //7.103
             //==========================================================================================================
             //****************** Sirajganj District 12 *****************************************************************
                 [
@@ -872,7 +880,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //104
+                ], //1.104
                 [
                     'name' => 'Chauhali',
                     'bn_name' => 'চৌহালি',
@@ -880,7 +888,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //105
+                ], //2.105
                 [
                     'name' => 'Kamarkhand',
                     'bn_name' => 'কামারখন্দ',
@@ -888,7 +896,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //106
+                ], //3.106
                 [
                     'name' => 'Kazipur',
                     'bn_name' => 'কাজীপুর',
@@ -896,7 +904,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //107
+                ], //4.107
                 [
                     'name' => 'Raigonj',
                     'bn_name' => 'রায়গঞ্জ',
@@ -904,7 +912,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //108
+                ], //5.108
                 [
                     'name' => 'Shahjadpur',
                     'bn_name' => 'শাহজাদপুর',
@@ -912,7 +920,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //109
+                ], //6.109
                 [
                     'name' => 'Sirajganj Sadar',
                     'bn_name' => 'সিরাজগঞ্জ সদর',
@@ -920,7 +928,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //110
+                ], //7.110
                 [
                     'name' => 'Tarash',
                     'bn_name' => 'তাড়াশ',
@@ -928,7 +936,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //111
+                ], //8.111
                 [
                     'name' => 'Ullapara',
                     'bn_name' => 'উল্লাপাড়া',
@@ -936,7 +944,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 12,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //112
+                ], //9.112
             //==========================================================================================================
             //****************** Pabna District 13 *********************************************************************
                 [
@@ -946,7 +954,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //113
+                ], //1.113
                 [
                     'name' => 'Ishurdi',
                     'bn_name' => 'ঈশ্বরদী',
@@ -954,7 +962,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //114
+                ], //2.114
                 [
                     'name' => 'Bhangura',
                     'bn_name' => 'ভাঙ্গুড়া',
@@ -962,7 +970,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //115
+                ], //3.115
                 [
                     'name' => 'Pabna Sadar',
                     'bn_name' => 'পাবনা সদর',
@@ -970,7 +978,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //116
+                ], //4.116
                 [
                     'name' => 'Bera',
                     'bn_name' => 'বেড়া',
@@ -978,7 +986,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //117
+                ], //5.117
                 [
                     'name' => 'Atghoria',
                     'bn_name' => 'আটঘরিয়া',
@@ -986,7 +994,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //118
+                ], //6.118
                 [
                     'name' => 'Chatmohar',
                     'bn_name' => 'চাটমোহর',
@@ -994,7 +1002,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //119
+                ], //7.119
                 [
                     'name' => 'Santhia',
                     'bn_name' => 'সাঁথিয়া',
@@ -1002,7 +1010,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //120
+                ], //8.120
                 [
                     'name' => 'Faridpur',
                     'bn_name' => 'ফরিদপুর',
@@ -1010,7 +1018,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 13,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //121
+                ], //9.121
             //==========================================================================================================
             //****************** Bogra District 14 *********************************************************************
                 [
@@ -1020,7 +1028,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //122
+                ], //1.122
                 [
                     'name' => 'Bogra Sadar',
                     'bn_name' => 'বগুড়া সদর',
@@ -1028,7 +1036,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //123
+                ], //2.123
                 [
                     'name' => 'Shariakandi',
                     'bn_name' => 'সারিয়াকান্দি',
@@ -1036,7 +1044,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //124
+                ], //3.124
                 [
                     'name' => 'Shajahanpur',
                     'bn_name' => 'শাজাহানপুর',
@@ -1044,7 +1052,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //125
+                ], //4.125
                 [
                     'name' => 'Dupchanchia',
                     'bn_name' => 'দুপচাচিঁয়া',
@@ -1052,7 +1060,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //126
+                ], //5.126
                 [
                     'name' => 'Adamdighi',
                     'bn_name' => 'আদমদিঘি',
@@ -1060,7 +1068,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //127
+                ], //6.127
                 [
                     'name' => 'Nondigram',
                     'bn_name' => 'নন্দিগ্রাম',
@@ -1068,7 +1076,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //128
+                ], //7.128
                 [
                     'name' => 'Sonatala',
                     'bn_name' => 'সোনাতলা',
@@ -1076,7 +1084,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //129
+                ], //8.129
                 [
                     'name' => 'Dhunot',
                     'bn_name' => 'ধুনট',
@@ -1084,7 +1092,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //130
+                ], //9.130
                 [
                     'name' => 'Gabtali',
                     'bn_name' => 'গাবতলী',
@@ -1092,7 +1100,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //131
+                ], //10.131
                 [
                     'name' => 'Sherpur',
                     'bn_name' => 'শেরপুর',
@@ -1100,7 +1108,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //132
+                ], //11.132
                 [
                     'name' => 'Shibganj',
                     'bn_name' => 'শিবগঞ্জ',
@@ -1108,8 +1116,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 14,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //133
+                ], //12.133
             //==========================================================================================================
+            //****************** Rajshahi District 15 *****************************************************************
                 [
                     'name' => 'Paba',
                     'bn_name' => 'পবা',
@@ -1117,7 +1126,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //134
+                ], //1.134
                 [
                     'name' => 'Durgapur',
                     'bn_name' => 'দুর্গাপুর',
@@ -1125,7 +1134,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //135
+                ], //2.135
                 [
                     'name' => 'Mohonpur',
                     'bn_name' => 'মোহনপুর',
@@ -1133,7 +1142,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //136
+                ], //3.136
                 [
                     'name' => 'Charghat',
                     'bn_name' => 'চারঘাট',
@@ -1141,7 +1150,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //137
+                ], //4.137
                 [
                     'name' => 'Puthia',
                     'bn_name' => 'পুঠিয়া',
@@ -1149,7 +1158,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //138
+                ], //5.138
                 [
                     'name' => 'Bagha',
                     'bn_name' => 'বাঘা',
@@ -1157,7 +1166,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //139
+                ], //6.139
                 [
                     'name' => 'Godagari',
                     'bn_name' => 'গোদাগাড়ী',
@@ -1165,7 +1174,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //140
+                ], //7.140
                 [
                     'name' => 'Tanore',
                     'bn_name' => 'তানোর',
@@ -1173,7 +1182,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //141
+                ], //8.141
                 [
                     'name' => 'Bagmara',
                     'bn_name' => 'বাগমারা',
@@ -1181,7 +1190,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 15,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //142
+                ], //9.142
+            //==========================================================================================================
+            //****************** Natore District 16 ********************************************************************
                 [
                     'name' => 'Natore Sadar',
                     'bn_name' => 'নাটোর সদর',
@@ -1189,7 +1200,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //143
+                ], //1.143
                 [
                     'name' => 'Singra',
                     'bn_name' => 'সিংড়া',
@@ -1197,7 +1208,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //144
+                ], //2.144
                 [
                     'name' => 'Baraigram',
                     'bn_name' => 'বড়াইগ্রাম',
@@ -1205,7 +1216,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //145
+                ], //3.145
                 [
                     'name' => 'Bagatipara',
                     'bn_name' => 'বাগাতিপাড়া',
@@ -1213,7 +1224,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //146
+                ], //4.146
                 [
                     'name' => 'Lalpur',
                     'bn_name' => 'লালপুর',
@@ -1221,7 +1232,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //147
+                ], //5.147
                 [
                     'name' => 'Gurudaspur',
                     'bn_name' => 'গুরুদাসপুর',
@@ -1229,7 +1240,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //148
+                ], //6.148
                 [
                     'name' => 'Naldanga',
                     'bn_name' => 'নলডাঙ্গা',
@@ -1237,7 +1248,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 16,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //149
+                ], //7.149
+            //==========================================================================================================
+           //****************** Joypurhat District 17 ******************************************************************
                 [
                     'name' => 'Akkelpur',
                     'bn_name' => 'আক্কেলপুর',
@@ -1245,7 +1258,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 17,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //150
+                ], //1.150
                 [
                     'name' => 'Kalai',
                     'bn_name' => 'কালাই',
@@ -1253,7 +1266,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 17,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //151
+                ], //2.151
                 [
                     'name' => 'Khetlal',
                     'bn_name' => 'ক্ষেতলাল',
@@ -1261,7 +1274,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 17,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //152
+                ], //3.152
                 [
                     'name' => 'Panchbibi',
                     'bn_name' => 'পাঁচবিবি',
@@ -1269,7 +1282,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 17,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //153
+                ], //4.153
                 [
                     'name' => 'Joypurhat Sadar',
                     'bn_name' => 'জয়পুরহাট সদর',
@@ -1277,7 +1290,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 17,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //154
+                ], //5.154
+            //==========================================================================================================
+           //****************** Chapainawabganj District 18 ************************************************************
                 [
                     'name' => 'Chapainawabganj Sadar',
                     'bn_name' => 'চাঁপাইনবাবগঞ্জ সদর',
@@ -1285,7 +1300,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 18,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //155
+                ], //1.155
                 [
                     'name' => 'Gomostapur',
                     'bn_name' => 'গোমস্তাপুর',
@@ -1293,7 +1308,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 18,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //156
+                ], //2.156
                 [
                     'name' => 'Nachol',
                     'bn_name' => 'নাচোল',
@@ -1301,7 +1316,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 18,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //157
+                ], //3.157
                 [
                     'name' => 'Bholahat',
                     'bn_name' => 'ভোলাহাট',
@@ -1309,7 +1324,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 18,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //158
+                ], //4.158
                 [
                     'name' => 'Shibganj',
                     'bn_name' => 'শিবগঞ্জ',
@@ -1317,7 +1332,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 18,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //159
+                ], //5.159
+            //==========================================================================================================
+            //****************** Naogaon District 19 *******************************************************************
                 [
                     'name' => 'Mohadevpur',
                     'bn_name' => 'মহাদেবপুর',
@@ -1325,7 +1342,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //160
+                ], //1.160
                 [
                     'name' => 'Badalgachi',
                     'bn_name' => 'বদলগাছী',
@@ -1333,7 +1350,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //161
+                ], //2.161
                 [
                     'name' => 'Patnitala',
                     'bn_name' => 'পত্নিতলা',
@@ -1341,7 +1358,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //162
+                ], //3.162
                 [
                     'name' => 'Dhamoirhat',
                     'bn_name' => 'ধামইরহাট',
@@ -1349,7 +1366,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //163
+                ], //4.163
                 [
                     'name' => 'Niamatpur',
                     'bn_name' => 'নিয়ামতপুর',
@@ -1357,7 +1374,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //164
+                ], //5.164
                 [
                     'name' => 'Manda',
                     'bn_name' => 'মান্দা',
@@ -1365,7 +1382,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //165
+                ], //6.165
                 [
                     'name' => 'Atrai',
                     'bn_name' => 'আত্রাই',
@@ -1373,7 +1390,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //166
+                ], //7.166
                 [
                     'name' => 'Raninagar',
                     'bn_name' => 'রাণীনগর',
@@ -1381,7 +1398,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //167
+                ], //8.167
                 [
                     'name' => 'Naogaon Sadar',
                     'bn_name' => 'নওগাঁ সদর',
@@ -1389,7 +1406,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //168
+                ], //9.168
                 [
                     'name' => 'Porsha',
                     'bn_name' => 'পোরশা',
@@ -1397,7 +1414,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //169
+                ], //10.169
                 [
                     'name' => 'Sapahar',
                     'bn_name' => 'সাপাহার',
@@ -1405,7 +1422,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 19,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //170
+                ], //11.170
+            //==========================================================================================================
+            //****************** Jessore District 20 *******************************************************************
                 [
                     'name' => 'Manirampur',
                     'bn_name' => 'মণিরামপুর',
@@ -1413,7 +1432,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //171
+                ], //1.171
                 [
                     'name' => 'Abhaynagar',
                     'bn_name' => 'অভয়নগর',
@@ -1421,7 +1440,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //172
+                ], //2.172
                 [
                     'name' => 'Bagherpara',
                     'bn_name' => 'বাঘারপাড়া',
@@ -1429,7 +1448,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //173
+                ], //3.173
                 [
                     'name' => 'Chougachha',
                     'bn_name' => 'চৌগাছা',
@@ -1437,7 +1456,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //174
+                ], //4.174
                 [
                     'name' => 'Jhikargacha',
                     'bn_name' => 'ঝিকরগাছা',
@@ -1445,7 +1464,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //175
+                ], //5.175
                 [
                     'name' => 'Keshabpur',
                     'bn_name' => 'কেশবপুর',
@@ -1453,7 +1472,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //176
+                ], //6.176
                 [
                     'name' => 'Jessore Sadar',
                     'bn_name' => 'যশোর সদর',
@@ -1461,7 +1480,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //177
+                ], //7.177
                 [
                     'name' => 'Sharsha',
                     'bn_name' => 'শার্শা',
@@ -1469,7 +1488,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 20,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //178
+                ], //8.178
+            //==========================================================================================================
+           //****************** Satkhira District 21 *******************************************************************
                 [
                     'name' => 'Assasuni',
                     'bn_name' => 'আশাশুনি',
@@ -1477,7 +1498,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //179
+                ], //1.179
                 [
                     'name' => 'Debhata',
                     'bn_name' => 'দেবহাটা',
@@ -1485,7 +1506,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //180
+                ], //2.180
                 [
                     'name' => 'Kalaroa',
                     'bn_name' => 'কলারোয়া',
@@ -1493,7 +1514,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //181
+                ], //3.181
                 [
                     'name' => 'Satkhira Sadar',
                     'bn_name' => 'সাতক্ষীরা সদর',
@@ -1501,7 +1522,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //182
+                ], //4.182
                 [
                     'name' => 'Shyamnagar',
                     'bn_name' => 'শ্যামনগর',
@@ -1509,7 +1530,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //183
+                ], //5.183
                 [
                     'name' => 'Tala',
                     'bn_name' => 'তালা',
@@ -1517,7 +1538,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //184
+                ], //6.184
                 [
                     'name' => 'Kaliganj',
                     'bn_name' => 'কালিগঞ্জ',
@@ -1525,7 +1546,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 21,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //185
+                ], //7.185
+           //***********************************************************************************************************
+          //******************* Meherpur District 22 *******************************************************************
                 [
                     'name' => 'Mujibnagar',
                     'bn_name' => 'মুজিবনগর',
@@ -1533,7 +1556,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 22,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //186
+                ], //1.186
                 [
                     'name' => 'Meherpur Sadar',
                     'bn_name' => 'মেহেরপুর সদর',
@@ -1541,7 +1564,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 22,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //187
+                ], //2.187
                 [
                     'name' => 'Gangni',
                     'bn_name' => 'গাংনী',
@@ -1549,7 +1572,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 22,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //188
+                ], //3.188
+          //============================================================================================================
+         //******************* Narail District 23 **********************************************************************
                 [
                     'name' => 'Narail Sadar',
                     'bn_name' => 'নড়াইল সদর',
@@ -1557,7 +1582,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 23,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //189
+                ], //1.189
                 [
                     'name' => 'Lohagara',
                     'bn_name' => 'লোহাগড়া',
@@ -1565,7 +1590,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 23,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //190
+                ], //2.190
                 [
                     'name' => 'Kalia',
                     'bn_name' => 'কালিয়া',
@@ -1573,7 +1598,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 23,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //191
+                ], //3.191
+        //==============================================================================================================
+       //******************* Chuadanga District 24 *********************************************************************
                 [
                     'name' => 'Chuadanga Sadar',
                     'bn_name' => 'চুয়াডাঙ্গা সদর',
@@ -1581,7 +1608,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 24,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //192
+                ], //1.192
                 [
                     'name' => 'Alamdanga',
                     'bn_name' => 'আলমডাঙ্গা',
@@ -1589,7 +1616,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 24,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //193
+                ], //2.193
                 [
                     'name' => 'Damurhuda',
                     'bn_name' => 'দামুড়হুদা',
@@ -1597,7 +1624,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 24,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //194
+                ], //3.194
                 [
                     'name' => 'Jibannagar',
                     'bn_name' => 'জীবননগর',
@@ -1605,7 +1632,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 24,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //195
+                ], //4.195
+       //===============================================================================================================
+       //******************* Kushtia District 25 ***********************************************************************
                 [
                     'name' => 'Kushtia Sadar',
                     'bn_name' => 'কুষ্টিয়া সদর',
@@ -1613,7 +1642,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //196
+                ], //1.196
                 [
                     'name' => 'Kumarkhali',
                     'bn_name' => 'কুমারখালী',
@@ -1621,7 +1650,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //197
+                ], //2.197
                 [
                     'name' => 'Khoksa',
                     'bn_name' => 'খোকসা',
@@ -1629,7 +1658,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //198
+                ], //3.198
                 [
                     'name' => 'Mirpur',
                     'bn_name' => 'মিরপুর',
@@ -1637,7 +1666,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //199
+                ], //4.199
                 [
                     'name' => 'Daulatpur',
                     'bn_name' => 'দৌলতপুর',
@@ -1645,7 +1674,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //200
+                ], //5.200
                 [
                     'name' => 'Bheramara',
                     'bn_name' => 'ভেড়ামারা',
@@ -1653,39 +1682,43 @@ class UpazilasFactory extends Factory
                     'district_id' => 25,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //201
-                [
-                    'name' => 'Shalikha',
-                    'bn_name' => 'শালিখা',
-                    'url' => 'shalikha.magura.gov.bd',
-                    'district_id' => 26,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //202
-                [
-                    'name' => 'Sreepur',
-                    'bn_name' => 'শ্রীপুর',
-                    'url' => 'sreepur.magura.gov.bd',
-                    'district_id' => 26,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //203
-                [
-                    'name' => 'Magura Sadar',
-                    'bn_name' => 'মাগুরা সদর',
-                    'url' => 'magurasadar.magura.gov.bd',
-                    'district_id' => 26,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //204
-                [
-                    'name' => 'Mohammadpur',
-                    'bn_name' => 'মহম্মদপুর',
-                    'url' => 'mohammadpur.magura.gov.bd',
-                    'district_id' => 26,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //205
+                ], //6.201
+       //===============================================================================================================
+       //******************* Magura District 26 ************************************************************************
+                 [
+                      'name' => 'Shalikha',
+                      'bn_name' => 'শালিখা',
+                      'url' => 'shalikha.magura.gov.bd',
+                      'district_id' => 26,
+                      'status_active' => 1,
+                      'is_delete' => 0,
+                 ], //1.202
+                 [
+                      'name' => 'Sreepur',
+                      'bn_name' => 'শ্রীপুর',
+                      'url' => 'sreepur.magura.gov.bd',
+                      'district_id' => 26,
+                      'status_active' => 1,
+                      'is_delete' => 0,
+                 ], //2.203
+                 [
+                      'name' => 'Magura Sadar',
+                      'bn_name' => 'মাগুরা সদর',
+                      'url' => 'magurasadar.magura.gov.bd',
+                      'district_id' => 26,
+                      'status_active' => 1,
+                      'is_delete' => 0,
+                 ], //3.204
+                 [
+                      'name' => 'Mohammadpur',
+                      'bn_name' => 'মহম্মদপুর',
+                      'url' => 'mohammadpur.magura.gov.bd',
+                      'district_id' => 26,
+                      'status_active' => 1,
+                      'is_delete' => 0,
+                 ], //4.205
+         //=============================================================================================================
+         //*************************** khulna District 27 **************************************************************
                 [
                     'name' => 'Paikgasa',
                     'bn_name' => 'পাইকগাছা',
@@ -1693,7 +1726,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //206
+                ], //1.206
                 [
                     'name' => 'Fultola',
                     'bn_name' => 'ফুলতলা',
@@ -1701,7 +1734,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //207
+                ], //2.207
                 [
                     'name' => 'Digholia',
                     'bn_name' => 'দিঘলিয়া',
@@ -1709,7 +1742,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //208
+                ], //3.208
                 [
                     'name' => 'Rupsha',
                     'bn_name' => 'রূপসা',
@@ -1717,7 +1750,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //209
+                ], //4.209
                 [
                     'name' => 'Terokhada',
                     'bn_name' => 'তেরখাদা',
@@ -1725,7 +1758,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //210
+                ], //5.210
                 [
                     'name' => 'Dumuria',
                     'bn_name' => 'ডুমুরিয়া',
@@ -1733,7 +1766,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //211
+                ], //6.211
                 [
                     'name' => 'Botiaghata',
                     'bn_name' => 'বটিয়াঘাটা',
@@ -1741,7 +1774,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //212
+                ], //7.212
                 [
                     'name' => 'Dakop',
                     'bn_name' => 'দাকোপ',
@@ -1749,7 +1782,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //213
+                ], //8.213
                 [
                     'name' => 'Koyra',
                     'bn_name' => 'কয়রা',
@@ -1757,7 +1790,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 27,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //214
+                ], //9.214
+        //==============================================================================================================
+        //******************* Bagerhat District 28 *********************************************************************
                 [
                     'name' => 'Fakirhat',
                     'bn_name' => 'ফকিরহাট',
@@ -1765,7 +1800,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //215
+                ], //1.215
                 [
                     'name' => 'Bagerhat Sadar',
                     'bn_name' => 'বাগেরহাট সদর',
@@ -1773,7 +1808,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //216
+                ], //2.216
                 [
                     'name' => 'Mollahat',
                     'bn_name' => 'মোল্লাহাট',
@@ -1781,7 +1816,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //217
+                ], //3.217
                 [
                     'name' => 'Sarankhola',
                     'bn_name' => 'শরণখোলা',
@@ -1789,7 +1824,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //218
+                ], //4.218
                 [
                     'name' => 'Rampal',
                     'bn_name' => 'রামপাল',
@@ -1797,7 +1832,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //219
+                ], //5.219
                 [
                     'name' => 'Morrelganj',
                     'bn_name' => 'মোড়েলগঞ্জ',
@@ -1805,7 +1840,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //220
+                ], //6.220
                 [
                     'name' => 'Kachua',
                     'bn_name' => 'কচুয়া',
@@ -1813,7 +1848,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //221
+                ], //7.221
                 [
                     'name' => 'Mongla',
                     'bn_name' => 'মোংলা',
@@ -1821,7 +1856,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //222
+                ], //8.222
                 [
                     'name' => 'Chitalmari',
                     'bn_name' => 'চিতলমারী',
@@ -1829,7 +1864,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 28,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //223
+                ], //9.223
+        //==============================================================================================================
+        //******************* Jhenaidah District 29 ********************************************************************
                 [
                     'name' => 'Jhenaidah Sadar',
                     'bn_name' => 'ঝিনাইদহ সদর',
@@ -1837,7 +1874,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //224
+                ], //1.224
                 [
                     'name' => 'Shailkupa',
                     'bn_name' => 'শৈলকুপা',
@@ -1845,7 +1882,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //225
+                ], //2.225
                 [
                     'name' => 'Harinakundu',
                     'bn_name' => 'হরিণাকুন্ডু',
@@ -1853,7 +1890,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //226
+                ], //3.226
                 [
                     'name' => 'Kaliganj',
                     'bn_name' => 'কালীগঞ্জ',
@@ -1861,7 +1898,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //227
+                ], //4.227
                 [
                     'name' => 'Kotchandpur',
                     'bn_name' => 'কোটচাঁদপুর',
@@ -1869,7 +1906,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //228
+                ], //5.228
                 [
                     'name' => 'Moheshpur',
                     'bn_name' => 'মহেশপুর',
@@ -1877,7 +1914,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 29,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //229
+                ], //6.229
+        //==============================================================================================================
+        //******************* Jhalokathi District 30 *******************************************************************
                 [
                     'name' => 'Jhalakathi Sadar',
                     'bn_name' => 'ঝালকাঠি সদর',
@@ -1885,7 +1924,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 30,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //230
+                ], //1.230
                 [
                     'name' => 'Kathalia',
                     'bn_name' => 'কাঠালিয়া',
@@ -1893,7 +1932,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 30,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //231
+                ], //2.231
                 [
                     'name' => 'Nalchity',
                     'bn_name' => 'নলছিটি',
@@ -1901,7 +1940,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 30,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //232
+                ], //3.232
                 [
                     'name' => 'Rajapur',
                     'bn_name' => 'রাজাপুর',
@@ -1909,7 +1948,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 30,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //233
+                ], //4.233
+        //==============================================================================================================
+        //******************* Patuakhali District 31 *******************************************************************
                 [
                     'name' => 'Bauphal',
                     'bn_name' => 'বাউফল',
@@ -1917,7 +1958,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //234
+                ], //1.234
                 [
                     'name' => 'Patuakhali Sadar',
                     'bn_name' => 'পটুয়াখালী সদর',
@@ -1925,7 +1966,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //235
+                ], //2.235
                 [
                     'name' => 'Dumki',
                     'bn_name' => 'দুমকি',
@@ -1933,7 +1974,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //236
+                ], //3.236
                 [
                     'name' => 'Dashmina',
                     'bn_name' => 'দশমিনা',
@@ -1941,7 +1982,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //237
+                ], //4.237
                 [
                     'name' => 'Kalapara',
                     'bn_name' => 'কলাপাড়া',
@@ -1949,7 +1990,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //238
+                ], //5.238
                 [
                     'name' => 'Mirzaganj',
                     'bn_name' => 'মির্জাগঞ্জ',
@@ -1957,7 +1998,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //239
+                ], //6.239
                 [
                     'name' => 'Galachipa',
                     'bn_name' => 'গলাচিপা',
@@ -1965,7 +2006,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //240
+                ], //7.240
                 [
                     'name' => 'Rangabali',
                     'bn_name' => 'রাঙ্গাবালী',
@@ -1973,7 +2014,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 31,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //241
+                ], //8.241
+        //==============================================================================================================
+        //******************* Pirojpur District 32 *********************************************************************
                 [
                     'name' => 'Pirojpur Sadar',
                     'bn_name' => 'পিরোজপুর সদর',
@@ -1981,7 +2024,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //242
+                ], //1.242
                 [
                     'name' => 'Nazirpur',
                     'bn_name' => 'নাজিরপুর',
@@ -1989,7 +2032,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //243
+                ], //2.243
                 [
                     'name' => 'Kawkhali',
                     'bn_name' => 'কাউখালী',
@@ -1997,7 +2040,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //244
+                ], //3.244
                 [
                     'name' => 'Zianagar',
                     'bn_name' => 'জিয়ানগর',
@@ -2005,7 +2048,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //245
+                ], //4.245
                 [
                     'name' => 'Bhandaria',
                     'bn_name' => 'ভান্ডারিয়া',
@@ -2013,7 +2056,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //246
+                ], //5.246
                 [
                     'name' => 'Mathbaria',
                     'bn_name' => 'মঠবাড়ীয়া',
@@ -2021,7 +2064,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //247
+                ], //6.247
                 [
                     'name' => 'Nesarabad',
                     'bn_name' => 'নেছারাবাদ',
@@ -2029,7 +2072,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 32,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //248
+                ], //7.248
+        //==============================================================================================================
+        //******************* Barisal District 33 **********************************************************************
                 [
                     'name' => 'Barisal Sadar',
                     'bn_name' => 'বরিশাল সদর',
@@ -2037,7 +2082,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //249
+                ], //1.249
                 [
                     'name' => 'Bakerganj',
                     'bn_name' => 'বাকেরগঞ্জ',
@@ -2045,7 +2090,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //250
+                ], //2.250
                 [
                     'name' => 'Babuganj',
                     'bn_name' => 'বাবুগঞ্জ',
@@ -2053,7 +2098,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //251
+                ], //3.251
                 [
                     'name' => 'Wazirpur',
                     'bn_name' => 'উজিরপুর',
@@ -2061,7 +2106,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //252
+                ], //4.252
                 [
                     'name' => 'Banaripara',
                     'bn_name' => 'বানারীপাড়া',
@@ -2069,7 +2114,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //253
+                ], //5.253
                 [
                     'name' => 'Gournadi',
                     'bn_name' => 'গৌরনদী',
@@ -2077,7 +2122,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //254
+                ], //6.254
                 [
                     'name' => 'Agailjhara',
                     'bn_name' => 'আগৈলঝাড়া',
@@ -2085,7 +2130,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //255
+                ], //7.255
                 [
                     'name' => 'Mehendiganj',
                     'bn_name' => 'মেহেন্দিগঞ্জ',
@@ -2093,7 +2138,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //256
+                ], //8.256
                 [
                     'name' => 'Muladi',
                     'bn_name' => 'মুলাদী',
@@ -2101,7 +2146,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //257
+                ], //9.257
                 [
                     'name' => 'Hizla',
                     'bn_name' => 'হিজলা',
@@ -2109,7 +2154,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 33,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ], //258
+                ], //10.258
+        //==============================================================================================================
+        //******************* Bhola District 34 ************************************************************************
                 [
                     'name' => 'Bhola Sadar',
                     'bn_name' => 'ভোলা সদর',
@@ -2117,7 +2164,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.259
                 [
                     'name' => 'Borhan Sddin',
                     'bn_name' => 'বোরহান উদ্দিন',
@@ -2125,7 +2172,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.260
                 [
                     'name' => 'Charfesson',
                     'bn_name' => 'চরফ্যাশন',
@@ -2133,7 +2180,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.261
                 [
                     'name' => 'Doulatkhan',
                     'bn_name' => 'দৌলতখান',
@@ -2141,7 +2188,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.262
                 [
                     'name' => 'Monpura',
                     'bn_name' => 'মনপুরা',
@@ -2149,7 +2196,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.263
                 [
                     'name' => 'Tazumuddin',
                     'bn_name' => 'তজুমদ্দিন',
@@ -2157,7 +2204,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.264
                 [
                     'name' => 'Lalmohan',
                     'bn_name' => 'লালমোহন',
@@ -2165,7 +2212,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 34,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.265
+        //==============================================================================================================
+        //******************* Barguna District 35 **********************************************************************
                 [
                     'name' => 'Amtali',
                     'bn_name' => 'আমতলী',
@@ -2173,7 +2222,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.266
                 [
                     'name' => 'Barguna Sadar',
                     'bn_name' => 'বরগুনা সদর',
@@ -2181,7 +2230,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.267
                 [
                     'name' => 'Betagi',
                     'bn_name' => 'বেতাগী',
@@ -2189,7 +2238,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.268
                 [
                     'name' => 'Bamna',
                     'bn_name' => 'বামনা',
@@ -2197,7 +2246,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.269
                 [
                     'name' => 'Pathorghata',
                     'bn_name' => 'পাথরঘাটা',
@@ -2205,7 +2254,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.270
                 [
                     'name' => 'Taltali',
                     'bn_name' => 'তালতলি',
@@ -2213,7 +2262,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 35,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.271
+        //==============================================================================================================
+        //******************* Sylhet District 36 ***********************************************************************
                 [
                     'name' => 'Balaganj',
                     'bn_name' => 'বালাগঞ্জ',
@@ -2221,7 +2272,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.272
                 [
                     'name' => 'Beanibazar',
                     'bn_name' => 'বিয়ানীবাজার',
@@ -2229,7 +2280,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.273
                 [
                     'name' => 'Bishwanath',
                     'bn_name' => 'বিশ্বনাথ',
@@ -2237,7 +2288,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.274
                 [
                     'name' => 'Companiganj',
                     'bn_name' => 'কোম্পানীগঞ্জ',
@@ -2245,7 +2296,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.275
                 [
                     'name' => 'Fenchuganj',
                     'bn_name' => 'ফেঞ্চুগঞ্জ',
@@ -2253,7 +2304,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.276
                 [
                     'name' => 'Golapganj',
                     'bn_name' => 'গোলাপগঞ্জ',
@@ -2261,7 +2312,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.277
                 [
                     'name' => 'Gowainghat',
                     'bn_name' => 'গোয়াইনঘাট',
@@ -2269,7 +2320,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.278
                 [
                     'name' => 'Jaintiapur',
                     'bn_name' => 'জৈন্তাপুর',
@@ -2277,7 +2328,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //8.279
                 [
                     'name' => 'Kanaighat',
                     'bn_name' => 'কানাইঘাট',
@@ -2285,7 +2336,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //9.280
                 [
                     'name' => 'Sylhet Sadar',
                     'bn_name' => 'সিলেট সদর',
@@ -2293,7 +2344,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //10.281
                 [
                     'name' => 'Zakiganj',
                     'bn_name' => 'জকিগঞ্জ',
@@ -2301,7 +2352,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //11.282
                 [
                     'name' => 'Dakshinsurma',
                     'bn_name' => 'দক্ষিণ সুরমা',
@@ -2309,7 +2360,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //12.283
                 [
                     'name' => 'Osmaninagar',
                     'bn_name' => 'ওসমানী নগর',
@@ -2317,7 +2368,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 36,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //13.284
+        //==============================================================================================================
+       //************************** Moulvibazar District 37 ************************************************************
                 [
                     'name' => 'Barlekha',
                     'bn_name' => 'বড়লেখা',
@@ -2325,7 +2378,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.285
                 [
                     'name' => 'Kamolganj',
                     'bn_name' => 'কমলগঞ্জ',
@@ -2333,7 +2386,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.286
                 [
                     'name' => 'Kulaura',
                     'bn_name' => 'কুলাউড়া',
@@ -2341,7 +2394,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.287
                 [
                     'name' => 'Moulvibazar Sadar',
                     'bn_name' => 'মৌলভীবাজার সদর',
@@ -2349,7 +2402,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.288
                 [
                     'name' => 'Rajnagar',
                     'bn_name' => 'রাজনগর',
@@ -2357,7 +2410,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.289
                 [
                     'name' => 'Sreemangal',
                     'bn_name' => 'শ্রীমঙ্গল',
@@ -2365,7 +2418,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.290
                 [
                     'name' => 'Juri',
                     'bn_name' => 'জুড়ী',
@@ -2373,7 +2426,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 37,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.291
+        //===============================================================================================================
+        //************************** Habiganj District 38 ************************************************************
                 [
                     'name' => 'Nabiganj',
                     'bn_name' => 'নবীগঞ্জ',
@@ -2381,7 +2436,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.292
                 [
                     'name' => 'Bahubal',
                     'bn_name' => 'বাহুবল',
@@ -2389,7 +2444,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.293
                 [
                     'name' => 'Ajmiriganj',
                     'bn_name' => 'আজমিরীগঞ্জ',
@@ -2397,7 +2452,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.294
                 [
                     'name' => 'Baniachong',
                     'bn_name' => 'বানিয়াচং',
@@ -2405,7 +2460,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.295
                 [
                     'name' => 'Lakhai',
                     'bn_name' => 'লাখাই',
@@ -2413,7 +2468,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.296
                 [
                     'name' => 'Chunarughat',
                     'bn_name' => 'চুনারুঘাট',
@@ -2421,7 +2476,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.297
                 [
                     'name' => 'Habiganj Sadar',
                     'bn_name' => 'হবিগঞ্জ সদর',
@@ -2429,7 +2484,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.298
                 [
                     'name' => 'Madhabpur',
                     'bn_name' => 'মাধবপুর',
@@ -2437,7 +2492,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 38,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //8.299
+        //==============================================================================================================
+        //************************** Sunamganj District 39 *************************************************************
                 [
                     'name' => 'Sunamganj Sadar',
                     'bn_name' => 'সুনামগঞ্জ সদর',
@@ -2445,7 +2502,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.300
                 [
                     'name' => 'South Sunamganj',
                     'bn_name' => 'দক্ষিণ সুনামগঞ্জ',
@@ -2453,7 +2510,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.301
                 [
                     'name' => 'Bishwambarpur',
                     'bn_name' => 'বিশ্বম্ভরপুর',
@@ -2461,7 +2518,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.302
                 [
                     'name' => 'Chhatak',
                     'bn_name' => 'ছাতক',
@@ -2469,7 +2526,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.303
                 [
                     'name' => 'Jagannathpur',
                     'bn_name' => 'জগন্নাথপুর',
@@ -2477,7 +2534,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.304
                 [
                     'name' => 'Dowarabazar',
                     'bn_name' => 'দোয়ারাবাজার',
@@ -2485,7 +2542,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.305
                 [
                     'name' => 'Tahirpur',
                     'bn_name' => 'তাহিরপুর',
@@ -2493,7 +2550,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.306
                 [
                     'name' => 'Dharmapasha',
                     'bn_name' => 'ধর্মপাশা',
@@ -2501,7 +2558,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //8.307
                 [
                     'name' => 'Jamalganj',
                     'bn_name' => 'জামালগঞ্জ',
@@ -2509,7 +2566,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //9.308
                 [
                     'name' => 'Shalla',
                     'bn_name' => 'শাল্লা',
@@ -2517,7 +2574,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //10.309
                 [
                     'name' => 'Derai',
                     'bn_name' => 'দিরাই',
@@ -2525,7 +2582,17 @@ class UpazilasFactory extends Factory
                     'district_id' => 39,
                     'status_active' => 1,
                     'is_delete' => 0,
+                ], //11.310
+                [
+                    'name' => 'Madhyanagar',
+                    'bn_name' => 'মধ্যনগর',
+                    'url' => null,
+                    'district_id' => 39,
+                    'status_active' => 1,
+                    'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Narsingdi District 40 *************************************************************
                 [
                     'name' => 'Belabo',
                     'bn_name' => 'বেলাবো',
@@ -2533,7 +2600,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.311
                 [
                     'name' => 'Monohardi',
                     'bn_name' => 'মনোহরদী',
@@ -2541,7 +2608,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.312
                 [
                     'name' => 'Narsingdi Sadar',
                     'bn_name' => 'নরসিংদী সদর',
@@ -2549,7 +2616,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.313
                 [
                     'name' => 'Palash',
                     'bn_name' => 'পলাশ',
@@ -2557,7 +2624,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.314
                 [
                     'name' => 'Raipura',
                     'bn_name' => 'রায়পুরা',
@@ -2565,7 +2632,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.315
                 [
                     'name' => 'Shibpur',
                     'bn_name' => 'শিবপুর',
@@ -2573,7 +2640,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 40,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.316
+        //==============================================================================================================
+        //************************** Gazipur District 41 ***************************************************************
                 [
                     'name' => 'Kaliganj',
                     'bn_name' => 'কালীগঞ্জ',
@@ -2581,7 +2650,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 41,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.317
                 [
                     'name' => 'Kaliakair',
                     'bn_name' => 'কালিয়াকৈর',
@@ -2589,7 +2658,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 41,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.318
                 [
                     'name' => 'Kapasia',
                     'bn_name' => 'কাপাসিয়া',
@@ -2597,7 +2666,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 41,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.319
                 [
                     'name' => 'Gazipur Sadar',
                     'bn_name' => 'গাজীপুর সদর',
@@ -2605,7 +2674,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 41,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.320
                 [
                     'name' => 'Sreepur',
                     'bn_name' => 'শ্রীপুর',
@@ -2613,7 +2682,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 41,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.321
+        //==============================================================================================================
+        //************************** Shariatpur District 42 ************************************************************
                 [
                     'name' => 'Shariatpur Sadar',
                     'bn_name' => 'শরিয়তপুর সদর',
@@ -2621,7 +2692,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.322
                 [
                     'name' => 'Naria',
                     'bn_name' => 'নড়িয়া',
@@ -2629,7 +2700,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.323
                 [
                     'name' => 'Zajira',
                     'bn_name' => 'জাজিরা',
@@ -2637,7 +2708,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.324
                 [
                     'name' => 'Gosairhat',
                     'bn_name' => 'গোসাইরহাট',
@@ -2645,7 +2716,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.325
                 [
                     'name' => 'Bhedarganj',
                     'bn_name' => 'ভেদরগঞ্জ',
@@ -2653,7 +2724,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.326
                 [
                     'name' => 'Damudya',
                     'bn_name' => 'ডামুড্যা',
@@ -2661,7 +2732,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 42,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.327
+        //==============================================================================================================
+        //************************** Narayanganj District 43 ************************************************************
                 [
                     'name' => 'Araihazar',
                     'bn_name' => 'আড়াইহাজার',
@@ -2669,7 +2742,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 43,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.328
                 [
                     'name' => 'Bandar',
                     'bn_name' => 'বন্দর',
@@ -2677,7 +2750,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 43,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.329
                 [
                     'name' => 'Narayanganj Sadar',
                     'bn_name' => 'নারায়নগঞ্জ সদর',
@@ -2685,7 +2758,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 43,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.330
                 [
                     'name' => 'Rupganj',
                     'bn_name' => 'রূপগঞ্জ',
@@ -2693,7 +2766,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 43,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.331
                 [
                     'name' => 'Sonargaon',
                     'bn_name' => 'সোনারগাঁ',
@@ -2701,7 +2774,18 @@ class UpazilasFactory extends Factory
                     'district_id' => 43,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.332
+                [
+                    'name' => 'Siddirganj',
+                    'bn_name' => 'সিদ্ধিরগঞ্জ',
+                    'url' => 'siddirganj.narayanganj.gov.bd',
+                    'district_id' => 43,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ], //6.333
+
+        //==============================================================================================================
+       //************************** Tangail District 44 ****************************************************************
                 [
                     'name' => 'Basail',
                     'bn_name' => 'বাসাইল',
@@ -2709,7 +2793,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.334
                 [
                     'name' => 'Bhuapur',
                     'bn_name' => 'ভুয়াপুর',
@@ -2717,7 +2801,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.335
                 [
                     'name' => 'Delduar',
                     'bn_name' => 'দেলদুয়ার',
@@ -2725,7 +2809,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.336
                 [
                     'name' => 'Ghatail',
                     'bn_name' => 'ঘাটাইল',
@@ -2733,7 +2817,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.337
                 [
                     'name' => 'Gopalpur',
                     'bn_name' => 'গোপালপুর',
@@ -2741,7 +2825,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.338
                 [
                     'name' => 'Madhupur',
                     'bn_name' => 'মধুপুর',
@@ -2749,7 +2833,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.339
                 [
                     'name' => 'Mirzapur',
                     'bn_name' => 'মির্জাপুর',
@@ -2757,7 +2841,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.340
                 [
                     'name' => 'Nagarpur',
                     'bn_name' => 'নাগরপুর',
@@ -2765,7 +2849,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //8.341
                 [
                     'name' => 'Sakhipur',
                     'bn_name' => 'সখিপুর',
@@ -2773,7 +2857,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //9.342
                 [
                     'name' => 'Tangail Sadar',
                     'bn_name' => 'টাঙ্গাইল সদর',
@@ -2781,7 +2865,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //10.343
                 [
                     'name' => 'Kalihati',
                     'bn_name' => 'কালিহাতী',
@@ -2789,7 +2873,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //11.344
                 [
                     'name' => 'Dhanbari',
                     'bn_name' => 'ধনবাড়ী',
@@ -2797,7 +2881,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 44,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //12.345
+        //==============================================================================================================
+        //************************** kishoreganj District 45 ***********************************************************
                 [
                     'name' => 'Itna',
                     'bn_name' => 'ইটনা',
@@ -2805,7 +2891,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.346
                 [
                     'name' => 'Katiadi',
                     'bn_name' => 'কটিয়াদী',
@@ -2813,7 +2899,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.347
                 [
                     'name' => 'Bhairab',
                     'bn_name' => 'ভৈরব',
@@ -2821,7 +2907,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.348
                 [
                     'name' => 'Tarail',
                     'bn_name' => 'তাড়াইল',
@@ -2829,7 +2915,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.349
                 [
                     'name' => 'Hossainpur',
                     'bn_name' => 'হোসেনপুর',
@@ -2837,7 +2923,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.350
                 [
                     'name' => 'Pakundia',
                     'bn_name' => 'পাকুন্দিয়া',
@@ -2845,7 +2931,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.351
                 [
                     'name' => 'Kuliarchar',
                     'bn_name' => 'কুলিয়ারচর',
@@ -2853,7 +2939,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.352
                 [
                     'name' => 'Kishoreganj Sadar',
                     'bn_name' => 'কিশোরগঞ্জ সদর',
@@ -2861,7 +2947,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //8.353
                 [
                     'name' => 'Karimgonj',
                     'bn_name' => 'করিমগঞ্জ',
@@ -2869,7 +2955,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //9.354
                 [
                     'name' => 'Bajitpur',
                     'bn_name' => 'বাজিতপুর',
@@ -2877,7 +2963,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //10.355
                 [
                     'name' => 'Austagram',
                     'bn_name' => 'অষ্টগ্রাম',
@@ -2885,7 +2971,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //11.356
                 [
                     'name' => 'Mithamoin',
                     'bn_name' => 'মিঠামইন',
@@ -2893,7 +2979,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //12.357
                 [
                     'name' => 'Nikli',
                     'bn_name' => 'নিকলী',
@@ -2901,7 +2987,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 45,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //13.358
+        //==============================================================================================================
+       //************************** Manikganj District 46 ************************************************************
                 [
                     'name' => 'Harirampur',
                     'bn_name' => 'হরিরামপুর',
@@ -2909,7 +2997,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.359
                 [
                     'name' => 'Saturia',
                     'bn_name' => 'সাটুরিয়া',
@@ -2917,7 +3005,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.360
                 [
                     'name' => 'Manikganj Sadar',
                     'bn_name' => 'মানিকগঞ্জ সদর',
@@ -2925,7 +3013,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.361
                 [
                     'name' => 'Gior',
                     'bn_name' => 'ঘিওর',
@@ -2933,7 +3021,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.362
                 [
                     'name' => 'Shibaloy',
                     'bn_name' => 'শিবালয়',
@@ -2941,7 +3029,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.363
                 [
                     'name' => 'Doulatpur',
                     'bn_name' => 'দৌলতপুর',
@@ -2949,7 +3037,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.364
                 [
                     'name' => 'Singiar',
                     'bn_name' => 'সিংগাইর',
@@ -2957,7 +3045,10 @@ class UpazilasFactory extends Factory
                     'district_id' => 46,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //7.365
+        //==============================================================================================================
+        //************************** Dhaka District 47 ****************************************************************
+
                 [
                     'name' => 'Savar',
                     'bn_name' => 'সাভার',
@@ -2965,7 +3056,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 47,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.366
                 [
                     'name' => 'Dhamrai',
                     'bn_name' => 'ধামরাই',
@@ -2973,7 +3064,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 47,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.367
                 [
                     'name' => 'Keraniganj',
                     'bn_name' => 'কেরাণীগঞ্জ',
@@ -2981,7 +3072,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 47,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.368
                 [
                     'name' => 'Nawabganj',
                     'bn_name' => 'নবাবগঞ্জ',
@@ -2989,7 +3080,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 47,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.369
                 [
                     'name' => 'Dohar',
                     'bn_name' => 'দোহার',
@@ -2997,7 +3088,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 47,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.370
+        //==============================================================================================================
+        //************************** Munshiganj District 48 ************************************************************
                 [
                     'name' => 'Munshiganj Sadar',
                     'bn_name' => 'মুন্সিগঞ্জ সদর',
@@ -3005,7 +3098,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.371
                 [
                     'name' => 'Sreenagar',
                     'bn_name' => 'শ্রীনগর',
@@ -3013,7 +3106,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.372
                 [
                     'name' => 'Sirajdikhan',
                     'bn_name' => 'সিরাজদিখান',
@@ -3021,7 +3114,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.373
                 [
                     'name' => 'Louhajanj',
                     'bn_name' => 'লৌহজং',
@@ -3029,7 +3122,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.374
                 [
                     'name' => 'Gajaria',
                     'bn_name' => 'গজারিয়া',
@@ -3037,7 +3130,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.375
                 [
                     'name' => 'Tongibari',
                     'bn_name' => 'টংগীবাড়ি',
@@ -3045,7 +3138,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 48,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //6.376
+        //==============================================================================================================
+        //************************** Rajbari District 49 ***************************************************************
                 [
                     'name' => 'Rajbari Sadar',
                     'bn_name' => 'রাজবাড়ী সদর',
@@ -3053,7 +3148,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 49,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.377
                 [
                     'name' => 'Goalanda',
                     'bn_name' => 'গোয়ালন্দ',
@@ -3061,7 +3156,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 49,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.378
                 [
                     'name' => 'Pangsa',
                     'bn_name' => 'পাংশা',
@@ -3069,7 +3164,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 49,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.379
                 [
                     'name' => 'Baliakandi',
                     'bn_name' => 'বালিয়াকান্দি',
@@ -3077,7 +3172,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 49,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.380
                 [
                     'name' => 'Kalukhali',
                     'bn_name' => 'কালুখালী',
@@ -3085,7 +3180,9 @@ class UpazilasFactory extends Factory
                     'district_id' => 49,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //5.381
+        //==============================================================================================================
+        //************************** Madaripur District 50 *************************************************************
                 [
                     'name' => 'Madaripur Sadar',
                     'bn_name' => 'মাদারীপুর সদর',
@@ -3093,7 +3190,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 50,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //1.382
                 [
                     'name' => 'Shibchar',
                     'bn_name' => 'শিবচর',
@@ -3101,7 +3198,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 50,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //2.383
                 [
                     'name' => 'Kalkini',
                     'bn_name' => 'কালকিনি',
@@ -3109,7 +3206,7 @@ class UpazilasFactory extends Factory
                     'district_id' => 50,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //3.384
                 [
                     'name' => 'Rajoir',
                     'bn_name' => 'রাজৈর',
@@ -3117,7 +3214,17 @@ class UpazilasFactory extends Factory
                     'district_id' => 50,
                     'status_active' => 1,
                     'is_delete' => 0,
-                ],
+                ], //4.385
+                [
+                    'name' => 'Dasar',
+                    'bn_name' => 'ডাসার',
+                    'url' => null,
+                    'district_id' => 50,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ], //5.386
+        //==============================================================================================================
+        //************************** Gopalganj District 51 *************************************************************
                 [
                     'name' => 'Gopalganj Sadar',
                     'bn_name' => 'গোপালগঞ্জ সদর',
@@ -3158,6 +3265,8 @@ class UpazilasFactory extends Factory
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Faridpur District 52 **************************************************************
                 [
                     'name' => 'Faridpur Sadar',
                     'bn_name' => 'ফরিদপুর সদর',
@@ -3230,51 +3339,301 @@ class UpazilasFactory extends Factory
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Jamalpur District 53 **************************************************************
+
                 [
-                    'name' => 'Panchagarh Sadar',
-                    'bn_name' => 'পঞ্চগড় সদর',
-                    'url' => 'panchagarhsadar.panchagarh.gov.bd',
+                    'name' => 'Jamalpur Sadar',
+                    'bn_name' => 'জামালপুর সদর',
+                    'url' => 'jamalpursadar.jamalpur.gov.bd',
                     'district_id' => 53,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Debiganj',
-                    'bn_name' => 'দেবীগঞ্জ',
-                    'url' => 'debiganj.panchagarh.gov.bd',
+                    'name' => 'Melandah',
+                    'bn_name' => 'মেলান্দহ',
+                    'url' => 'melandah.jamalpur.gov.bd',
                     'district_id' => 53,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Boda',
-                    'bn_name' => 'বোদা',
-                    'url' => 'boda.panchagarh.gov.bd',
+                    'name' => 'Islampur',
+                    'bn_name' => 'ইসলামপুর',
+                    'url' => 'islampur.jamalpur.gov.bd',
                     'district_id' => 53,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Atwari',
-                    'bn_name' => 'আটোয়ারী',
-                    'url' => 'atwari.panchagarh.gov.bd',
+                    'name' => 'Dewangonj',
+                    'bn_name' => 'দেওয়ানগঞ্জ',
+                    'url' => 'dewangonj.jamalpur.gov.bd',
                     'district_id' => 53,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Tetulia',
-                    'bn_name' => 'তেতুলিয়া',
-                    'url' => 'tetulia.panchagarh.gov.bd',
+                    'name' => 'Sarishabari',
+                    'bn_name' => 'সরিষাবাড়ী',
+                    'url' => 'sarishabari.jamalpur.gov.bd',
                     'district_id' => 53,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+                [
+                    'name' => 'Madarganj',
+                    'bn_name' => 'মাদারগঞ্জ',
+                    'url' => 'madarganj.jamalpur.gov.bd',
+                    'district_id' => 53,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Bokshiganj',
+                    'bn_name' => 'বকশীগঞ্জ',
+                    'url' => 'bokshiganj.jamalpur.gov.bd',
+                    'district_id' => 53,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+       //************************** Mymensingh District 54 *************************************************************
+                [
+                    'name' => 'Fulbaria',
+                    'bn_name' => 'ফুলবাড়ীয়া',
+                    'url' => 'fulbaria.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Trishal',
+                    'bn_name' => 'ত্রিশাল',
+                    'url' => 'trishal.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Bhaluka',
+                    'bn_name' => 'ভালুকা',
+                    'url' => 'bhaluka.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Muktagacha',
+                    'bn_name' => 'মুক্তাগাছা',
+                    'url' => 'muktagacha.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Mymensingh Sadar',
+                    'bn_name' => 'ময়মনসিংহ সদর',
+                    'url' => 'mymensinghsadar.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Dhobaura',
+                    'bn_name' => 'ধোবাউড়া',
+                    'url' => 'dhobaura.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Phulpur',
+                    'bn_name' => 'ফুলপুর',
+                    'url' => 'phulpur.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Haluaghat',
+                    'bn_name' => 'হালুয়াঘাট',
+                    'url' => 'haluaghat.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Gouripur',
+                    'bn_name' => 'গৌরীপুর',
+                    'url' => 'gouripur.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Gafargaon',
+                    'bn_name' => 'গফরগাঁও',
+                    'url' => 'gafargaon.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Iswarganj',
+                    'bn_name' => 'ঈশ্বরগঞ্জ',
+                    'url' => 'iswarganj.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Nandail',
+                    'bn_name' => 'নান্দাইল',
+                    'url' => 'nandail.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Tarakanda',
+                    'bn_name' => 'তারাকান্দা',
+                    'url' => 'tarakanda.mymensingh.gov.bd',
+                    'district_id' => 54,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+        //==============================================================================================================
+       //************************** Netrokona District 55 **************************************************************
+                [
+                    'name' => 'Barhatta',
+                    'bn_name' => 'বারহাট্টা',
+                    'url' => 'barhatta.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Durgapur',
+                    'bn_name' => 'দুর্গাপুর',
+                    'url' => 'durgapur.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Kendua',
+                    'bn_name' => 'কেন্দুয়া',
+                    'url' => 'kendua.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Atpara',
+                    'bn_name' => 'আটপাড়া',
+                    'url' => 'atpara.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Madan',
+                    'bn_name' => 'মদন',
+                    'url' => 'madan.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Khaliajuri',
+                    'bn_name' => 'খালিয়াজুরী',
+                    'url' => 'khaliajuri.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Kalmakanda',
+                    'bn_name' => 'কলমাকান্দা',
+                    'url' => 'kalmakanda.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Mohongonj',
+                    'bn_name' => 'মোহনগঞ্জ',
+                    'url' => 'mohongonj.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Purbadhala',
+                    'bn_name' => 'পূর্বধলা',
+                    'url' => 'purbadhala.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Netrokona Sadar',
+                    'bn_name' => 'নেত্রকোণা সদর',
+                    'url' => 'netrokonasadar.netrokona.gov.bd',
+                    'district_id' => 55,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+
+
+       //************************** Sherpur District 56 ****************************************************************
+                [
+                    'name' => 'Sherpur Sadar',
+                    'bn_name' => 'শেরপুর সদর',
+                    'url' => 'sherpursadar.sherpur.gov.bd',
+                    'district_id' => 56,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Nalitabari',
+                    'bn_name' => 'নালিতাবাড়ী',
+                    'url' => 'nalitabari.sherpur.gov.bd',
+                    'district_id' => 56,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Sreebordi',
+                    'bn_name' => 'শ্রীবরদী',
+                    'url' => 'sreebordi.sherpur.gov.bd',
+                    'district_id' => 56,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Nokla',
+                    'bn_name' => 'নকলা',
+                    'url' => 'nokla.sherpur.gov.bd',
+                    'district_id' => 56,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+                [
+                    'name' => 'Jhenaigati',
+                    'bn_name' => 'ঝিনাইগাতী',
+                    'url' => 'jhenaigati.sherpur.gov.bd',
+                    'district_id' => 56,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+        //************************** Dinajpur District 57 **************************************************************
                 [
                     'name' => 'Nawabganj',
                     'bn_name' => 'নবাবগঞ্জ',
                     'url' => 'nawabganj.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3282,7 +3641,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Birganj',
                     'bn_name' => 'বীরগঞ্জ',
                     'url' => 'birganj.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3290,7 +3649,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Ghoraghat',
                     'bn_name' => 'ঘোড়াঘাট',
                     'url' => 'ghoraghat.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3298,7 +3657,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Birampur',
                     'bn_name' => 'বিরামপুর',
                     'url' => 'birampur.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3306,7 +3665,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Parbatipur',
                     'bn_name' => 'পার্বতীপুর',
                     'url' => 'parbatipur.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3314,7 +3673,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Bochaganj',
                     'bn_name' => 'বোচাগঞ্জ',
                     'url' => 'bochaganj.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3322,7 +3681,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Kaharol',
                     'bn_name' => 'কাহারোল',
                     'url' => 'kaharol.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3330,7 +3689,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Fulbari',
                     'bn_name' => 'ফুলবাড়ী',
                     'url' => 'fulbari.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3338,7 +3697,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Dinajpur Sadar',
                     'bn_name' => 'দিনাজপুর সদর',
                     'url' => 'dinajpursadar.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3346,7 +3705,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Hakimpur',
                     'bn_name' => 'হাকিমপুর',
                     'url' => 'hakimpur.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3354,7 +3713,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Khansama',
                     'bn_name' => 'খানসামা',
                     'url' => 'khansama.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3362,7 +3721,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Birol',
                     'bn_name' => 'বিরল',
                     'url' => 'birol.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3370,103 +3729,17 @@ class UpazilasFactory extends Factory
                     'name' => 'Chirirbandar',
                     'bn_name' => 'চিরিরবন্দর',
                     'url' => 'chirirbandar.dinajpur.gov.bd',
-                    'district_id' => 54,
+                    'district_id' => 57,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
-                [
-                    'name' => 'Lalmonirhat Sadar',
-                    'bn_name' => 'লালমনিরহাট সদর',
-                    'url' => 'sadar.lalmonirhat.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kaliganj',
-                    'bn_name' => 'কালীগঞ্জ',
-                    'url' => 'kaliganj.lalmonirhat.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Hatibandha',
-                    'bn_name' => 'হাতীবান্ধা',
-                    'url' => 'hatibandha.lalmonirhat.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Patgram',
-                    'bn_name' => 'পাটগ্রাম',
-                    'url' => 'patgram.lalmonirhat.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Aditmari',
-                    'bn_name' => 'আদিতমারী',
-                    'url' => 'aditmari.lalmonirhat.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Syedpur',
-                    'bn_name' => 'সৈয়দপুর',
-                    'url' => 'syedpur.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Domar',
-                    'bn_name' => 'ডোমার',
-                    'url' => 'domar.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dimla',
-                    'bn_name' => 'ডিমলা',
-                    'url' => 'dimla.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Jaldhaka',
-                    'bn_name' => 'জলঢাকা',
-                    'url' => 'jaldhaka.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kishorganj',
-                    'bn_name' => 'কিশোরগঞ্জ',
-                    'url' => 'kishorganj.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nilphamari Sadar',
-                    'bn_name' => 'নীলফামারী সদর',
-                    'url' => 'nilphamarisadar.nilphamari.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
+        //==============================================================================================================
+        //************************** Gaibandha District 58 *************************************************************
                 [
                     'name' => 'Sadullapur',
                     'bn_name' => 'সাদুল্লাপুর',
                     'url' => 'sadullapur.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3474,7 +3747,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Gaibandha Sadar',
                     'bn_name' => 'গাইবান্ধা সদর',
                     'url' => 'gaibandhasadar.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3482,7 +3755,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Palashbari',
                     'bn_name' => 'পলাশবাড়ী',
                     'url' => 'palashbari.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3490,7 +3763,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Saghata',
                     'bn_name' => 'সাঘাটা',
                     'url' => 'saghata.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3498,7 +3771,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Gobindaganj',
                     'bn_name' => 'গোবিন্দগঞ্জ',
                     'url' => 'gobindaganj.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3506,7 +3779,7 @@ class UpazilasFactory extends Factory
                     'name' => 'Sundarganj',
                     'bn_name' => 'সুন্দরগঞ্জ',
                     'url' => 'sundarganj.gaibandha.gov.bd',
-                    'district_id' => 57,
+                    'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
@@ -3514,50 +3787,12 @@ class UpazilasFactory extends Factory
                     'name' => 'Phulchari',
                     'bn_name' => 'ফুলছড়ি',
                     'url' => 'phulchari.gaibandha.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Thakurgaon Sadar',
-                    'bn_name' => 'ঠাকুরগাঁও সদর',
-                    'url' => 'thakurgaonsadar.thakurgaon.gov.bd',
                     'district_id' => 58,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
-                [
-                    'name' => 'Pirganj',
-                    'bn_name' => 'পীরগঞ্জ',
-                    'url' => 'pirganj.thakurgaon.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Ranisankail',
-                    'bn_name' => 'রাণীশংকৈল',
-                    'url' => 'ranisankail.thakurgaon.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Haripur',
-                    'bn_name' => 'হরিপুর',
-                    'url' => 'haripur.thakurgaon.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Baliadangi',
-                    'bn_name' => 'বালিয়াডাঙ্গী',
-                    'url' => 'baliadangi.thakurgaon.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
+        //==============================================================================================================
+        //************************** Rangpur District 59 **************************************************************
                 [
                     'name' => 'Rangpur Sadar',
                     'bn_name' => 'রংপুর সদর',
@@ -3622,6 +3857,8 @@ class UpazilasFactory extends Factory
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Kurigram District 60 *************************************************************
                 [
                     'name' => 'Kurigram Sadar',
                     'bn_name' => 'কুড়িগ্রাম সদর',
@@ -3694,310 +3931,189 @@ class UpazilasFactory extends Factory
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Nilphamari District 61 ************************************************************
                 [
-                    'name' => 'Sherpur Sadar',
-                    'bn_name' => 'শেরপুর সদর',
-                    'url' => 'sherpursadar.sherpur.gov.bd',
+                    'name' => 'Syedpur',
+                    'bn_name' => 'সৈয়দপুর',
+                    'url' => 'syedpur.nilphamari.gov.bd',
                     'district_id' => 61,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Nalitabari',
-                    'bn_name' => 'নালিতাবাড়ী',
-                    'url' => 'nalitabari.sherpur.gov.bd',
+                    'name' => 'Domar',
+                    'bn_name' => 'ডোমার',
+                    'url' => 'domar.nilphamari.gov.bd',
                     'district_id' => 61,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Sreebordi',
-                    'bn_name' => 'শ্রীবরদী',
-                    'url' => 'sreebordi.sherpur.gov.bd',
+                    'name' => 'Dimla',
+                    'bn_name' => 'ডিমলা',
+                    'url' => 'dimla.nilphamari.gov.bd',
                     'district_id' => 61,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Nokla',
-                    'bn_name' => 'নকলা',
-                    'url' => 'nokla.sherpur.gov.bd',
+                    'name' => 'Jaldhaka',
+                    'bn_name' => 'জলঢাকা',
+                    'url' => 'jaldhaka.nilphamari.gov.bd',
                     'district_id' => 61,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Jhenaigati',
-                    'bn_name' => 'ঝিনাইগাতী',
-                    'url' => 'jhenaigati.sherpur.gov.bd',
+                    'name' => 'Kishorganj',
+                    'bn_name' => 'কিশোরগঞ্জ',
+                    'url' => 'kishorganj.nilphamari.gov.bd',
                     'district_id' => 61,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Fulbaria',
-                    'bn_name' => 'ফুলবাড়ীয়া',
-                    'url' => 'fulbaria.mymensingh.gov.bd',
+                    'name' => 'Nilphamari Sadar',
+                    'bn_name' => 'নীলফামারী সদর',
+                    'url' => 'nilphamarisadar.nilphamari.gov.bd',
+                    'district_id' => 61,
+                    'status_active' => 1,
+                    'is_delete' => 0,
+                ],
+        //==============================================================================================================
+       //************************** Lalmonirhat District 62 ************************************************************
+                [
+                    'name' => 'Lalmonirhat Sadar',
+                    'bn_name' => 'লালমনিরহাট সদর',
+                    'url' => 'sadar.lalmonirhat.gov.bd',
                     'district_id' => 62,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Trishal',
-                    'bn_name' => 'ত্রিশাল',
-                    'url' => 'trishal.mymensingh.gov.bd',
+                    'name' => 'Kaliganj',
+                    'bn_name' => 'কালীগঞ্জ',
+                    'url' => 'kaliganj.lalmonirhat.gov.bd',
                     'district_id' => 62,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Bhaluka',
-                    'bn_name' => 'ভালুকা',
-                    'url' => 'bhaluka.mymensingh.gov.bd',
+                    'name' => 'Hatibandha',
+                    'bn_name' => 'হাতীবান্ধা',
+                    'url' => 'hatibandha.lalmonirhat.gov.bd',
                     'district_id' => 62,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Muktagacha',
-                    'bn_name' => 'মুক্তাগাছা',
-                    'url' => 'muktagacha.mymensingh.gov.bd',
+                    'name' => 'Patgram',
+                    'bn_name' => 'পাটগ্রাম',
+                    'url' => 'patgram.lalmonirhat.gov.bd',
                     'district_id' => 62,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Mymensingh Sadar',
-                    'bn_name' => 'ময়মনসিংহ সদর',
-                    'url' => 'mymensinghsadar.mymensingh.gov.bd',
+                    'name' => 'Aditmari',
+                    'bn_name' => 'আদিতমারী',
+                    'url' => 'aditmari.lalmonirhat.gov.bd',
                     'district_id' => 62,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Thakurgaon District 63 ************************************************************
                 [
-                    'name' => 'Dhobaura',
-                    'bn_name' => 'ধোবাউড়া',
-                    'url' => 'dhobaura.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Phulpur',
-                    'bn_name' => 'ফুলপুর',
-                    'url' => 'phulpur.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Haluaghat',
-                    'bn_name' => 'হালুয়াঘাট',
-                    'url' => 'haluaghat.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gouripur',
-                    'bn_name' => 'গৌরীপুর',
-                    'url' => 'gouripur.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gafargaon',
-                    'bn_name' => 'গফরগাঁও',
-                    'url' => 'gafargaon.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Iswarganj',
-                    'bn_name' => 'ঈশ্বরগঞ্জ',
-                    'url' => 'iswarganj.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nandail',
-                    'bn_name' => 'নান্দাইল',
-                    'url' => 'nandail.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Tarakanda',
-                    'bn_name' => 'তারাকান্দা',
-                    'url' => 'tarakanda.mymensingh.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Jamalpur Sadar',
-                    'bn_name' => 'জামালপুর সদর',
-                    'url' => 'jamalpursadar.jamalpur.gov.bd',
+                    'name' => 'Thakurgaon Sadar',
+                    'bn_name' => 'ঠাকুরগাঁও সদর',
+                    'url' => 'thakurgaonsadar.thakurgaon.gov.bd',
                     'district_id' => 63,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Melandah',
-                    'bn_name' => 'মেলান্দহ',
-                    'url' => 'melandah.jamalpur.gov.bd',
+                    'name' => 'Pirganj',
+                    'bn_name' => 'পীরগঞ্জ',
+                    'url' => 'pirganj.thakurgaon.gov.bd',
                     'district_id' => 63,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Islampur',
-                    'bn_name' => 'ইসলামপুর',
-                    'url' => 'islampur.jamalpur.gov.bd',
+                    'name' => 'Ranisankail',
+                    'bn_name' => 'রাণীশংকৈল',
+                    'url' => 'ranisankail.thakurgaon.gov.bd',
                     'district_id' => 63,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Dewangonj',
-                    'bn_name' => 'দেওয়ানগঞ্জ',
-                    'url' => 'dewangonj.jamalpur.gov.bd',
+                    'name' => 'Haripur',
+                    'bn_name' => 'হরিপুর',
+                    'url' => 'haripur.thakurgaon.gov.bd',
                     'district_id' => 63,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Sarishabari',
-                    'bn_name' => 'সরিষাবাড়ী',
-                    'url' => 'sarishabari.jamalpur.gov.bd',
+                    'name' => 'Baliadangi',
+                    'bn_name' => 'বালিয়াডাঙ্গী',
+                    'url' => 'baliadangi.thakurgaon.gov.bd',
                     'district_id' => 63,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
+        //==============================================================================================================
+        //************************** Panchagarh District 64 ************************************************************
                 [
-                    'name' => 'Madarganj',
-                    'bn_name' => 'মাদারগঞ্জ',
-                    'url' => 'madarganj.jamalpur.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bokshiganj',
-                    'bn_name' => 'বকশীগঞ্জ',
-                    'url' => 'bokshiganj.jamalpur.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Barhatta',
-                    'bn_name' => 'বারহাট্টা',
-                    'url' => 'barhatta.netrokona.gov.bd',
+                    'name' => 'Panchagarh Sadar',
+                    'bn_name' => 'পঞ্চগড় সদর',
+                    'url' => 'panchagarhsadar.panchagarh.gov.bd',
                     'district_id' => 64,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Durgapur',
-                    'bn_name' => 'দুর্গাপুর',
-                    'url' => 'durgapur.netrokona.gov.bd',
+                    'name' => 'Debiganj',
+                    'bn_name' => 'দেবীগঞ্জ',
+                    'url' => 'debiganj.panchagarh.gov.bd',
                     'district_id' => 64,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Kendua',
-                    'bn_name' => 'কেন্দুয়া',
-                    'url' => 'kendua.netrokona.gov.bd',
+                    'name' => 'Boda',
+                    'bn_name' => 'বোদা',
+                    'url' => 'boda.panchagarh.gov.bd',
                     'district_id' => 64,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Atpara',
-                    'bn_name' => 'আটপাড়া',
-                    'url' => 'atpara.netrokona.gov.bd',
+                    'name' => 'Atwari',
+                    'bn_name' => 'আটোয়ারী',
+                    'url' => 'atwari.panchagarh.gov.bd',
                     'district_id' => 64,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
                 [
-                    'name' => 'Madan',
-                    'bn_name' => 'মদন',
-                    'url' => 'madan.netrokona.gov.bd',
+                    'name' => 'Tetulia',
+                    'bn_name' => 'তেতুলিয়া',
+                    'url' => 'tetulia.panchagarh.gov.bd',
                     'district_id' => 64,
                     'status_active' => 1,
                     'is_delete' => 0,
                 ],
-                [
-                    'name' => 'Khaliajuri',
-                    'bn_name' => 'খালিয়াজুরী',
-                    'url' => 'khaliajuri.netrokona.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kalmakanda',
-                    'bn_name' => 'কলমাকান্দা',
-                    'url' => 'kalmakanda.netrokona.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Mohongonj',
-                    'bn_name' => 'মোহনগঞ্জ',
-                    'url' => 'mohongonj.netrokona.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Purbadhala',
-                    'bn_name' => 'পূর্বধলা',
-                    'url' => 'purbadhala.netrokona.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Netrokona Sadar',
-                    'bn_name' => 'নেত্রকোণা সদর',
-                    'url' => 'netrokonasadar.netrokona.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Eidgaon',
-                    'bn_name' => 'ঈদগাঁও',
-                    'url' => null,
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Madhyanagar',
-                    'bn_name' => 'মধ্যনগর',
-                    'url' => null,
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dasar',
-                    'bn_name' => 'ডাসার',
-                    'url' => null,
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
+        //==============================================================================================================
+
+
+
+
+
+
 
             ];
     }

@@ -1,10 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Models\Districts;
 use App\Http\Requests\StoreDistrictsRequest;
 use App\Http\Requests\UpdateDistrictsRequest;
+use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class DistrictsController extends Controller
 {
@@ -35,9 +35,22 @@ class DistrictsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Districts $districts)
+    public function show($division_id)
     {
-        //
+         try {
+             $district = Districts::select('id', 'name')->where('division_id', $division_id)->get()->toArray();
+             return response()->json(['data' => $district]);
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return response()->json(
+                [ 'error' => 'Resource not found.']);
+        }
+        catch (\Exception $e)
+        {
+            return response()->json(
+                [ 'error' => $e->getMessage()]);
+        }
     }
 
     /**

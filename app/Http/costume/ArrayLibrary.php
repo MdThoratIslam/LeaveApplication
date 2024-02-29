@@ -1,5 +1,7 @@
 <?php
 namespace App\Http\costume;
+use App\Models\Divisions;
+
 class ArrayLibrary
 {
     public static function getUserType()
@@ -12,7 +14,6 @@ class ArrayLibrary
         ksort($userType);
         return $userType;
     }
-
     public static function getDesignation()
     {
         $designation =
@@ -110,10 +111,10 @@ class ArrayLibrary
     }
     public static function getDivisions()
     {
-        // division data return feom mivision model array key value
-
-
-
+        // division data return feom division model two dimentional array key value
+        $divisions = Divisions::select('id', 'name')->get()->toArray();
+        ksort($divisions);
+        return $divisions;
     }
 
 

@@ -80,20 +80,23 @@
                                     <input type="text" class="form-control" id="txtArea" name="cur_area" placeholder="ex: H 34/4, Road No 4">
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="cur_thana">Police Station</label>
-                                    <select class="custom-select" id="cur_thana" name="cur_thana_id" required>
+                                    <label for="cur_division">Division</label>
+                                    <select class="custom-select" id="division" name="cur_division_id" required>
                                         <option value="" disabled selected>Open this select menu</option>
+                                        @foreach($divisions_arr as $division)
+                                            <option value="{{ $division['id'] }}">{{ $division['name'] }}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                                 <div class="col-md-3 mb-3">
                                     <label for="cur_district">District</label>
-                                    <select class="custom-select" id="cur_district" name="cur_district_id" required>
+                                    <select class="custom-select" id="district" name="cur_district_id" required>
                                         <option value="" disabled selected>Open this select menu</option>
                                     </select>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="cur_division">Division</label>
-                                    <select class="custom-select" id="cur_division" name="cur_division_id" required>
+                                    <label for="cur_thana">Upazila</label>
+                                    <select class="custom-select" id="upazila" name="cur_thana_id" required>
                                         <option value="" disabled selected>Open this select menu</option>
                                     </select>
                                 </div>

@@ -91,7 +91,8 @@
     }
     @endif
 
-    // ================= Add Member Page photo Privew===============================================================
+    // ================= Add Member Page photo Privew===================================================================
+
     function emp_photo(input)
     {
         if (input.files && input.files[0])
@@ -114,7 +115,8 @@
 
 
     // Example starter JavaScript for disabling form submissions if there are invalid fields
-    (function() {
+    (function()
+    {
         'use strict';
         window.addEventListener('load', function() {
             // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -135,7 +137,8 @@
     // ========================= Leave Apply From Total days count======================================================
     $(document).ready(function(){
         // Function to calculate total leave days
-        function calculateTotalDays() {
+        function calculateTotalDays()
+        {
             var startingDate    = $('#leaveStartingDate').val();
             var resumptionDate  = $('#leaveResumptionDate').val();
             // Check if both dates are selected
@@ -146,18 +149,77 @@
                 var govt_holiday = $('#govt_holiday').val();
                 if(govt_holiday)
                 {
-                    totalDays = totalDays - 1;
-                }
+                    totalDays = totalDays - 1;}
                 $('#total_days').val(totalDays);
             }
         }
-
         // Event listeners for date inputs
         $('#leaveStartingDate, #leaveResumptionDate, #govt_holiday').change(function(){
             calculateTotalDays();
         });
     });
     //==================================================================================================================
+
+    // ========================= Division, Distrivt, Upazila and Union ajax load========================================
+    $(document).ready(function()
+    {
+
+        $('#division').on('change', function(){
+            var division_id = $(this).val();
+            if(division_id)
+            {
+                $.ajax({
+                    // url use to route name  and type is GET
+                    url: "{{ url('district-show') }}/" + division_id,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data)
+                    {
+                        $('#district').empty();
+                        $('#district').append('<option value="" disabled selected>Select District</option>');
+                        $.each(data.data, function(key, value){
+                            $('#district').append('<option value="'+value.id+'">'+value.name+'</option>');
+                        });
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle errors
+                        alert("An error occurred: " + error);
+                    }
+                });
+            }
+            else
+            {
+                $('#district').empty();
+                $('#upazila').empty();
+            }
+        });
+
+        $('#district').on('change', function()
+        {
+            var district_id = $(this).val();
+            if(district_id)
+            {
+                $.ajax({
+                    url: "{{ url('upazila-show') }}/" + district_id,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data)
+                    {
+                        $('#upazila').empty();
+                        $('#upazila').append('<option value="" disabled selected>Select Upazila</option>');
+                        $.each(data.data, function(key, value){
+                            $('#upazila').append('<option value="'+value.id+'">'+value.name+'</option>');
+                        });
+                    }
+                });
+            }
+            else
+            {
+                $('#upazila').empty();
+            }
+        });
+    });
+
 </script>
 </body>
 

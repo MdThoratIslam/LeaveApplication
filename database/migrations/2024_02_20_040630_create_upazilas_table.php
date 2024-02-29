@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('district_id')->constrained('districts')->cascadeOnDelete();
             $table->string('name');
             $table->string('bn_name');
-            $table->string('url');
+            $table->string('url')->nullable();
             $table->integer('code')->nullable();
             $table->integer('status_active')->default(1);
             $table->integer('is_delete')->default(0);

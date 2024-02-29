@@ -35,9 +35,22 @@ class UpazilasController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Upazilas $upazilas)
+    public function show($district_id)
     {
-        //
+        try {
+            $upazilas = Upazilas::select('id', 'name')->where('district_id', $district_id)->get()->toArray();
+            return response()->json(['data' => $upazilas]);
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return response()->json(
+                [ 'error' => 'Resource not found.']);
+        }
+        catch (\Exception $e)
+        {
+            return response()->json(
+                [ 'error' => $e->getMessage()]);
+        }
     }
 
     /**
