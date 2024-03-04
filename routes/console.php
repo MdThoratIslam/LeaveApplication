@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Artisan;
 | simple approach to interacting with each command's IO methods.
 |
 */
+//\Illuminate\Console\Scheduling\Schedule::command('cache:clear')->hourly();
 
 Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
