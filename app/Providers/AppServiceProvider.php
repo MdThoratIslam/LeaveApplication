@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Http\costume\ArrayLibrary;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -32,5 +33,6 @@ class AppServiceProvider extends ServiceProvider
                 ];
             $view->with($data);
         });
+        Paginator::useBootstrapFive();
     }
 }

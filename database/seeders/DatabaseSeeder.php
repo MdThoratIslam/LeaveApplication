@@ -18,16 +18,22 @@ class DatabaseSeeder extends Seeder
 //        User::factory()->create($userFactory->definition());
 
 
-        $userFactory = new UserFactory();
-        $data = $userFactory->definition();
-        foreach ($data as $district)
-        {
-            User::create($district);
-        }
+//        $userFactory = new UserFactory();
+//        $userdata = $userFactory->definition();
+//        foreach ($userdata as $data)
+//        {
+//            User::create($data);
+//        }
 
         $this->call(DivisionsSeeder::class);
         $this->call(DistrictsSeeder::class);
         $this->call(UpazilasSeeder::class);
+
+        $this->call([
+            PermissionSeeder::class,
+            RoleSeeder::class,
+            SuperAdminSeeder::class,
+        ]);
 
     }
 }

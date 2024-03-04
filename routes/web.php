@@ -6,7 +6,9 @@ use App\Http\Controllers\LeaveController;
 use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\DistrictsController;
 use App\Http\Controllers\UpazilasController;
-
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\RoleController;
+use App\Http\Controllers\PermissionController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,23 +40,23 @@ Route::middleware(['auth', 'verified'])->group(function ()
     //==================================================================================================================
 
     //============= User Route==========================================================================================
-    Route::get('/users-list',            [RegisteredUserController::class,'index'])->name('users.index');
-    Route::get('/users-create',          [RegisteredUserController::class,'create'])->name('create_user');
-    Route::post('/users-store',          [RegisteredUserController::class,'store'])->name('users.store');
-    Route::get('/users-show/{id}',       [RegisteredUserController::class,'show'])->name('users.show');
-    Route::get('/users-edit/{id}',       [RegisteredUserController::class,'edit'])->name('users.edit');
-    Route::patch('/users-update/{id}',   [RegisteredUserController::class,'update'])->name('users.update');
-    Route::delete('/users-destroy/{id}', [RegisteredUserController::class,'destroy'])->name('users.destroy');
+    Route::get('/users',            [UserController::class,'index'])->name('users.index');
+    Route::get('/users-create',          [UserController::class,'create'])->name('create_user');
+    Route::post('/users-store',          [UserController::class,'store'])->name('users.store');
+    Route::get('/users-show/{id}',       [UserController::class,'show'])->name('users.show');
+    Route::get('/users-edit/{id}',       [UserController::class,'edit'])->name('users.edit');
+    Route::patch('/users-update/{id}',   [UserController::class,'update'])->name('users.update');
+    Route::delete('/users-destroy/{id}', [UserController::class,'destroy'])->name('users.destroy');
     //==================================================================================================================
 
     // =================district route =================================================================================
-    Route::get('/district-list',         [DistrictController::class,'index'])->name('district.index');
-    Route::get('/district-create',       [DistrictController::class,'create'])->name('district.create');
-    Route::post('/district-store',       [DistrictController::class,'store'])->name('district.store');
+    Route::get('/district-list',         [DistrictsController::class,'index'])->name('district.index');
+    Route::get('/district-create',       [DistrictsController::class,'create'])->name('district.create');
+    Route::post('/district-store',       [DistrictsController::class,'store'])->name('district.store');
     Route::get('/district-show/{id}',    [DistrictsController::class,'show']);
-    Route::get('/district-edit/{id}',    [DistrictController::class,'edit'])->name('district.edit');
-    Route::patch('/district-update/{id}',[DistrictController::class,'update'])->name('district.update');
-    Route::delete('/district-destroy/{id}',[DistrictController::class,'destroy'])->name('district.destroy');
+    Route::get('/district-edit/{id}',    [DistrictsController::class,'edit'])->name('district.edit');
+    Route::patch('/district-update/{id}',[DistrictsController::class,'update'])->name('district.update');
+    Route::delete('/district-destroy/{id}',[DistrictsController::class,'destroy'])->name('district.destroy');
     //==================================================================================================================
 
     // =================Upazilas route==================================================================================
@@ -67,9 +69,6 @@ Route::middleware(['auth', 'verified'])->group(function ()
     Route::delete('/upazila-destroy/{id}',[UpazilasController::class,'destroy'])->name('upazila.destroy');
     //==================================================================================================================
 
-
-
-
 });
 
 Route::middleware('auth')->group(function ()
@@ -78,5 +77,10 @@ Route::middleware('auth')->group(function ()
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::resources([
+    'roles' => RoleController::class,
+    'permissions' => PermissionController::class
+]);
 
 require __DIR__.'/auth.php';

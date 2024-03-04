@@ -51,6 +51,7 @@
 <!-- custom-chart js -->
 <script src="{{asset('assets/js/pages/dashboard-main.js')}}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
 <script>
     @if(Session::has('message'))
         toastr.options =
@@ -219,6 +220,28 @@
             }
         });
     });
+
+
+    function deleteUser(id) {
+        bootbox.confirm({
+            message: "Do you want to delete this user?",
+            buttons: {
+                confirm: {
+                    label: 'Yes',
+                    className: 'btn-success'
+                },
+                cancel: {
+                    label: 'No',
+                    className: 'btn-danger'
+                }
+            },
+            callback: function (result) {
+                if (result) {
+                    window.location.href = '{{ route("users.destroy", ":id") }}'.replace(':id', id);
+                }
+            }
+        });
+    }
 
 </script>
 </body>

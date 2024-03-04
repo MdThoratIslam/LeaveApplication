@@ -35,32 +35,62 @@
                         </span>
                     </a>
                 </li>
-                <li class="nav-item pcoded-hasmenu">
-                    <a href="#!" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-layout"></i>
-                        </span>
-                        <span class="pcoded-mtext">Leave</span>
-                    </a>
-                    <ul class="pcoded-submenu">
-                        <li><a href="{{route('apply.create')}}" >Apply</a></li>
-                        <li><a href="{{route('apply.index')}}">List</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item pcoded-hasmenu">
-                    <a href="#!" class="nav-link "><span class="pcoded-micon">
-                            <i class="feather icon-layout"></i>
-                        </span>
-                        <span class="pcoded-mtext">User Create</span>
-                    </a>
-                    <ul class="pcoded-submenu">
-                        <li><a href="{{Route('create_user')}}" >Create</a></li>
-                        <li><a href="{{route('users.index')}}">List</a></li>
-                    </ul>
-                </li>
+                @guest
+                    @if (Route::has('login'))
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        </li>
+                    @endif
+                    @if (Route::has('register'))
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                        </li>
+                    @endif
+                @else
+                    @canany(['create-apply', 'edit-apply', 'delete-apply'])
+                            <li class="nav-item pcoded-hasmenu">
+                                <a href="#!" class="nav-link ">
+                                    <span class="pcoded-micon">
+                                        <i class="feather icon-layout"></i>
+                                    </span>
+                                    <span class="pcoded-mtext">Leave</span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li><a href="{{route('apply.create')}}" >Apply</a></li>
+                                    <li><a href="{{route('apply.index')}}">List</a></li>
+                                </ul>
+                            </li>
+                    @endcanany
+                    @canany(['create-user', 'edit-user', 'delete-user'])
+                            <li class="nav-item pcoded-hasmenu">
+                                <a href="#!" class="nav-link ">
+                                    <span class="pcoded-micon">
+                                        <i class="feather icon-layout"></i>
+                                    </span>
+                                    <span class="pcoded-mtext">User Create</span>
+                                </a>
+                                <ul class="pcoded-submenu">
+                                    <li><a href="{{Route('create_user')}}" >Create</a></li>
+                                    <li><a href="{{route('users.index')}}">List</a></li>
+                                </ul>
+                            </li>
+                    @endcanany
+                    @canany(['create-role','edit-role','delete-role','view-role',])
+                            <li class="nav-item pcoded-hasmenu">
+                            <a href="#!" class="nav-link ">
+                                <span class="pcoded-micon">
+                                    <i class="feather icon-layout"></i>
+                                </span>
+                                <span class="pcoded-mtext">Manage Role</span>
+                            </a>
+                            <ul class="pcoded-submenu">
+                                <li><a href="{{Route('roles.create')}}" >Create</a></li>
+                                <li><a href="{{route('roles.index')}}">List</a></li>
+                            </ul>
+                        </li>
+                    @endcanany
+                @endguest
             </ul>
-
-
         </div>
     </div>
 </nav>
