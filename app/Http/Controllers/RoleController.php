@@ -81,9 +81,7 @@ class RoleController extends Controller
         $rolePermissions = DB::table("role_has_permissions")->where("role_id",$role->id)
             ->pluck('permission_id')
             ->all();
-
-        return view('pages.roles.edit', [
-            'role' => $role,
+        return view('pages.roles.edit', ['role' => $role,
             'permissions' => Permission::get(),
             'rolePermissions' => $rolePermissions
         ]);
