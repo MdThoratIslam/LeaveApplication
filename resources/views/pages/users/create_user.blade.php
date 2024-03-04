@@ -95,8 +95,15 @@
                                     </select>
                                 </div>
                                 <div class="col-md-3 mb-3">
-                                    <label for="cur_thana">Upazila</label>
+                                    <label for="upazila">Upazila</label>
                                     <select class="custom-select" id="upazila" name="cur_thana_id" required>
+                                        <option value="" disabled selected>Open this select menu</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-md-3 mb-3">
+                                    <label for="union">Upazila</label>
+                                    <select class="custom-select" id="union" name="union" required>
                                         <option value="" disabled selected>Open this select menu</option>
                                     </select>
                                 </div>
