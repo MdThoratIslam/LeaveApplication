@@ -32,7 +32,6 @@
                 <div class="card-body">
                     <form action="{{ route('roles.store') }}" method="post">
                         @csrf
-
                         <div class="mb-3 row">
                             <label for="name" class="col-md-4 col-form-label text-md-end text-start">Name</label>
                             <div class="col-md-6">
@@ -45,16 +44,19 @@
 
                         <div class="mb-3 row">
                             <label for="permissions" class="col-md-4 col-form-label text-md-end text-start">Permissions</label>
-                            <div class="col-md-6">
-                                <select class="form-select @error('permissions') is-invalid @enderror" multiple aria-label="Permissions" id="permissions" name="permissions[]" style="height: 210px;">
+                            <div class="col-md-8">
+                                <div class="row">
                                     @forelse ($permissions as $permission)
-                                        <option value="{{ $permission->id }}" {{ in_array($permission->id, old('permissions') ?? []) ? 'selected' : '' }}>
-                                            {{ $permission->name }}
-                                        </option>
+                                        <div class="col-md-2">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" name="permissions[]" class="custom-control-input @error('permissions') is-invalid @enderror" id="customswitch{{$permission->id}}" value="{{ $permission->id }}" {{ in_array($permission->id, old('permissions') ?? []) ? 'checked' : '' }}">
+                                                <label class="custom-control-label" for="customswitch{{$permission->id}}">{{ $permission->name }}</label>
+                                            </div>
+                                        </div>
                                     @empty
-
+                                        <span class="text-danger">No permission found</span>
                                     @endforelse
-                                </select>
+                                </div>
                                 @if ($errors->has('permissions'))
                                     <span class="text-danger">{{ $errors->first('permissions') }}</span>
                                 @endif

@@ -28,6 +28,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DivisionsSeeder::class);
         $this->call(DistrictsSeeder::class);
         $this->call(UpazilasSeeder::class);
+        $this->call(UnionsSeeder::class);
 
         $this->call([
             PermissionSeeder::class,

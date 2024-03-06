@@ -9,6 +9,7 @@ use App\Http\Controllers\UpazilasController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\PermissionController;
+use App\Http\Controllers\UnionsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -68,6 +69,18 @@ Route::middleware(['auth', 'verified'])->group(function ()
     Route::patch('/upazila-update/{id}', [UpazilasController::class,'update'])->name('upazila.update');
     Route::delete('/upazila-destroy/{id}',[UpazilasController::class,'destroy'])->name('upazila.destroy');
     //==================================================================================================================
+
+    // =================Uninon route====================================================================================
+    Route::get('/union-list',            [UnionsController::class,'index'])->name('union.index');
+    Route::get('/union-create',          [UnionsController::class,'create'])->name('union.create');
+    Route::post('/union-store',          [UnionsController::class,'store'])->name('union.store');
+    Route::get('/union-show/{id}',       [UnionsController::class,'show']);
+    Route::get('/union-edit/{id}',       [UnionsController::class,'edit'])->name('union.edit');
+    Route::patch('/union-update/{id}',   [UnionsController::class,'update'])->name('union.update');
+    Route::delete('/union-destroy/{id}', [UnionsController::class,'destroy'])->name('union.destroy');
+    //==================================================================================================================
+
+
 
 });
 

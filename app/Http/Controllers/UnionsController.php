@@ -35,10 +35,22 @@ class UnionsController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Unions $unions)
+    public function show($upazila_id)
     {
-        //
-    }
+         try {
+            $unions = Unions::select('id', 'name')->where('upazilla_id', $upazila_id)->get()->toArray();
+            return response()->json(['data' => $unions]);
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return response()->json(
+                [ 'error' => 'Resource not found.']);
+        }
+        catch (\Exception $e)
+        {
+            return response()->json(
+                [ 'error' => $e->getMessage()]);
+        }    }
 
     /**
      * Show the form for editing the specified resource.

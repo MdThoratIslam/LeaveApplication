@@ -219,6 +219,32 @@
                 $('#upazila').empty();
             }
         });
+
+        $('#upazila').on('change', function()
+        {
+            var upazila_id = $(this).val();
+            if(upazila_id)
+            {
+                $.ajax({
+                    url: "{{ url('union-show') }}/" + upazila_id,
+                    type: 'GET',
+                    dataType: 'json',
+                    success: function(data)
+                    {
+                        $('#union').empty();
+                        $('#union').append('<option value="" disabled selected>Select Union</option>');
+                        $.each(data.data, function(key, value)
+                        {
+                            $('#union').append('<option value="'+value.id+'">'+value.name+'</option>');
+                        });
+                    }
+                });
+            }
+            else
+            {
+                $('#union').empty();
+            }
+        });
     });
 
 

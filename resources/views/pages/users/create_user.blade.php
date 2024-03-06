@@ -102,7 +102,7 @@
                                 </div>
 
                                 <div class="col-md-3 mb-3">
-                                    <label for="union">Upazila</label>
+                                    <label for="union">Union</label>
                                     <select class="custom-select" id="union" name="union" required>
                                         <option value="" disabled selected>Open this select menu</option>
                                     </select>
