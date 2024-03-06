@@ -43,14 +43,14 @@
 
         </div>
     @endif
-{{--    {!! Form::model($role, ['method' => 'PATCH','route' => ['roles.update', $role->id]]) !!}--}}
+    {!! Form::model($role, ['method' => 'PATCH','route' => ['roles.update', $role->id]]) !!}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
 
             <div class="form-group">
                 <strong>Name:</strong>
 
-{{--                {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control', 'readonly' =>'readonly')) !!}--}}
+                {!! Form::text('name', null, array('placeholder' => 'Name','class' => 'form-control', 'readonly' =>'readonly')) !!}
             </div>
 
         </div>
@@ -84,75 +84,75 @@
                         <th>Delete</th>
                         <th>Action</th>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Leave</td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-leave') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-leave') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-leave') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-leave') ? 'checked' : '' }}>
-                        </td>
-                        <td><a href="{{route('apply.index')}}">List</a></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>User</td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-user') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-user') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-user') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-user') ? 'checked' : '' }}>
-                        </td>
-                        <td><a href="{{route('users.index')}}">List</a></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Role</td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-role') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-role') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-role') ? 'checked' : '' }}>
-                        </td>
-                        <td>
-                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-role') ? 'checked' : '' }}>
-                        </td>
-                        <td><a href="{{route('roles.index')}}">List</a></td>
-                    </tr>
 {{--                    <tr>--}}
-{{--                    @foreach($permissions as $permission)--}}
-
+{{--                        <td>1</td>--}}
+{{--                        <td>Leave</td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-leave') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-leave') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-leave') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-leave') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td><a href="{{route('apply.index')}}">List</a></td>--}}
+{{--                    </tr>--}}
+{{--                    <tr>--}}
+{{--                        <td>2</td>--}}
+{{--                        <td>User</td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-user') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-user') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-user') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-user') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td><a href="{{route('users.index')}}">List</a></td>--}}
+{{--                    </tr>--}}
+{{--                    <tr>--}}
+{{--                        <td>3</td>--}}
+{{--                        <td>Role</td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="create-leave"  {{ $permissions->pluck('name')->contains('create-role') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="read-leave"  {{ $permissions->pluck('name')->contains('view-role') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="update-leave"  {{ $permissions->pluck('name')->contains('update-role') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td>--}}
+{{--                            <input type="checkbox" name="permissions[]" value="delete-leave"  {{ $permissions->pluck('name')->contains('delete-role') ? 'checked' : '' }}>--}}
+{{--                        </td>--}}
+{{--                        <td><a href="{{route('roles.index')}}">List</a></td>--}}
+{{--                    </tr>--}}
+{{--                    <tr>--}}
+{{--                        @foreach($permissions as $permission)--}}
+{{--    --}}
 {{--                            <td>{{ $permission->id }}</td>--}}
 {{--                            <td>{{ $permission->name }}</td>--}}
-
-{{--                @endforeach--}}
+{{--    --}}
+{{--                      @endforeach--}}
 {{--                    </tr>--}}
 
-                {{--                <strong>Permission:</strong>--}}
-                {{--                <br/>--}}
-                {{--                @foreach($permissions as $value)--}}
-                {{--                    <label>--}}
-                {{--                        {{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions)--}}
-                {{--                            ? true : false, array('class' => 'name')) }}--}}
-                {{--                        {{ $value->name }}--}}
-                {{--                    </label>--}}
-                {{--                @endforeach--}}
+                    <strong>Permission:</strong>
+                    <br/>
+                    @foreach($permissions as $value)
+                        <label>
+                            {{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions)
+                                ? true : false, array('class' => 'name')) }}
+                            {{ $value->name }}
+                        </label>
+                    @endforeach
 
             </div>
         </div>
@@ -160,5 +160,5 @@
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </div>
-{{--    {!! Form::close() !!}--}}
+    {!! Form::close() !!}
 @endsection
