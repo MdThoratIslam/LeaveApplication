@@ -47,7 +47,7 @@
                         </li>
                     @endif
                 @else
-                    @canany(['create-apply', 'edit-apply', 'delete-apply'])
+                    @canany(['create-leave', 'edit-leave', 'delete-leave', 'view-leave'])
                             <li class="nav-item pcoded-hasmenu">
                                 <a href="#!" class="nav-link ">
                                     <span class="pcoded-micon">
@@ -61,7 +61,7 @@
                                 </ul>
                             </li>
                     @endcanany
-                    @canany(['create-user', 'edit-user', 'delete-user'])
+                    @canany(['create-user', 'edit-user', 'delete-user', 'view-user'])
                             <li class="nav-item pcoded-hasmenu">
                                 <a href="#!" class="nav-link ">
                                     <span class="pcoded-micon">
@@ -75,7 +75,7 @@
                                 </ul>
                             </li>
                     @endcanany
-                    @canany(['create-role','edit-role','delete-role','view-role',])
+                    @canany(['create-role', 'edit-role', 'delete-role', 'view-role',])
                             <li class="nav-item pcoded-hasmenu">
                             <a href="#!" class="nav-link ">
                                 <span class="pcoded-micon">
