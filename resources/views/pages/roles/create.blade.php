@@ -47,10 +47,11 @@
                             <div class="col-md-8">
                                 <div class="row">
                                     @forelse ($permissions as $permission)
-                                        <div class="col-md-2">
+                                        <div class="col-md-3 mb-2">
                                             <div class="custom-control custom-switch">
                                                 <input type="checkbox" name="permissions[]" class="custom-control-input @error('permissions') is-invalid @enderror" id="customswitch{{$permission->id}}" value="{{ $permission->id }}" {{ in_array($permission->id, old('permissions') ?? []) ? 'checked' : '' }}">
-                                                <label class="custom-control-label" for="customswitch{{$permission->id}}">{{ $permission->name }}</label>
+                                                <label class="custom-control-label" for="customswitch{{$permission->id}}">
+                                                    {{ ucfirst(str_replace('-',' ',$permission->name)) }}</label>
                                             </div>
                                         </div>
                                     @empty
