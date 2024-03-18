@@ -24,7 +24,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="row align-items-center">
-                        <form method="POST" action="" class="needs-validation" novalidate style="width: 100%;">
+                        <form method="POST" action="{{route('users.store')}}" class="needs-validation" novalidate style="width: 100%;">
                             @csrf
                             <div class="form-row">
                                 <div class="col-md-10 mb-5">
@@ -114,8 +114,21 @@
                                     <input type="text" class="form-control" id="nbrSalary" name="gross_salary" placeholder="Salary" required>
                                     <div class="invalid-feedback">Please Enter your Salary!!</div>
                                 </div>
+
+                                <div class="col-md-3 mb-3">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password" name="password" required>
+                                    <div class="invalid-feedback">Please Enter your password!!</div>
+                                    @error('password') <span class="text-danger">{{ $message }}</span> @enderror
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="password_confirmation">Password</label>
+                                    <input type="password" class="form-control" id="password_confirmation" name="password_confirmation" required>
+                                    <div class="invalid-feedback">Please Enter your password!!</div>
+                                    @error('password') <span class="text-danger">{{ $message }}</span> @enderror
+                                </div>
                             </div>
-                            <button class="btn btn-primary" type="submit" onclick="don">Submit form</button>
+                            <button class="btn btn-primary" type="submit" >Submit form</button>
                         </form>
                     </div>
                 </div>

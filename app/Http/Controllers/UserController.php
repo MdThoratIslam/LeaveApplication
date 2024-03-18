@@ -49,9 +49,10 @@ class UserController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreUserRequest $request): RedirectResponse
+    public function store(StoreUserRequest $request)
     {
         $input = $request->all();
+        dd($input);
         $input['password'] = Hash::make($request->password);
 
         $user = User::create($input);
