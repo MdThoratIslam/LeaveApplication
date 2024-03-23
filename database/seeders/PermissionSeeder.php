@@ -34,11 +34,12 @@ class PermissionSeeder extends Seeder
 //        }
 
 
-        $permissions = [
-            'user' => ['create-user', 'edit-user', 'delete-user', 'view-user'],
-            'role' => ['create-role', 'edit-role', 'delete-role', 'view-role'],
-            'leave' => ['create-leave', 'edit-leave', 'delete-leave', 'view-leave']
-        ];
+        $permissions =
+            [
+                'user'  => ['create-user', 'edit-user', 'delete-user', 'view-user'],
+                'role'  => ['create-role', 'edit-role', 'delete-role', 'view-role'],
+                'leave' => ['create-leave', 'edit-leave', 'delete-leave', 'view-leave']
+            ];
 
         foreach ($permissions as $moduleName => $permissionGroup) {
             foreach ($permissionGroup as $permission) {

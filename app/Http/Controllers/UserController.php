@@ -52,7 +52,7 @@ class UserController extends Controller
     public function store(StoreUserRequest $request)
     {
         $input = $request->all();
-        dd($input);
+        //dd($input);
         $input['password'] = Hash::make($request->password);
 
         $user = User::create($input);

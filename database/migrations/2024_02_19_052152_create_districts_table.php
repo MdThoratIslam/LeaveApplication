@@ -7,19 +7,18 @@ use Illuminate\Support\Facades\Schema;
 return new class extends Migration
 {
     /**
-     * Run the migrations.
+     * Run the migrations. upazilas
      */
     public function up(): void
     {
         Schema::create('districts', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('division_id')->constrained('divisions')->cascadeOnDelete();
+            $table->foreignId('division_id')->constrained('divisions');
             $table->string('name');
             $table->string('bn_name');
-            $table->float('lat', 10, 6);
-            $table->float('lon', 10, 6);
+            $table->string('lat');
+            $table->string('lon');
             $table->string('url');
-            $table->integer('code')->nullable();
             $table->integer('status_active')->default(1);
             $table->integer('is_delete')->default(0);
             $table->timestamps();

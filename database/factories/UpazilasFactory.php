@@ -5,7 +5,7 @@ namespace Database\Factories;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Upazilas>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\SubDistricts>
  */
 class UpazilasFactory extends Factory
 {
@@ -16,4105 +16,2985 @@ class UpazilasFactory extends Factory
      */
     public function definition(): array
     {
-        return
-            [
-            //******************** Comilla District 1 ******************************************************************
-                [
-                    'name' => 'Debidwar',
-                    'bn_name' => 'দেবিদ্বার',
-                    'url' => 'debidwar.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1
-                [
-                    'name' => 'Barura',
-                    'bn_name' => 'বরুড়া',
-                    'url' => 'barura.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2
-                [
-                    'name' => 'Brahmanpara',
-                    'bn_name' => 'ব্রাহ্মণপাড়া',
-                    'url' => 'brahmanpara.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3
-                [
-                    'name' => 'Chandina',
-                    'bn_name' => 'চান্দিনা',
-                    'url' => 'chandina.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4
-                [
-                    'name' => 'Chauddagram',
-                    'bn_name' => 'চৌদ্দগ্রাম',
-                    'url' => 'chauddagram.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5
-                [
-                    'name' => 'Daudkandi',
-                    'bn_name' => 'দাউদকান্দি',
-                    'url' => 'daudkandi.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6
-                [
-                    'name' => 'Homna',
-                    'bn_name' => 'হোমনা',
-                    'url' => 'homna.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7
-                [
-                    'name' => 'Laksam',
-                    'bn_name' => 'লাকসাম',
-                    'url' => 'laksam.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8
-                [
-                    'name' => 'Muradnagar',
-                    'bn_name' => 'মুরাদনগর',
-                    'url' => 'muradnagar.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9
-                [
-                    'name' => 'Nangalkot',
-                    'bn_name' => 'নাঙ্গলকোট',
-                    'url' => 'nangalkot.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10
-                [
-                    'name' => 'Comilla Sadar',
-                    'bn_name' => 'কুমিল্লা সদর',
-                    'url' => 'comillasadar.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11
-                [
-                    'name' => 'Meghna',
-                    'bn_name' => 'মেঘনা',
-                    'url' => 'meghna.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12
-                [
-                    'name' => 'Monohargonj',
-                    'bn_name' => 'মনোহরগঞ্জ',
-                    'url' => 'monohargonj.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //13
-                [
-                    'name' => 'Sadarsouth',
-                    'bn_name' => 'সদর দক্ষিণ',
-                    'url' => 'sadarsouth.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //14
-                [
-                    'name' => 'Titas',
-                    'bn_name' => 'তিতাস',
-                    'url' => 'titas.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //15
-                [
-                    'name' => 'Burichang',
-                    'bn_name' => 'বুড়িচং',
-                    'url' => 'burichang.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //16
-                [
-                    'name' => 'Lalmai',
-                    'bn_name' => 'লালমাই',
-                    'url' => 'lalmai.comilla.gov.bd',
-                    'district_id' => 1,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //17
-            //==========================================================================================================
-            //****************** Feni District 2 ***********************************************************************
-                [
-                    'name' => 'Chhagalnaiya',
-                    'bn_name' => 'ছাগলনাইয়া',
-                    'url' => 'chhagalnaiya.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.18
-                [
-                    'name' => 'Feni Sadar',
-                    'bn_name' => 'ফেনী সদর',
-                    'url' => 'sadar.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.19
-                [
-                    'name' => 'Sonagazi',
-                    'bn_name' => 'সোনাগাজী',
-                    'url' => 'sonagazi.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.20
-                [
-                    'name' => 'Fulgazi',
-                    'bn_name' => 'ফুলগাজী',
-                    'url' => 'fulgazi.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.21
-                [
-                    'name' => 'Parshuram',
-                    'bn_name' => 'পরশুরাম',
-                    'url' => 'parshuram.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.22
-                [
-                    'name' => 'Daganbhuiyan',
-                    'bn_name' => 'দাগনভূঞা',
-                    'url' => 'daganbhuiyan.feni.gov.bd',
-                    'district_id' => 2,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.23
-            //==========================================================================================================
-            //****************** Brahmanbaria District 3 ***************************************************************
-                [
-                     'name' => 'Brahmanbaria Sadar',
-                     'bn_name' => 'ব্রাহ্মণবাড়িয়া সদর',
-                     'url' => 'sadar.brahmanbaria.gov.bd',
-                     'district_id' => 3,
-                     'status_active' => 1,
-                     'is_delete' => 0,
-                 ], //1.24
-                [
-                    'name' => 'Kasba',
-                    'bn_name' => 'কসবা',
-                    'url' => 'kasba.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.25
-                [
-                    'name' => 'Nasirnagar',
-                    'bn_name' => 'নাসিরনগর',
-                    'url' => 'nasirnagar.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.26
-                [
-                    'name' => 'Sarail',
-                    'bn_name' => 'সরাইল',
-                    'url' => 'sarail.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.27
-                [
-                    'name' => 'Ashuganj',
-                    'bn_name' => 'আশুগঞ্জ',
-                    'url' => 'ashuganj.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.28
-                [
-                    'name' => 'Akhaura',
-                    'bn_name' => 'আখাউড়া',
-                    'url' => 'akhaura.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.29
-                [
-                    'name' => 'Nabinagar',
-                    'bn_name' => 'নবীনগর',
-                    'url' => 'nabinagar.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.30
-                [
-                    'name' => 'Bancharampur',
-                    'bn_name' => 'বাঞ্ছারামপুর',
-                    'url' => 'bancharampur.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.31
-                [
-                    'name' => 'Bijoynagar',
-                    'bn_name' => 'বিজয়নগর',
-                    'url' => 'bijoynagar.brahmanbaria.gov.bd',
-                    'district_id' => 3,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.32
-            //==========================================================================================================
-            //****************** Rangamati District 4 ******************************************************************
-                [
-                    'name' => 'Rangamati Sadar',
-                    'bn_name' => 'রাঙ্গামাটি সদর',
-                    'url' => 'sadar.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.33
-                [
-                    'name' => 'Kaptai',
-                    'bn_name' => 'কাপ্তাই',
-                    'url' => 'kaptai.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.34
-                [
-                    'name' => 'Kawkhali',
-                    'bn_name' => 'কাউখালী',
-                    'url' => 'kawkhali.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.35
-                [
-                    'name' => 'Baghaichari',
-                    'bn_name' => 'বাঘাইছড়ি',
-                    'url' => 'baghaichari.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.36
-                [
-                    'name' => 'Barkal',
-                    'bn_name' => 'বরকল',
-                    'url' => 'barkal.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.37
-                [
-                    'name' => 'Langadu',
-                    'bn_name' => 'লংগদু',
-                    'url' => 'langadu.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.38
-                [
-                    'name' => 'Rajasthali',
-                    'bn_name' => 'রাজস্থলী',
-                    'url' => 'rajasthali.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.39
-                [
-                    'name' => 'Belaichari',
-                    'bn_name' => 'বিলাইছড়ি',
-                    'url' => 'belaichari.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.40
-                [
-                    'name' => 'Juraichari',
-                    'bn_name' => 'জুরাছড়ি',
-                    'url' => 'juraichari.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.41
-                [
-                    'name' => 'Naniarchar',
-                    'bn_name' => 'নানিয়ারচর',
-                    'url' => 'naniarchar.rangamati.gov.bd',
-                    'district_id' => 4,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.42
-            //==========================================================================================================
-            //****************** Noakhali District 5 *******************************************************************
-                [
-                    'name' => 'Noakhali Sadar',
-                    'bn_name' => 'নোয়াখালী সদর',
-                    'url' => 'sadar.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.43
-                [
-                    'name' => 'Companiganj',
-                    'bn_name' => 'কোম্পানীগঞ্জ',
-                    'url' => 'companiganj.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.44
-                [
-                    'name' => 'Begumganj',
-                    'bn_name' => 'বেগমগঞ্জ',
-                    'url' => 'begumganj.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.45
-                [
-                    'name' => 'Hatia',
-                    'bn_name' => 'হাতিয়া',
-                    'url' => 'hatia.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.46
-                [
-                    'name' => 'Subarnachar',
-                    'bn_name' => 'সুবর্ণচর',
-                    'url' => 'subarnachar.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.47
-                [
-                    'name' => 'Kabirhat',
-                    'bn_name' => 'কবিরহাট',
-                    'url' => 'kabirhat.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.48
-                [
-                    'name' => 'Senbug',
-                    'bn_name' => 'সেনবাগ',
-                    'url' => 'senbug.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.49
-                [
-                    'name' => 'Chatkhil',
-                    'bn_name' => 'চাটখিল',
-                    'url' => 'chatkhil.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.50
-                [
-                    'name' => 'Sonaimori',
-                    'bn_name' => 'সোনাইমুড়ী',
-                    'url' => 'sonaimori.noakhali.gov.bd',
-                    'district_id' => 5,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.51
-            //==========================================================================================================
-            //****************** Chandpur District 6 *******************************************************************
-                [
-                    'name' => 'Haimchar',
-                    'bn_name' => 'হাইমচর',
-                    'url' => 'haimchar.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.52
-                [
-                    'name' => 'Kachua',
-                    'bn_name' => 'কচুয়া',
-                    'url' => 'kachua.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.53
-                [
-                    'name' => 'Shahrasti',
-                    'bn_name' => 'শাহরাস্তি',
-                    'url' => 'shahrasti.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.54
-                [
-                    'name' => 'Chandpur Sadar',
-                    'bn_name' => 'চাঁদপুর সদর',
-                    'url' => 'sadar.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.55
-                [
-                    'name' => 'Matlab South',
-                    'bn_name' => 'মতলব দক্ষিণ',
-                    'url' => 'matlabsouth.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.56
-                [
-                    'name' => 'Hajiganj',
-                    'bn_name' => 'হাজীগঞ্জ',
-                    'url' => 'hajiganj.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.57
-                [
-                    'name' => 'Matlab North',
-                    'bn_name' => 'মতলব উত্তর',
-                    'url' => 'matlabnorth.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.58
-                [
-                    'name' => 'Faridgonj',
-                    'bn_name' => 'ফরিদগঞ্জ',
-                    'url' => 'faridgonj.chandpur.gov.bd',
-                    'district_id' => 6,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.59
-            //==========================================================================================================
-            //****************** Lakshmipur District 7 *****************************************************************
-                [
-                    'name' => 'Lakshmipur Sadar',
-                    'bn_name' => 'লক্ষ্মীপুর সদর',
-                    'url' => 'sadar.lakshmipur.gov.bd',
-                    'district_id' => 7,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.60
-                [
-                    'name' => 'Kamalnagar',
-                    'bn_name' => 'কমলনগর',
-                    'url' => 'kamalnagar.lakshmipur.gov.bd',
-                    'district_id' => 7,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.61
-                [
-                    'name' => 'Raipur',
-                    'bn_name' => 'রায়পুর',
-                    'url' => 'raipur.lakshmipur.gov.bd',
-                    'district_id' => 7,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.62
-                [
-                    'name' => 'Ramgati',
-                    'bn_name' => 'রামগতি',
-                    'url' => 'ramgati.lakshmipur.gov.bd',
-                    'district_id' => 7,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.63
-                [
-                    'name' => 'Ramganj',
-                    'bn_name' => 'রামগঞ্জ',
-                    'url' => 'ramganj.lakshmipur.gov.bd',
-                    'district_id' => 7,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.64
-            //==========================================================================================================
-            //****************** Chittagong District 8 *****************************************************************
-                [
-                    'name' => 'Rangunia',
-                    'bn_name' => 'রাঙ্গুনিয়া',
-                    'url' => 'rangunia.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.65
-                [
-                    'name' => 'Sitakunda',
-                    'bn_name' => 'সীতাকুন্ড',
-                    'url' => 'sitakunda.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.66
-                [
-                    'name' => 'Mirsharai',
-                    'bn_name' => 'মীরসরাই',
-                    'url' => 'mirsharai.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.67
-                [
-                    'name' => 'Patiya',
-                    'bn_name' => 'পটিয়া',
-                    'url' => 'patiya.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.68
-                [
-                    'name' => 'Sandwip',
-                    'bn_name' => 'সন্দ্বীপ',
-                    'url' => 'sandwip.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.69
-                [
-                    'name' => 'Banshkhali',
-                    'bn_name' => 'বাঁশখালী',
-                    'url' => 'banshkhali.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.70
-                [
-                    'name' => 'Boalkhali',
-                    'bn_name' => 'বোয়ালখালী',
-                    'url' => 'boalkhali.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.71
-                [
-                    'name' => 'Anwara',
-                    'bn_name' => 'আনোয়ারা',
-                    'url' => 'anwara.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.72
-                [
-                    'name' => 'Chandanaish',
-                    'bn_name' => 'চন্দনাইশ',
-                    'url' => 'chandanaish.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.73
-                [
-                    'name' => 'Satkania',
-                    'bn_name' => 'সাতকানিয়া',
-                    'url' => 'satkania.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.74
-                [
-                    'name' => 'Lohagara',
-                    'bn_name' => 'লোহাগাড়া',
-                    'url' => 'lohagara.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.75
-                [
-                    'name' => 'Hathazari',
-                    'bn_name' => 'হাটহাজারী',
-                    'url' => 'hathazari.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12.76
-                [
-                    'name' => 'Fatikchhari',
-                    'bn_name' => 'ফটিকছড়ি',
-                    'url' => 'fatikchhari.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //13.77
-                [
-                    'name' => 'Raozan',
-                    'bn_name' => 'রাউজান',
-                    'url' => 'raozan.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //14.78
-                [
-                    'name' => 'Karnafuli',
-                    'bn_name' => 'কর্ণফুলী',
-                    'url' => 'karnafuli.chittagong.gov.bd',
-                    'district_id' => 8,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //15.79
-             //=========================================================================================================
-             //****************** Coxsbazar District 9 *****************************************************************
-                [
-                    'name' => 'Coxsbazar Sadar',
-                    'bn_name' => 'কক্সবাজার সদর',
-                    'url' => 'sadar.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.80
-                [
-                    'name' => 'Chakaria',
-                    'bn_name' => 'চকরিয়া',
-                    'url' => 'chakaria.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.81
-                [
-                    'name' => 'Kutubdia',
-                    'bn_name' => 'কুতুবদিয়া',
-                    'url' => 'kutubdia.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.82
-                [
-                    'name' => 'Ukhiya',
-                    'bn_name' => 'উখিয়া',
-                    'url' => 'ukhiya.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.83
-                [
-                    'name' => 'Moheshkhali',
-                    'bn_name' => 'মহেশখালী',
-                    'url' => 'moheshkhali.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.84
-                [
-                    'name' => 'Pekua',
-                    'bn_name' => 'পেকুয়া',
-                    'url' => 'pekua.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.85
-                [
-                    'name' => 'Ramu',
-                    'bn_name' => 'রামু',
-                    'url' => 'ramu.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.86
-                [
-                    'name' => 'Teknaf',
-                    'bn_name' => 'টেকনাফ',
-                    'url' => 'teknaf.coxsbazar.gov.bd',
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.87
-                [
-                    'name' => 'Eidgaon',
-                    'bn_name' => 'ঈদগাঁও',
-                    'url' => null,
-                    'district_id' => 9,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-            //==========================================================================================================
-            //****************** Khagrachhari District 10 **************************************************************
-                [
-                    'name' => 'Khagrachhari Sadar',
-                    'bn_name' => 'খাগড়াছড়ি সদর',
-                    'url' => 'sadar.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.88
-                [
-                    'name' => 'Dighinala',
-                    'bn_name' => 'দিঘীনালা',
-                    'url' => 'dighinala.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.89
-                [
-                    'name' => 'Panchari',
-                    'bn_name' => 'পানছড়ি',
-                    'url' => 'panchari.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.90
-                [
-                    'name' => 'Laxmichhari',
-                    'bn_name' => 'লক্ষীছড়ি',
-                    'url' => 'laxmichhari.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.91
-                [
-                    'name' => 'Mohalchari',
-                    'bn_name' => 'মহালছড়ি',
-                    'url' => 'mohalchari.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.92
-                [
-                    'name' => 'Manikchari',
-                    'bn_name' => 'মানিকছড়ি',
-                    'url' => 'manikchari.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.93
-                [
-                    'name' => 'Ramgarh',
-                    'bn_name' => 'রামগড়',
-                    'url' => 'ramgarh.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.94
-                [
-                    'name' => 'Matiranga',
-                    'bn_name' => 'মাটিরাঙ্গা',
-                    'url' => 'matiranga.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.95
-                [
-                    'name' => 'Guimara',
-                    'bn_name' => 'গুইমারা',
-                    'url' => 'guimara.khagrachhari.gov.bd',
-                    'district_id' => 10,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.96
-            //==========================================================================================================
-            //****************** Bandarban District 11 *****************************************************************
-                [
-                    'name' => 'Bandarban Sadar',
-                    'bn_name' => 'বান্দরবান সদর',
-                    'url' => 'sadar.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.97
-                [
-                    'name' => 'Alikadam',
-                    'bn_name' => 'আলীকদম',
-                    'url' => 'alikadam.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.98
-                [
-                    'name' => 'Naikhongchhari',
-                    'bn_name' => 'নাইক্ষ্যংছড়ি',
-                    'url' => 'naikhongchhari.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.99
-                [
-                    'name' => 'Rowangchhari',
-                    'bn_name' => 'রোয়াংছড়ি',
-                    'url' => 'rowangchhari.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.100
-                [
-                    'name' => 'Lama',
-                    'bn_name' => 'লামা',
-                    'url' => 'lama.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.101
-                [
-                    'name' => 'Ruma',
-                    'bn_name' => 'রুমা',
-                    'url' => 'ruma.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.102
-                [
-                    'name' => 'Thanchi',
-                    'bn_name' => 'থানচি',
-                    'url' => 'thanchi.bandarban.gov.bd',
-                    'district_id' => 11,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.103
-            //==========================================================================================================
-            //****************** Sirajganj District 12 *****************************************************************
-                [
-                    'name' => 'Belkuchi',
-                    'bn_name' => 'বেলকুচি',
-                    'url' => 'belkuchi.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.104
-                [
-                    'name' => 'Chauhali',
-                    'bn_name' => 'চৌহালি',
-                    'url' => 'chauhali.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.105
-                [
-                    'name' => 'Kamarkhand',
-                    'bn_name' => 'কামারখন্দ',
-                    'url' => 'kamarkhand.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.106
-                [
-                    'name' => 'Kazipur',
-                    'bn_name' => 'কাজীপুর',
-                    'url' => 'kazipur.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.107
-                [
-                    'name' => 'Raigonj',
-                    'bn_name' => 'রায়গঞ্জ',
-                    'url' => 'raigonj.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.108
-                [
-                    'name' => 'Shahjadpur',
-                    'bn_name' => 'শাহজাদপুর',
-                    'url' => 'shahjadpur.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.109
-                [
-                    'name' => 'Sirajganj Sadar',
-                    'bn_name' => 'সিরাজগঞ্জ সদর',
-                    'url' => 'sirajganjsadar.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.110
-                [
-                    'name' => 'Tarash',
-                    'bn_name' => 'তাড়াশ',
-                    'url' => 'tarash.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.111
-                [
-                    'name' => 'Ullapara',
-                    'bn_name' => 'উল্লাপাড়া',
-                    'url' => 'ullapara.sirajganj.gov.bd',
-                    'district_id' => 12,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.112
-            //==========================================================================================================
-            //****************** Pabna District 13 *********************************************************************
-                [
-                    'name' => 'Sujanagar',
-                    'bn_name' => 'সুজানগর',
-                    'url' => 'sujanagar.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.113
-                [
-                    'name' => 'Ishurdi',
-                    'bn_name' => 'ঈশ্বরদী',
-                    'url' => 'ishurdi.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.114
-                [
-                    'name' => 'Bhangura',
-                    'bn_name' => 'ভাঙ্গুড়া',
-                    'url' => 'bhangura.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.115
-                [
-                    'name' => 'Pabna Sadar',
-                    'bn_name' => 'পাবনা সদর',
-                    'url' => 'pabnasadar.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.116
-                [
-                    'name' => 'Bera',
-                    'bn_name' => 'বেড়া',
-                    'url' => 'bera.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.117
-                [
-                    'name' => 'Atghoria',
-                    'bn_name' => 'আটঘরিয়া',
-                    'url' => 'atghoria.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.118
-                [
-                    'name' => 'Chatmohar',
-                    'bn_name' => 'চাটমোহর',
-                    'url' => 'chatmohar.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.119
-                [
-                    'name' => 'Santhia',
-                    'bn_name' => 'সাঁথিয়া',
-                    'url' => 'santhia.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.120
-                [
-                    'name' => 'Faridpur',
-                    'bn_name' => 'ফরিদপুর',
-                    'url' => 'faridpur.pabna.gov.bd',
-                    'district_id' => 13,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.121
-            //==========================================================================================================
-            //****************** Bogra District 14 *********************************************************************
-                [
-                    'name' => 'Kahaloo',
-                    'bn_name' => 'কাহালু',
-                    'url' => 'kahaloo.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.122
-                [
-                    'name' => 'Bogra Sadar',
-                    'bn_name' => 'বগুড়া সদর',
-                    'url' => 'sadar.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.123
-                [
-                    'name' => 'Shariakandi',
-                    'bn_name' => 'সারিয়াকান্দি',
-                    'url' => 'shariakandi.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.124
-                [
-                    'name' => 'Shajahanpur',
-                    'bn_name' => 'শাজাহানপুর',
-                    'url' => 'shajahanpur.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.125
-                [
-                    'name' => 'Dupchanchia',
-                    'bn_name' => 'দুপচাচিঁয়া',
-                    'url' => 'dupchanchia.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.126
-                [
-                    'name' => 'Adamdighi',
-                    'bn_name' => 'আদমদিঘি',
-                    'url' => 'adamdighi.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.127
-                [
-                    'name' => 'Nondigram',
-                    'bn_name' => 'নন্দিগ্রাম',
-                    'url' => 'nondigram.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.128
-                [
-                    'name' => 'Sonatala',
-                    'bn_name' => 'সোনাতলা',
-                    'url' => 'sonatala.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.129
-                [
-                    'name' => 'Dhunot',
-                    'bn_name' => 'ধুনট',
-                    'url' => 'dhunot.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.130
-                [
-                    'name' => 'Gabtali',
-                    'bn_name' => 'গাবতলী',
-                    'url' => 'gabtali.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.131
-                [
-                    'name' => 'Sherpur',
-                    'bn_name' => 'শেরপুর',
-                    'url' => 'sherpur.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.132
-                [
-                    'name' => 'Shibganj',
-                    'bn_name' => 'শিবগঞ্জ',
-                    'url' => 'shibganj.bogra.gov.bd',
-                    'district_id' => 14,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12.133
-            //==========================================================================================================
-            //****************** Rajshahi District 15 *****************************************************************
-                [
-                    'name' => 'Paba',
-                    'bn_name' => 'পবা',
-                    'url' => 'paba.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.134
-                [
-                    'name' => 'Durgapur',
-                    'bn_name' => 'দুর্গাপুর',
-                    'url' => 'durgapur.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.135
-                [
-                    'name' => 'Mohonpur',
-                    'bn_name' => 'মোহনপুর',
-                    'url' => 'mohonpur.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.136
-                [
-                    'name' => 'Charghat',
-                    'bn_name' => 'চারঘাট',
-                    'url' => 'charghat.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.137
-                [
-                    'name' => 'Puthia',
-                    'bn_name' => 'পুঠিয়া',
-                    'url' => 'puthia.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.138
-                [
-                    'name' => 'Bagha',
-                    'bn_name' => 'বাঘা',
-                    'url' => 'bagha.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.139
-                [
-                    'name' => 'Godagari',
-                    'bn_name' => 'গোদাগাড়ী',
-                    'url' => 'godagari.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.140
-                [
-                    'name' => 'Tanore',
-                    'bn_name' => 'তানোর',
-                    'url' => 'tanore.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.141
-                [
-                    'name' => 'Bagmara',
-                    'bn_name' => 'বাগমারা',
-                    'url' => 'bagmara.rajshahi.gov.bd',
-                    'district_id' => 15,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.142
-            //==========================================================================================================
-            //****************** Natore District 16 ********************************************************************
-                [
-                    'name' => 'Natore Sadar',
-                    'bn_name' => 'নাটোর সদর',
-                    'url' => 'natoresadar.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.143
-                [
-                    'name' => 'Singra',
-                    'bn_name' => 'সিংড়া',
-                    'url' => 'singra.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.144
-                [
-                    'name' => 'Baraigram',
-                    'bn_name' => 'বড়াইগ্রাম',
-                    'url' => 'baraigram.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.145
-                [
-                    'name' => 'Bagatipara',
-                    'bn_name' => 'বাগাতিপাড়া',
-                    'url' => 'bagatipara.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.146
-                [
-                    'name' => 'Lalpur',
-                    'bn_name' => 'লালপুর',
-                    'url' => 'lalpur.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.147
-                [
-                    'name' => 'Gurudaspur',
-                    'bn_name' => 'গুরুদাসপুর',
-                    'url' => 'gurudaspur.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.148
-                [
-                    'name' => 'Naldanga',
-                    'bn_name' => 'নলডাঙ্গা',
-                    'url' => 'naldanga.natore.gov.bd',
-                    'district_id' => 16,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.149
-            //==========================================================================================================
-           //****************** Joypurhat District 17 ******************************************************************
-                [
-                    'name' => 'Akkelpur',
-                    'bn_name' => 'আক্কেলপুর',
-                    'url' => 'akkelpur.joypurhat.gov.bd',
-                    'district_id' => 17,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.150
-                [
-                    'name' => 'Kalai',
-                    'bn_name' => 'কালাই',
-                    'url' => 'kalai.joypurhat.gov.bd',
-                    'district_id' => 17,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.151
-                [
-                    'name' => 'Khetlal',
-                    'bn_name' => 'ক্ষেতলাল',
-                    'url' => 'khetlal.joypurhat.gov.bd',
-                    'district_id' => 17,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.152
-                [
-                    'name' => 'Panchbibi',
-                    'bn_name' => 'পাঁচবিবি',
-                    'url' => 'panchbibi.joypurhat.gov.bd',
-                    'district_id' => 17,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.153
-                [
-                    'name' => 'Joypurhat Sadar',
-                    'bn_name' => 'জয়পুরহাট সদর',
-                    'url' => 'joypurhatsadar.joypurhat.gov.bd',
-                    'district_id' => 17,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.154
-            //==========================================================================================================
-           //****************** Chapainawabganj District 18 ************************************************************
-                [
-                    'name' => 'Chapainawabganj Sadar',
-                    'bn_name' => 'চাঁপাইনবাবগঞ্জ সদর',
-                    'url' => 'chapainawabganjsadar.chapainawabganj.gov.bd',
-                    'district_id' => 18,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.155
-                [
-                    'name' => 'Gomostapur',
-                    'bn_name' => 'গোমস্তাপুর',
-                    'url' => 'gomostapur.chapainawabganj.gov.bd',
-                    'district_id' => 18,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.156
-                [
-                    'name' => 'Nachol',
-                    'bn_name' => 'নাচোল',
-                    'url' => 'nachol.chapainawabganj.gov.bd',
-                    'district_id' => 18,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.157
-                [
-                    'name' => 'Bholahat',
-                    'bn_name' => 'ভোলাহাট',
-                    'url' => 'bholahat.chapainawabganj.gov.bd',
-                    'district_id' => 18,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.158
-                [
-                    'name' => 'Shibganj',
-                    'bn_name' => 'শিবগঞ্জ',
-                    'url' => 'shibganj.chapainawabganj.gov.bd',
-                    'district_id' => 18,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.159
-            //==========================================================================================================
-            //****************** Naogaon District 19 *******************************************************************
-                [
-                    'name' => 'Mohadevpur',
-                    'bn_name' => 'মহাদেবপুর',
-                    'url' => 'mohadevpur.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.160
-                [
-                    'name' => 'Badalgachi',
-                    'bn_name' => 'বদলগাছী',
-                    'url' => 'badalgachi.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.161
-                [
-                    'name' => 'Patnitala',
-                    'bn_name' => 'পত্নিতলা',
-                    'url' => 'patnitala.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.162
-                [
-                    'name' => 'Dhamoirhat',
-                    'bn_name' => 'ধামইরহাট',
-                    'url' => 'dhamoirhat.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.163
-                [
-                    'name' => 'Niamatpur',
-                    'bn_name' => 'নিয়ামতপুর',
-                    'url' => 'niamatpur.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.164
-                [
-                    'name' => 'Manda',
-                    'bn_name' => 'মান্দা',
-                    'url' => 'manda.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.165
-                [
-                    'name' => 'Atrai',
-                    'bn_name' => 'আত্রাই',
-                    'url' => 'atrai.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.166
-                [
-                    'name' => 'Raninagar',
-                    'bn_name' => 'রাণীনগর',
-                    'url' => 'raninagar.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.167
-                [
-                    'name' => 'Naogaon Sadar',
-                    'bn_name' => 'নওগাঁ সদর',
-                    'url' => 'naogaonsadar.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.168
-                [
-                    'name' => 'Porsha',
-                    'bn_name' => 'পোরশা',
-                    'url' => 'porsha.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.169
-                [
-                    'name' => 'Sapahar',
-                    'bn_name' => 'সাপাহার',
-                    'url' => 'sapahar.naogaon.gov.bd',
-                    'district_id' => 19,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.170
-            //==========================================================================================================
-            //****************** Jessore District 20 *******************************************************************
-                [
-                    'name' => 'Manirampur',
-                    'bn_name' => 'মণিরামপুর',
-                    'url' => 'manirampur.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.171
-                [
-                    'name' => 'Abhaynagar',
-                    'bn_name' => 'অভয়নগর',
-                    'url' => 'abhaynagar.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.172
-                [
-                    'name' => 'Bagherpara',
-                    'bn_name' => 'বাঘারপাড়া',
-                    'url' => 'bagherpara.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.173
-                [
-                    'name' => 'Chougachha',
-                    'bn_name' => 'চৌগাছা',
-                    'url' => 'chougachha.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.174
-                [
-                    'name' => 'Jhikargacha',
-                    'bn_name' => 'ঝিকরগাছা',
-                    'url' => 'jhikargacha.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.175
-                [
-                    'name' => 'Keshabpur',
-                    'bn_name' => 'কেশবপুর',
-                    'url' => 'keshabpur.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.176
-                [
-                    'name' => 'Jessore Sadar',
-                    'bn_name' => 'যশোর সদর',
-                    'url' => 'sadar.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.177
-                [
-                    'name' => 'Sharsha',
-                    'bn_name' => 'শার্শা',
-                    'url' => 'sharsha.jessore.gov.bd',
-                    'district_id' => 20,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.178
-            //==========================================================================================================
-           //****************** Satkhira District 21 *******************************************************************
-                [
-                    'name' => 'Assasuni',
-                    'bn_name' => 'আশাশুনি',
-                    'url' => 'assasuni.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.179
-                [
-                    'name' => 'Debhata',
-                    'bn_name' => 'দেবহাটা',
-                    'url' => 'debhata.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.180
-                [
-                    'name' => 'Kalaroa',
-                    'bn_name' => 'কলারোয়া',
-                    'url' => 'kalaroa.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.181
-                [
-                    'name' => 'Satkhira Sadar',
-                    'bn_name' => 'সাতক্ষীরা সদর',
-                    'url' => 'satkhirasadar.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.182
-                [
-                    'name' => 'Shyamnagar',
-                    'bn_name' => 'শ্যামনগর',
-                    'url' => 'shyamnagar.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.183
-                [
-                    'name' => 'Tala',
-                    'bn_name' => 'তালা',
-                    'url' => 'tala.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.184
-                [
-                    'name' => 'Kaliganj',
-                    'bn_name' => 'কালিগঞ্জ',
-                    'url' => 'kaliganj.satkhira.gov.bd',
-                    'district_id' => 21,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.185
-           //***********************************************************************************************************
-          //******************* Meherpur District 22 *******************************************************************
-                [
-                    'name' => 'Mujibnagar',
-                    'bn_name' => 'মুজিবনগর',
-                    'url' => 'mujibnagar.meherpur.gov.bd',
-                    'district_id' => 22,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.186
-                [
-                    'name' => 'Meherpur Sadar',
-                    'bn_name' => 'মেহেরপুর সদর',
-                    'url' => 'meherpursadar.meherpur.gov.bd',
-                    'district_id' => 22,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.187
-                [
-                    'name' => 'Gangni',
-                    'bn_name' => 'গাংনী',
-                    'url' => 'gangni.meherpur.gov.bd',
-                    'district_id' => 22,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.188
-          //============================================================================================================
-         //******************* Narail District 23 **********************************************************************
-                [
-                    'name' => 'Narail Sadar',
-                    'bn_name' => 'নড়াইল সদর',
-                    'url' => 'narailsadar.narail.gov.bd',
-                    'district_id' => 23,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.189
-                [
-                    'name' => 'Lohagara',
-                    'bn_name' => 'লোহাগড়া',
-                    'url' => 'lohagara.narail.gov.bd',
-                    'district_id' => 23,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.190
-                [
-                    'name' => 'Kalia',
-                    'bn_name' => 'কালিয়া',
-                    'url' => 'kalia.narail.gov.bd',
-                    'district_id' => 23,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.191
-        //==============================================================================================================
-       //******************* Chuadanga District 24 *********************************************************************
-                [
-                    'name' => 'Chuadanga Sadar',
-                    'bn_name' => 'চুয়াডাঙ্গা সদর',
-                    'url' => 'chuadangasadar.chuadanga.gov.bd',
-                    'district_id' => 24,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.192
-                [
-                    'name' => 'Alamdanga',
-                    'bn_name' => 'আলমডাঙ্গা',
-                    'url' => 'alamdanga.chuadanga.gov.bd',
-                    'district_id' => 24,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.193
-                [
-                    'name' => 'Damurhuda',
-                    'bn_name' => 'দামুড়হুদা',
-                    'url' => 'damurhuda.chuadanga.gov.bd',
-                    'district_id' => 24,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.194
-                [
-                    'name' => 'Jibannagar',
-                    'bn_name' => 'জীবননগর',
-                    'url' => 'jibannagar.chuadanga.gov.bd',
-                    'district_id' => 24,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.195
-       //===============================================================================================================
-       //******************* Kushtia District 25 ***********************************************************************
-                [
-                    'name' => 'Kushtia Sadar',
-                    'bn_name' => 'কুষ্টিয়া সদর',
-                    'url' => 'kushtiasadar.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.196
-                [
-                    'name' => 'Kumarkhali',
-                    'bn_name' => 'কুমারখালী',
-                    'url' => 'kumarkhali.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.197
-                [
-                    'name' => 'Khoksa',
-                    'bn_name' => 'খোকসা',
-                    'url' => 'khoksa.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.198
-                [
-                    'name' => 'Mirpur',
-                    'bn_name' => 'মিরপুর',
-                    'url' => 'mirpurkushtia.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.199
-                [
-                    'name' => 'Daulatpur',
-                    'bn_name' => 'দৌলতপুর',
-                    'url' => 'daulatpur.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.200
-                [
-                    'name' => 'Bheramara',
-                    'bn_name' => 'ভেড়ামারা',
-                    'url' => 'bheramara.kushtia.gov.bd',
-                    'district_id' => 25,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.201
-       //===============================================================================================================
-       //******************* Magura District 26 ************************************************************************
-                 [
-                      'name' => 'Shalikha',
-                      'bn_name' => 'শালিখা',
-                      'url' => 'shalikha.magura.gov.bd',
-                      'district_id' => 26,
-                      'status_active' => 1,
-                      'is_delete' => 0,
-                 ], //1.202
-                 [
-                      'name' => 'Sreepur',
-                      'bn_name' => 'শ্রীপুর',
-                      'url' => 'sreepur.magura.gov.bd',
-                      'district_id' => 26,
-                      'status_active' => 1,
-                      'is_delete' => 0,
-                 ], //2.203
-                 [
-                      'name' => 'Magura Sadar',
-                      'bn_name' => 'মাগুরা সদর',
-                      'url' => 'magurasadar.magura.gov.bd',
-                      'district_id' => 26,
-                      'status_active' => 1,
-                      'is_delete' => 0,
-                 ], //3.204
-                 [
-                      'name' => 'Mohammadpur',
-                      'bn_name' => 'মহম্মদপুর',
-                      'url' => 'mohammadpur.magura.gov.bd',
-                      'district_id' => 26,
-                      'status_active' => 1,
-                      'is_delete' => 0,
-                 ], //4.205
-         //=============================================================================================================
-         //*************************** khulna District 27 **************************************************************
-                [
-                    'name' => 'Paikgasa',
-                    'bn_name' => 'পাইকগাছা',
-                    'url' => 'paikgasa.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.206
-                [
-                    'name' => 'Fultola',
-                    'bn_name' => 'ফুলতলা',
-                    'url' => 'fultola.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.207
-                [
-                    'name' => 'Digholia',
-                    'bn_name' => 'দিঘলিয়া',
-                    'url' => 'digholia.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.208
-                [
-                    'name' => 'Rupsha',
-                    'bn_name' => 'রূপসা',
-                    'url' => 'rupsha.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.209
-                [
-                    'name' => 'Terokhada',
-                    'bn_name' => 'তেরখাদা',
-                    'url' => 'terokhada.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.210
-                [
-                    'name' => 'Dumuria',
-                    'bn_name' => 'ডুমুরিয়া',
-                    'url' => 'dumuria.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.211
-                [
-                    'name' => 'Botiaghata',
-                    'bn_name' => 'বটিয়াঘাটা',
-                    'url' => 'botiaghata.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.212
-                [
-                    'name' => 'Dakop',
-                    'bn_name' => 'দাকোপ',
-                    'url' => 'dakop.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.213
-                [
-                    'name' => 'Koyra',
-                    'bn_name' => 'কয়রা',
-                    'url' => 'koyra.khulna.gov.bd',
-                    'district_id' => 27,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.214
-        //==============================================================================================================
-        //******************* Bagerhat District 28 *********************************************************************
-                [
-                    'name' => 'Fakirhat',
-                    'bn_name' => 'ফকিরহাট',
-                    'url' => 'fakirhat.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.215
-                [
-                    'name' => 'Bagerhat Sadar',
-                    'bn_name' => 'বাগেরহাট সদর',
-                    'url' => 'sadar.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.216
-                [
-                    'name' => 'Mollahat',
-                    'bn_name' => 'মোল্লাহাট',
-                    'url' => 'mollahat.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.217
-                [
-                    'name' => 'Sarankhola',
-                    'bn_name' => 'শরণখোলা',
-                    'url' => 'sarankhola.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.218
-                [
-                    'name' => 'Rampal',
-                    'bn_name' => 'রামপাল',
-                    'url' => 'rampal.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.219
-                [
-                    'name' => 'Morrelganj',
-                    'bn_name' => 'মোড়েলগঞ্জ',
-                    'url' => 'morrelganj.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.220
-                [
-                    'name' => 'Kachua',
-                    'bn_name' => 'কচুয়া',
-                    'url' => 'kachua.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.221
-                [
-                    'name' => 'Mongla',
-                    'bn_name' => 'মোংলা',
-                    'url' => 'mongla.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.222
-                [
-                    'name' => 'Chitalmari',
-                    'bn_name' => 'চিতলমারী',
-                    'url' => 'chitalmari.bagerhat.gov.bd',
-                    'district_id' => 28,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.223
-        //==============================================================================================================
-        //******************* Jhenaidah District 29 ********************************************************************
-                [
-                    'name' => 'Jhenaidah Sadar',
-                    'bn_name' => 'ঝিনাইদহ সদর',
-                    'url' => 'sadar.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.224
-                [
-                    'name' => 'Shailkupa',
-                    'bn_name' => 'শৈলকুপা',
-                    'url' => 'shailkupa.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.225
-                [
-                    'name' => 'Harinakundu',
-                    'bn_name' => 'হরিণাকুন্ডু',
-                    'url' => 'harinakundu.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.226
-                [
-                    'name' => 'Kaliganj',
-                    'bn_name' => 'কালীগঞ্জ',
-                    'url' => 'kaliganj.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.227
-                [
-                    'name' => 'Kotchandpur',
-                    'bn_name' => 'কোটচাঁদপুর',
-                    'url' => 'kotchandpur.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.228
-                [
-                    'name' => 'Moheshpur',
-                    'bn_name' => 'মহেশপুর',
-                    'url' => 'moheshpur.jhenaidah.gov.bd',
-                    'district_id' => 29,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.229
-        //==============================================================================================================
-        //******************* Jhalokathi District 30 *******************************************************************
-                [
-                    'name' => 'Jhalakathi Sadar',
-                    'bn_name' => 'ঝালকাঠি সদর',
-                    'url' => 'sadar.jhalakathi.gov.bd',
-                    'district_id' => 30,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.230
-                [
-                    'name' => 'Kathalia',
-                    'bn_name' => 'কাঠালিয়া',
-                    'url' => 'kathalia.jhalakathi.gov.bd',
-                    'district_id' => 30,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.231
-                [
-                    'name' => 'Nalchity',
-                    'bn_name' => 'নলছিটি',
-                    'url' => 'nalchity.jhalakathi.gov.bd',
-                    'district_id' => 30,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.232
-                [
-                    'name' => 'Rajapur',
-                    'bn_name' => 'রাজাপুর',
-                    'url' => 'rajapur.jhalakathi.gov.bd',
-                    'district_id' => 30,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.233
-        //==============================================================================================================
-        //******************* Patuakhali District 31 *******************************************************************
-                [
-                    'name' => 'Bauphal',
-                    'bn_name' => 'বাউফল',
-                    'url' => 'bauphal.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.234
-                [
-                    'name' => 'Patuakhali Sadar',
-                    'bn_name' => 'পটুয়াখালী সদর',
-                    'url' => 'sadar.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.235
-                [
-                    'name' => 'Dumki',
-                    'bn_name' => 'দুমকি',
-                    'url' => 'dumki.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.236
-                [
-                    'name' => 'Dashmina',
-                    'bn_name' => 'দশমিনা',
-                    'url' => 'dashmina.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.237
-                [
-                    'name' => 'Kalapara',
-                    'bn_name' => 'কলাপাড়া',
-                    'url' => 'kalapara.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.238
-                [
-                    'name' => 'Mirzaganj',
-                    'bn_name' => 'মির্জাগঞ্জ',
-                    'url' => 'mirzaganj.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.239
-                [
-                    'name' => 'Galachipa',
-                    'bn_name' => 'গলাচিপা',
-                    'url' => 'galachipa.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.240
-                [
-                    'name' => 'Rangabali',
-                    'bn_name' => 'রাঙ্গাবালী',
-                    'url' => 'rangabali.patuakhali.gov.bd',
-                    'district_id' => 31,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.241
-        //==============================================================================================================
-        //******************* Pirojpur District 32 *********************************************************************
-                [
-                    'name' => 'Pirojpur Sadar',
-                    'bn_name' => 'পিরোজপুর সদর',
-                    'url' => 'sadar.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.242
-                [
-                    'name' => 'Nazirpur',
-                    'bn_name' => 'নাজিরপুর',
-                    'url' => 'nazirpur.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.243
-                [
-                    'name' => 'Kawkhali',
-                    'bn_name' => 'কাউখালী',
-                    'url' => 'kawkhali.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.244
-                [
-                    'name' => 'Zianagar',
-                    'bn_name' => 'জিয়ানগর',
-                    'url' => 'zianagar.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.245
-                [
-                    'name' => 'Bhandaria',
-                    'bn_name' => 'ভান্ডারিয়া',
-                    'url' => 'bhandaria.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.246
-                [
-                    'name' => 'Mathbaria',
-                    'bn_name' => 'মঠবাড়ীয়া',
-                    'url' => 'mathbaria.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.247
-                [
-                    'name' => 'Nesarabad',
-                    'bn_name' => 'নেছারাবাদ',
-                    'url' => 'nesarabad.pirojpur.gov.bd',
-                    'district_id' => 32,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.248
-        //==============================================================================================================
-        //******************* Barisal District 33 **********************************************************************
-                [
-                    'name' => 'Barisal Sadar',
-                    'bn_name' => 'বরিশাল সদর',
-                    'url' => 'barisalsadar.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.249
-                [
-                    'name' => 'Bakerganj',
-                    'bn_name' => 'বাকেরগঞ্জ',
-                    'url' => 'bakerganj.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.250
-                [
-                    'name' => 'Babuganj',
-                    'bn_name' => 'বাবুগঞ্জ',
-                    'url' => 'babuganj.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.251
-                [
-                    'name' => 'Wazirpur',
-                    'bn_name' => 'উজিরপুর',
-                    'url' => 'wazirpur.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.252
-                [
-                    'name' => 'Banaripara',
-                    'bn_name' => 'বানারীপাড়া',
-                    'url' => 'banaripara.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.253
-                [
-                    'name' => 'Gournadi',
-                    'bn_name' => 'গৌরনদী',
-                    'url' => 'gournadi.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.254
-                [
-                    'name' => 'Agailjhara',
-                    'bn_name' => 'আগৈলঝাড়া',
-                    'url' => 'agailjhara.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.255
-                [
-                    'name' => 'Mehendiganj',
-                    'bn_name' => 'মেহেন্দিগঞ্জ',
-                    'url' => 'mehendiganj.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.256
-                [
-                    'name' => 'Muladi',
-                    'bn_name' => 'মুলাদী',
-                    'url' => 'muladi.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.257
-                [
-                    'name' => 'Hizla',
-                    'bn_name' => 'হিজলা',
-                    'url' => 'hizla.barisal.gov.bd',
-                    'district_id' => 33,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.258
-        //==============================================================================================================
-        //******************* Bhola District 34 ************************************************************************
-                [
-                    'name' => 'Bhola Sadar',
-                    'bn_name' => 'ভোলা সদর',
-                    'url' => 'sadar.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.259
-                [
-                    'name' => 'Borhan Sddin',
-                    'bn_name' => 'বোরহান উদ্দিন',
-                    'url' => 'borhanuddin.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.260
-                [
-                    'name' => 'Charfesson',
-                    'bn_name' => 'চরফ্যাশন',
-                    'url' => 'charfesson.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.261
-                [
-                    'name' => 'Doulatkhan',
-                    'bn_name' => 'দৌলতখান',
-                    'url' => 'doulatkhan.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.262
-                [
-                    'name' => 'Monpura',
-                    'bn_name' => 'মনপুরা',
-                    'url' => 'monpura.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.263
-                [
-                    'name' => 'Tazumuddin',
-                    'bn_name' => 'তজুমদ্দিন',
-                    'url' => 'tazumuddin.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.264
-                [
-                    'name' => 'Lalmohan',
-                    'bn_name' => 'লালমোহন',
-                    'url' => 'lalmohan.bhola.gov.bd',
-                    'district_id' => 34,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.265
-        //==============================================================================================================
-        //******************* Barguna District 35 **********************************************************************
-                [
-                    'name' => 'Amtali',
-                    'bn_name' => 'আমতলী',
-                    'url' => 'amtali.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.266
-                [
-                    'name' => 'Barguna Sadar',
-                    'bn_name' => 'বরগুনা সদর',
-                    'url' => 'sadar.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.267
-                [
-                    'name' => 'Betagi',
-                    'bn_name' => 'বেতাগী',
-                    'url' => 'betagi.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.268
-                [
-                    'name' => 'Bamna',
-                    'bn_name' => 'বামনা',
-                    'url' => 'bamna.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.269
-                [
-                    'name' => 'Pathorghata',
-                    'bn_name' => 'পাথরঘাটা',
-                    'url' => 'pathorghata.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.270
-                [
-                    'name' => 'Taltali',
-                    'bn_name' => 'তালতলি',
-                    'url' => 'taltali.barguna.gov.bd',
-                    'district_id' => 35,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.271
-        //==============================================================================================================
-        //******************* Sylhet District 36 ***********************************************************************
-                [
-                    'name' => 'Balaganj',
-                    'bn_name' => 'বালাগঞ্জ',
-                    'url' => 'balaganj.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.272
-                [
-                    'name' => 'Beanibazar',
-                    'bn_name' => 'বিয়ানীবাজার',
-                    'url' => 'beanibazar.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.273
-                [
-                    'name' => 'Bishwanath',
-                    'bn_name' => 'বিশ্বনাথ',
-                    'url' => 'bishwanath.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.274
-                [
-                    'name' => 'Companiganj',
-                    'bn_name' => 'কোম্পানীগঞ্জ',
-                    'url' => 'companiganj.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.275
-                [
-                    'name' => 'Fenchuganj',
-                    'bn_name' => 'ফেঞ্চুগঞ্জ',
-                    'url' => 'fenchuganj.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.276
-                [
-                    'name' => 'Golapganj',
-                    'bn_name' => 'গোলাপগঞ্জ',
-                    'url' => 'golapganj.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.277
-                [
-                    'name' => 'Gowainghat',
-                    'bn_name' => 'গোয়াইনঘাট',
-                    'url' => 'gowainghat.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.278
-                [
-                    'name' => 'Jaintiapur',
-                    'bn_name' => 'জৈন্তাপুর',
-                    'url' => 'jaintiapur.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.279
-                [
-                    'name' => 'Kanaighat',
-                    'bn_name' => 'কানাইঘাট',
-                    'url' => 'kanaighat.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.280
-                [
-                    'name' => 'Sylhet Sadar',
-                    'bn_name' => 'সিলেট সদর',
-                    'url' => 'sylhetsadar.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.281
-                [
-                    'name' => 'Zakiganj',
-                    'bn_name' => 'জকিগঞ্জ',
-                    'url' => 'zakiganj.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.282
-                [
-                    'name' => 'Dakshinsurma',
-                    'bn_name' => 'দক্ষিণ সুরমা',
-                    'url' => 'dakshinsurma.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12.283
-                [
-                    'name' => 'Osmaninagar',
-                    'bn_name' => 'ওসমানী নগর',
-                    'url' => 'osmaninagar.sylhet.gov.bd',
-                    'district_id' => 36,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //13.284
-        //==============================================================================================================
-       //************************** Moulvibazar District 37 ************************************************************
-                [
-                    'name' => 'Barlekha',
-                    'bn_name' => 'বড়লেখা',
-                    'url' => 'barlekha.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.285
-                [
-                    'name' => 'Kamolganj',
-                    'bn_name' => 'কমলগঞ্জ',
-                    'url' => 'kamolganj.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.286
-                [
-                    'name' => 'Kulaura',
-                    'bn_name' => 'কুলাউড়া',
-                    'url' => 'kulaura.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.287
-                [
-                    'name' => 'Moulvibazar Sadar',
-                    'bn_name' => 'মৌলভীবাজার সদর',
-                    'url' => 'moulvibazarsadar.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.288
-                [
-                    'name' => 'Rajnagar',
-                    'bn_name' => 'রাজনগর',
-                    'url' => 'rajnagar.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.289
-                [
-                    'name' => 'Sreemangal',
-                    'bn_name' => 'শ্রীমঙ্গল',
-                    'url' => 'sreemangal.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.290
-                [
-                    'name' => 'Juri',
-                    'bn_name' => 'জুড়ী',
-                    'url' => 'juri.moulvibazar.gov.bd',
-                    'district_id' => 37,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.291
-        //===============================================================================================================
-        //************************** Habiganj District 38 ************************************************************
-                [
-                    'name' => 'Nabiganj',
-                    'bn_name' => 'নবীগঞ্জ',
-                    'url' => 'nabiganj.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.292
-                [
-                    'name' => 'Bahubal',
-                    'bn_name' => 'বাহুবল',
-                    'url' => 'bahubal.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.293
-                [
-                    'name' => 'Ajmiriganj',
-                    'bn_name' => 'আজমিরীগঞ্জ',
-                    'url' => 'ajmiriganj.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.294
-                [
-                    'name' => 'Baniachong',
-                    'bn_name' => 'বানিয়াচং',
-                    'url' => 'baniachong.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.295
-                [
-                    'name' => 'Lakhai',
-                    'bn_name' => 'লাখাই',
-                    'url' => 'lakhai.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.296
-                [
-                    'name' => 'Chunarughat',
-                    'bn_name' => 'চুনারুঘাট',
-                    'url' => 'chunarughat.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.297
-                [
-                    'name' => 'Habiganj Sadar',
-                    'bn_name' => 'হবিগঞ্জ সদর',
-                    'url' => 'habiganjsadar.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.298
-                [
-                    'name' => 'Madhabpur',
-                    'bn_name' => 'মাধবপুর',
-                    'url' => 'madhabpur.habiganj.gov.bd',
-                    'district_id' => 38,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.299
-        //==============================================================================================================
-        //************************** Sunamganj District 39 *************************************************************
-                [
-                    'name' => 'Sunamganj Sadar',
-                    'bn_name' => 'সুনামগঞ্জ সদর',
-                    'url' => 'sadar.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.300
-                [
-                    'name' => 'South Sunamganj',
-                    'bn_name' => 'দক্ষিণ সুনামগঞ্জ',
-                    'url' => 'southsunamganj.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.301
-                [
-                    'name' => 'Bishwambarpur',
-                    'bn_name' => 'বিশ্বম্ভরপুর',
-                    'url' => 'bishwambarpur.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.302
-                [
-                    'name' => 'Chhatak',
-                    'bn_name' => 'ছাতক',
-                    'url' => 'chhatak.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.303
-                [
-                    'name' => 'Jagannathpur',
-                    'bn_name' => 'জগন্নাথপুর',
-                    'url' => 'jagannathpur.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.304
-                [
-                    'name' => 'Dowarabazar',
-                    'bn_name' => 'দোয়ারাবাজার',
-                    'url' => 'dowarabazar.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.305
-                [
-                    'name' => 'Tahirpur',
-                    'bn_name' => 'তাহিরপুর',
-                    'url' => 'tahirpur.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.306
-                [
-                    'name' => 'Dharmapasha',
-                    'bn_name' => 'ধর্মপাশা',
-                    'url' => 'dharmapasha.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.307
-                [
-                    'name' => 'Jamalganj',
-                    'bn_name' => 'জামালগঞ্জ',
-                    'url' => 'jamalganj.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.308
-                [
-                    'name' => 'Shalla',
-                    'bn_name' => 'শাল্লা',
-                    'url' => 'shalla.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.309
-                [
-                    'name' => 'Derai',
-                    'bn_name' => 'দিরাই',
-                    'url' => 'derai.sunamganj.gov.bd',
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.310
-                [
-                    'name' => 'Madhyanagar',
-                    'bn_name' => 'মধ্যনগর',
-                    'url' => null,
-                    'district_id' => 39,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Narsingdi District 40 *************************************************************
-                [
-                    'name' => 'Belabo',
-                    'bn_name' => 'বেলাবো',
-                    'url' => 'belabo.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.311
-                [
-                    'name' => 'Monohardi',
-                    'bn_name' => 'মনোহরদী',
-                    'url' => 'monohardi.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.312
-                [
-                    'name' => 'Narsingdi Sadar',
-                    'bn_name' => 'নরসিংদী সদর',
-                    'url' => 'narsingdisadar.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.313
-                [
-                    'name' => 'Palash',
-                    'bn_name' => 'পলাশ',
-                    'url' => 'palash.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.314
-                [
-                    'name' => 'Raipura',
-                    'bn_name' => 'রায়পুরা',
-                    'url' => 'raipura.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.315
-                [
-                    'name' => 'Shibpur',
-                    'bn_name' => 'শিবপুর',
-                    'url' => 'shibpur.narsingdi.gov.bd',
-                    'district_id' => 40,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.316
-        //==============================================================================================================
-        //************************** Gazipur District 41 ***************************************************************
-                [
-                    'name' => 'Kaliganj',
-                    'bn_name' => 'কালীগঞ্জ',
-                    'url' => 'kaliganj.gazipur.gov.bd',
-                    'district_id' => 41,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.317
-                [
-                    'name' => 'Kaliakair',
-                    'bn_name' => 'কালিয়াকৈর',
-                    'url' => 'kaliakair.gazipur.gov.bd',
-                    'district_id' => 41,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.318
-                [
-                    'name' => 'Kapasia',
-                    'bn_name' => 'কাপাসিয়া',
-                    'url' => 'kapasia.gazipur.gov.bd',
-                    'district_id' => 41,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.319
-                [
-                    'name' => 'Gazipur Sadar',
-                    'bn_name' => 'গাজীপুর সদর',
-                    'url' => 'sadar.gazipur.gov.bd',
-                    'district_id' => 41,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.320
-                [
-                    'name' => 'Sreepur',
-                    'bn_name' => 'শ্রীপুর',
-                    'url' => 'sreepur.gazipur.gov.bd',
-                    'district_id' => 41,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.321
-        //==============================================================================================================
-        //************************** Shariatpur District 42 ************************************************************
-                [
-                    'name' => 'Shariatpur Sadar',
-                    'bn_name' => 'শরিয়তপুর সদর',
-                    'url' => 'sadar.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.322
-                [
-                    'name' => 'Naria',
-                    'bn_name' => 'নড়িয়া',
-                    'url' => 'naria.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.323
-                [
-                    'name' => 'Zajira',
-                    'bn_name' => 'জাজিরা',
-                    'url' => 'zajira.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.324
-                [
-                    'name' => 'Gosairhat',
-                    'bn_name' => 'গোসাইরহাট',
-                    'url' => 'gosairhat.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.325
-                [
-                    'name' => 'Bhedarganj',
-                    'bn_name' => 'ভেদরগঞ্জ',
-                    'url' => 'bhedarganj.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.326
-                [
-                    'name' => 'Damudya',
-                    'bn_name' => 'ডামুড্যা',
-                    'url' => 'damudya.shariatpur.gov.bd',
-                    'district_id' => 42,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.327
-        //==============================================================================================================
-        //************************** Narayanganj District 43 ************************************************************
-                [
-                    'name' => 'Araihazar',
-                    'bn_name' => 'আড়াইহাজার',
-                    'url' => 'araihazar.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.328
-                [
-                    'name' => 'Bandar',
-                    'bn_name' => 'বন্দর',
-                    'url' => 'bandar.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.329
-                [
-                    'name' => 'Narayanganj Sadar',
-                    'bn_name' => 'নারায়নগঞ্জ সদর',
-                    'url' => 'narayanganjsadar.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.330
-                [
-                    'name' => 'Rupganj',
-                    'bn_name' => 'রূপগঞ্জ',
-                    'url' => 'rupganj.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.331
-                [
-                    'name' => 'Sonargaon',
-                    'bn_name' => 'সোনারগাঁ',
-                    'url' => 'sonargaon.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.332
-                [
-                    'name' => 'Siddirganj',
-                    'bn_name' => 'সিদ্ধিরগঞ্জ',
-                    'url' => 'siddirganj.narayanganj.gov.bd',
-                    'district_id' => 43,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.333
+        $data = '[
+            {
+                "id": "1",
+                "district_id": "34",
+                "name": "Amtali",
+                "bn_name": "আমতলী"
+            },
+            {
+                "id": "2",
+                "district_id": "34",
+                "name": "Bamna",
+                "bn_name": "বামনা"
+            },
+            {
+                "id": "3",
+                "district_id": "34",
+                "name": "Barguna Sadar",
+                "bn_name": "বরগুনা সদর"
+            },
+            {
+                "id": "4",
+                "district_id": "34",
+                "name": "Betagi",
+                "bn_name": "বেতাগি"
+            },
+            {
+                "id": "5",
+                "district_id": "34",
+                "name": "Patharghata",
+                "bn_name": "পাথরঘাটা"
+            },
+            {
+                "id": "6",
+                "district_id": "34",
+                "name": "Taltali",
+                "bn_name": "তালতলী"
+            },
+            {
+                "id": "7",
+                "district_id": "35",
+                "name": "Muladi",
+                "bn_name": "মুলাদি"
+            },
+            {
+                "id": "8",
+                "district_id": "35",
+                "name": "Babuganj",
+                "bn_name": "বাবুগঞ্জ"
+            },
+            {
+                "id": "9",
+                "district_id": "35",
+                "name": "Agailjhara",
+                "bn_name": "আগাইলঝরা"
+            },
+            {
+                "id": "10",
+                "district_id": "35",
+                "name": "Barisal Sadar",
+                "bn_name": "বরিশাল সদর"
+            },
+            {
+                "id": "11",
+                "district_id": "35",
+                "name": "Bakerganj",
+                "bn_name": "বাকেরগঞ্জ"
+            },
+            {
+                "id": "12",
+                "district_id": "35",
+                "name": "Banaripara",
+                "bn_name": "বানাড়িপারা"
+            },
+            {
+                "id": "13",
+                "district_id": "35",
+                "name": "Gaurnadi",
+                "bn_name": "গৌরনদী"
+            },
+            {
+                "id": "14",
+                "district_id": "35",
+                "name": "Hizla",
+                "bn_name": "হিজলা"
+            },
+            {
+                "id": "15",
+                "district_id": "35",
+                "name": "Mehendiganj",
+                "bn_name": "মেহেদিগঞ্জ "
+            },
+            {
+                "id": "16",
+                "district_id": "35",
+                "name": "Wazirpur",
+                "bn_name": "ওয়াজিরপুর"
+            },
+            {
+                "id": "17",
+                "district_id": "36",
+                "name": "Bhola Sadar",
+                "bn_name": "ভোলা সদর"
+            },
+            {
+                "id": "18",
+                "district_id": "36",
+                "name": "Burhanuddin",
+                "bn_name": "বুরহানউদ্দিন"
+            },
+            {
+                "id": "19",
+                "district_id": "36",
+                "name": "Char Fasson",
+                "bn_name": "চর ফ্যাশন"
+            },
+            {
+                "id": "20",
+                "district_id": "36",
+                "name": "Daulatkhan",
+                "bn_name": "দৌলতখান"
+            },
+            {
+                "id": "21",
+                "district_id": "36",
+                "name": "Lalmohan",
+                "bn_name": "লালমোহন"
+            },
+            {
+                "id": "22",
+                "district_id": "36",
+                "name": "Manpura",
+                "bn_name": "মনপুরা"
+            },
+            {
+                "id": "23",
+                "district_id": "36",
+                "name": "Tazumuddin",
+                "bn_name": "তাজুমুদ্দিন"
+            },
+            {
+                "id": "24",
+                "district_id": "37",
+                "name": "Jhalokati Sadar",
+                "bn_name": "ঝালকাঠি সদর"
+            },
+            {
+                "id": "25",
+                "district_id": "37",
+                "name": "Kathalia",
+                "bn_name": "কাঁঠালিয়া"
+            },
+            {
+                "id": "26",
+                "district_id": "37",
+                "name": "Nalchity",
+                "bn_name": "নালচিতি"
+            },
+            {
+                "id": "27",
+                "district_id": "37",
+                "name": "Rajapur",
+                "bn_name": "রাজাপুর"
+            },
+            {
+                "id": "28",
+                "district_id": "38",
+                "name": "Bauphal",
+                "bn_name": "বাউফল"
+            },
+            {
+                "id": "29",
+                "district_id": "38",
+                "name": "Dashmina",
+                "bn_name": "দশমিনা"
+            },
+            {
+                "id": "30",
+                "district_id": "38",
+                "name": "Galachipa",
+                "bn_name": "গলাচিপা"
+            },
+            {
+                "id": "31",
+                "district_id": "38",
+                "name": "Kalapara",
+                "bn_name": "কালাপারা"
+            },
+            {
+                "id": "32",
+                "district_id": "38",
+                "name": "Mirzaganj",
+                "bn_name": "মির্জাগঞ্জ "
+            },
+            {
+                "id": "33",
+                "district_id": "38",
+                "name": "Patuakhali Sadar",
+                "bn_name": "পটুয়াখালী সদর"
+            },
+            {
+                "id": "34",
+                "district_id": "38",
+                "name": "Dumki",
+                "bn_name": "ডুমকি"
+            },
+            {
+                "id": "35",
+                "district_id": "38",
+                "name": "Rangabali",
+                "bn_name": "রাঙ্গাবালি"
+            },
+            {
+                "id": "36",
+                "district_id": "39",
+                "name": "Bhandaria",
+                "bn_name": "ভ্যান্ডারিয়া"
+            },
+            {
+                "id": "37",
+                "district_id": "39",
+                "name": "Kaukhali",
+                "bn_name": "কাউখালি"
+            },
+            {
+                "id": "38",
+                "district_id": "39",
+                "name": "Mathbaria",
+                "bn_name": "মাঠবাড়িয়া"
+            },
+            {
+                "id": "39",
+                "district_id": "39",
+                "name": "Nazirpur",
+                "bn_name": "নাজিরপুর"
+            },
+            {
+                "id": "40",
+                "district_id": "39",
+                "name": "Nesarabad",
+                "bn_name": "নেসারাবাদ"
+            },
+            {
+                "id": "41",
+                "district_id": "39",
+                "name": "Pirojpur Sadar",
+                "bn_name": "পিরোজপুর সদর"
+            },
+            {
+                "id": "42",
+                "district_id": "39",
+                "name": "Zianagar",
+                "bn_name": "জিয়ানগর"
+            },
+            {
+                "id": "43",
+                "district_id": "40",
+                "name": "Bandarban Sadar",
+                "bn_name": "বান্দরবন সদর"
+            },
+            {
+                "id": "44",
+                "district_id": "40",
+                "name": "Thanchi",
+                "bn_name": "থানচি"
+            },
+            {
+                "id": "45",
+                "district_id": "40",
+                "name": "Lama",
+                "bn_name": "লামা"
+            },
+            {
+                "id": "46",
+                "district_id": "40",
+                "name": "Naikhongchhari",
+                "bn_name": "নাইখংছড়ি "
+            },
+            {
+                "id": "47",
+                "district_id": "40",
+                "name": "Ali kadam",
+                "bn_name": "আলী কদম"
+            },
+            {
+                "id": "48",
+                "district_id": "40",
+                "name": "Rowangchhari",
+                "bn_name": "রউয়াংছড়ি "
+            },
+            {
+                "id": "49",
+                "district_id": "40",
+                "name": "Ruma",
+                "bn_name": "রুমা"
+            },
+            {
+                "id": "50",
+                "district_id": "41",
+                "name": "Brahmanbaria Sadar",
+                "bn_name": "ব্রাহ্মণবাড়িয়া সদর"
+            },
+            {
+                "id": "51",
+                "district_id": "41",
+                "name": "Ashuganj",
+                "bn_name": "আশুগঞ্জ"
+            },
+            {
+                "id": "52",
+                "district_id": "41",
+                "name": "Nasirnagar",
+                "bn_name": "নাসির নগর"
+            },
+            {
+                "id": "53",
+                "district_id": "41",
+                "name": "Nabinagar",
+                "bn_name": "নবীনগর"
+            },
+            {
+                "id": "54",
+                "district_id": "41",
+                "name": "Sarail",
+                "bn_name": "সরাইল"
+            },
+            {
+                "id": "55",
+                "district_id": "41",
+                "name": "Shahbazpur Town",
+                "bn_name": "শাহবাজপুর টাউন"
+            },
+            {
+                "id": "56",
+                "district_id": "41",
+                "name": "Kasba",
+                "bn_name": "কসবা"
+            },
+            {
+                "id": "57",
+                "district_id": "41",
+                "name": "Akhaura",
+                "bn_name": "আখাউরা"
+            },
+            {
+                "id": "58",
+                "district_id": "41",
+                "name": "Bancharampur",
+                "bn_name": "বাঞ্ছারামপুর"
+            },
+            {
+                "id": "59",
+                "district_id": "41",
+                "name": "Bijoynagar",
+                "bn_name": "বিজয় নগর"
+            },
+            {
+                "id": "60",
+                "district_id": "42",
+                "name": "Chandpur Sadar",
+                "bn_name": "চাঁদপুর সদর"
+            },
+            {
+                "id": "61",
+                "district_id": "42",
+                "name": "Faridganj",
+                "bn_name": "ফরিদগঞ্জ"
+            },
+            {
+                "id": "62",
+                "district_id": "42",
+                "name": "Haimchar",
+                "bn_name": "হাইমচর"
+            },
+            {
+                "id": "63",
+                "district_id": "42",
+                "name": "Haziganj",
+                "bn_name": "হাজীগঞ্জ"
+            },
+            {
+                "id": "64",
+                "district_id": "42",
+                "name": "Kachua",
+                "bn_name": "কচুয়া"
+            },
+            {
+                "id": "65",
+                "district_id": "42",
+                "name": "Matlab Uttar",
+                "bn_name": "মতলব উত্তর"
+            },
+            {
+                "id": "66",
+                "district_id": "42",
+                "name": "Matlab Dakkhin",
+                "bn_name": "মতলব দক্ষিণ"
+            },
+            {
+                "id": "67",
+                "district_id": "42",
+                "name": "Shahrasti",
+                "bn_name": "শাহরাস্তি"
+            },
+            {
+                "id": "68",
+                "district_id": "43",
+                "name": "Anwara",
+                "bn_name": "আনোয়ারা"
+            },
+            {
+                "id": "69",
+                "district_id": "43",
+                "name": "Banshkhali",
+                "bn_name": "বাশখালি"
+            },
+            {
+                "id": "70",
+                "district_id": "43",
+                "name": "Boalkhali",
+                "bn_name": "বোয়ালখালি"
+            },
+            {
+                "id": "71",
+                "district_id": "43",
+                "name": "Chandanaish",
+                "bn_name": "চন্দনাইশ"
+            },
+            {
+                "id": "72",
+                "district_id": "43",
+                "name": "Fatikchhari",
+                "bn_name": "ফটিকছড়ি"
+            },
+            {
+                "id": "73",
+                "district_id": "43",
+                "name": "Hathazari",
+                "bn_name": "হাঠহাজারী"
+            },
+            {
+                "id": "74",
+                "district_id": "43",
+                "name": "Lohagara",
+                "bn_name": "লোহাগারা"
+            },
+            {
+                "id": "75",
+                "district_id": "43",
+                "name": "Mirsharai",
+                "bn_name": "মিরসরাই"
+            },
+            {
+                "id": "76",
+                "district_id": "43",
+                "name": "Patiya",
+                "bn_name": "পটিয়া"
+            },
+            {
+                "id": "77",
+                "district_id": "43",
+                "name": "Rangunia",
+                "bn_name": "রাঙ্গুনিয়া"
+            },
+            {
+                "id": "78",
+                "district_id": "43",
+                "name": "Raozan",
+                "bn_name": "রাউজান"
+            },
+            {
+                "id": "79",
+                "district_id": "43",
+                "name": "Sandwip",
+                "bn_name": "সন্দ্বীপ"
+            },
+            {
+                "id": "80",
+                "district_id": "43",
+                "name": "Satkania",
+                "bn_name": "সাতকানিয়া"
+            },
+            {
+                "id": "81",
+                "district_id": "43",
+                "name": "Sitakunda",
+                "bn_name": "সীতাকুণ্ড"
+            },
+            {
+                "id": "82",
+                "district_id": "44",
+                "name": "Barura",
+                "bn_name": "বড়ুরা"
+            },
+            {
+                "id": "83",
+                "district_id": "44",
+                "name": "Brahmanpara",
+                "bn_name": "ব্রাহ্মণপাড়া"
+            },
+            {
+                "id": "84",
+                "district_id": "44",
+                "name": "Burichong",
+                "bn_name": "বুড়িচং"
+            },
+            {
+                "id": "85",
+                "district_id": "44",
+                "name": "Chandina",
+                "bn_name": "চান্দিনা"
+            },
+            {
+                "id": "86",
+                "district_id": "44",
+                "name": "Chauddagram",
+                "bn_name": "চৌদ্দগ্রাম"
+            },
+            {
+                "id": "87",
+                "district_id": "44",
+                "name": "Daudkandi",
+                "bn_name": "দাউদকান্দি"
+            },
+            {
+                "id": "88",
+                "district_id": "44",
+                "name": "Debidwar",
+                "bn_name": "দেবীদ্বার"
+            },
+            {
+                "id": "89",
+                "district_id": "44",
+                "name": "Homna",
+                "bn_name": "হোমনা"
+            },
+            {
+                "id": "90",
+                "district_id": "44",
+                "name": "Comilla Sadar",
+                "bn_name": "কুমিল্লা সদর"
+            },
+            {
+                "id": "91",
+                "district_id": "44",
+                "name": "Laksam",
+                "bn_name": "লাকসাম"
+            },
+            {
+                "id": "92",
+                "district_id": "44",
+                "name": "Monohorgonj",
+                "bn_name": "মনোহরগঞ্জ"
+            },
+            {
+                "id": "93",
+                "district_id": "44",
+                "name": "Meghna",
+                "bn_name": "মেঘনা"
+            },
+            {
+                "id": "94",
+                "district_id": "44",
+                "name": "Muradnagar",
+                "bn_name": "মুরাদনগর"
+            },
+            {
+                "id": "95",
+                "district_id": "44",
+                "name": "Nangalkot",
+                "bn_name": "নাঙ্গালকোট"
+            },
+            {
+                "id": "96",
+                "district_id": "44",
+                "name": "Comilla Sadar South",
+                "bn_name": "কুমিল্লা সদর দক্ষিণ"
+            },
+            {
+                "id": "97",
+                "district_id": "44",
+                "name": "Titas",
+                "bn_name": "তিতাস"
+            },
+            {
+                "id": "98",
+                "district_id": "45",
+                "name": "Chakaria",
+                "bn_name": "চকরিয়া"
+            },
+            {
+                "id": "100",
+                "district_id": "45",
+                "name": "Cox\'s Bazar",
+                "bn_name": "কক্স বাজার সদর"
+            },
+            {
+                "id": "101",
+                "district_id": "45",
+                "name": "Kutubdia",
+                "bn_name": "কুতুবদিয়া"
+            },
+            {
+                "id": "102",
+                "district_id": "45",
+                "name": "Maheshkhali",
+                "bn_name": "মহেশখালী"
+            },
+            {
+                "id": "103",
+                "district_id": "45",
+                "name": "Ramu",
+                "bn_name": "রামু"
+            },
+            {
+                "id": "104",
+                "district_id": "45",
+                "name": "Teknaf",
+                "bn_name": "টেকনাফ"
+            },
+            {
+                "id": "105",
+                "district_id": "45",
+                "name": "Ukhia",
+                "bn_name": "উখিয়া"
+            },
+            {
+                "id": "106",
+                "district_id": "45",
+                "name": "Pekua",
+                "bn_name": "পেকুয়া"
+            },
+            {
+                "id": "107",
+                "district_id": "46",
+                "name": "Feni Sadar",
+                "bn_name": "ফেনী সদর"
+            },
+            {
+                "id": "108",
+                "district_id": "46",
+                "name": "Chagalnaiya",
+                "bn_name": "ছাগল নাইয়া"
+            },
+            {
+                "id": "109",
+                "district_id": "46",
+                "name": "Daganbhyan",
+                "bn_name": "দাগানভিয়া"
+            },
+            {
+                "id": "110",
+                "district_id": "46",
+                "name": "Parshuram",
+                "bn_name": "পরশুরাম"
+            },
+            {
+                "id": "111",
+                "district_id": "46",
+                "name": "Fhulgazi",
+                "bn_name": "ফুলগাজি"
+            },
+            {
+                "id": "112",
+                "district_id": "46",
+                "name": "Sonagazi",
+                "bn_name": "সোনাগাজি"
+            },
+            {
+                "id": "113",
+                "district_id": "47",
+                "name": "Dighinala",
+                "bn_name": "দিঘিনালা "
+            },
+            {
+                "id": "114",
+                "district_id": "47",
+                "name": "Khagrachhari",
+                "bn_name": "খাগড়াছড়ি"
+            },
+            {
+                "id": "115",
+                "district_id": "47",
+                "name": "Lakshmichhari",
+                "bn_name": "লক্ষ্মীছড়ি"
+            },
+            {
+                "id": "116",
+                "district_id": "47",
+                "name": "Mahalchhari",
+                "bn_name": "মহলছড়ি"
+            },
+            {
+                "id": "117",
+                "district_id": "47",
+                "name": "Manikchhari",
+                "bn_name": "মানিকছড়ি"
+            },
+            {
+                "id": "118",
+                "district_id": "47",
+                "name": "Matiranga",
+                "bn_name": "মাটিরাঙ্গা"
+            },
+            {
+                "id": "119",
+                "district_id": "47",
+                "name": "Panchhari",
+                "bn_name": "পানছড়ি"
+            },
+            {
+                "id": "120",
+                "district_id": "47",
+                "name": "Ramgarh",
+                "bn_name": "রামগড়"
+            },
+            {
+                "id": "121",
+                "district_id": "48",
+                "name": "Lakshmipur Sadar",
+                "bn_name": "লক্ষ্মীপুর সদর"
+            },
+            {
+                "id": "122",
+                "district_id": "48",
+                "name": "Raipur",
+                "bn_name": "রায়পুর"
+            },
+            {
+                "id": "123",
+                "district_id": "48",
+                "name": "Ramganj",
+                "bn_name": "রামগঞ্জ"
+            },
+            {
+                "id": "124",
+                "district_id": "48",
+                "name": "Ramgati",
+                "bn_name": "রামগতি"
+            },
+            {
+                "id": "125",
+                "district_id": "48",
+                "name": "Komol Nagar",
+                "bn_name": "কমল নগর"
+            },
+            {
+                "id": "126",
+                "district_id": "49",
+                "name": "Noakhali Sadar",
+                "bn_name": "নোয়াখালী সদর"
+            },
+            {
+                "id": "127",
+                "district_id": "49",
+                "name": "Begumganj",
+                "bn_name": "বেগমগঞ্জ"
+            },
+            {
+                "id": "128",
+                "district_id": "49",
+                "name": "Chatkhil",
+                "bn_name": "চাটখিল"
+            },
+            {
+                "id": "129",
+                "district_id": "49",
+                "name": "Companyganj",
+                "bn_name": "কোম্পানীগঞ্জ"
+            },
+            {
+                "id": "130",
+                "district_id": "49",
+                "name": "Shenbag",
+                "bn_name": "শেনবাগ"
+            },
+            {
+                "id": "131",
+                "district_id": "49",
+                "name": "Hatia",
+                "bn_name": "হাতিয়া"
+            },
+            {
+                "id": "132",
+                "district_id": "49",
+                "name": "Kobirhat",
+                "bn_name": "কবিরহাট "
+            },
+            {
+                "id": "133",
+                "district_id": "49",
+                "name": "Sonaimuri",
+                "bn_name": "সোনাইমুরি"
+            },
+            {
+                "id": "134",
+                "district_id": "49",
+                "name": "Suborno Char",
+                "bn_name": "সুবর্ণ চর "
+            },
+            {
+                "id": "135",
+                "district_id": "50",
+                "name": "Rangamati Sadar",
+                "bn_name": "রাঙ্গামাটি সদর"
+            },
+            {
+                "id": "136",
+                "district_id": "50",
+                "name": "Belaichhari",
+                "bn_name": "বেলাইছড়ি"
+            },
+            {
+                "id": "137",
+                "district_id": "50",
+                "name": "Bagaichhari",
+                "bn_name": "বাঘাইছড়ি"
+            },
+            {
+                "id": "138",
+                "district_id": "50",
+                "name": "Barkal",
+                "bn_name": "বরকল"
+            },
+            {
+                "id": "139",
+                "district_id": "50",
+                "name": "Juraichhari",
+                "bn_name": "জুরাইছড়ি"
+            },
+            {
+                "id": "140",
+                "district_id": "50",
+                "name": "Rajasthali",
+                "bn_name": "রাজাস্থলি"
+            },
+            {
+                "id": "141",
+                "district_id": "50",
+                "name": "Kaptai",
+                "bn_name": "কাপ্তাই"
+            },
+            {
+                "id": "142",
+                "district_id": "50",
+                "name": "Langadu",
+                "bn_name": "লাঙ্গাডু"
+            },
+            {
+                "id": "143",
+                "district_id": "50",
+                "name": "Nannerchar",
+                "bn_name": "নান্নেরচর "
+            },
+            {
+                "id": "144",
+                "district_id": "50",
+                "name": "Kaukhali",
+                "bn_name": "কাউখালি"
+            },
 
-        //==============================================================================================================
-       //************************** Tangail District 44 ****************************************************************
-                [
-                    'name' => 'Basail',
-                    'bn_name' => 'বাসাইল',
-                    'url' => 'basail.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.334
-                [
-                    'name' => 'Bhuapur',
-                    'bn_name' => 'ভুয়াপুর',
-                    'url' => 'bhuapur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.335
-                [
-                    'name' => 'Delduar',
-                    'bn_name' => 'দেলদুয়ার',
-                    'url' => 'delduar.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.336
-                [
-                    'name' => 'Ghatail',
-                    'bn_name' => 'ঘাটাইল',
-                    'url' => 'ghatail.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.337
-                [
-                    'name' => 'Gopalpur',
-                    'bn_name' => 'গোপালপুর',
-                    'url' => 'gopalpur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.338
-                [
-                    'name' => 'Madhupur',
-                    'bn_name' => 'মধুপুর',
-                    'url' => 'madhupur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.339
-                [
-                    'name' => 'Mirzapur',
-                    'bn_name' => 'মির্জাপুর',
-                    'url' => 'mirzapur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.340
-                [
-                    'name' => 'Nagarpur',
-                    'bn_name' => 'নাগরপুর',
-                    'url' => 'nagarpur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.341
-                [
-                    'name' => 'Sakhipur',
-                    'bn_name' => 'সখিপুর',
-                    'url' => 'sakhipur.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.342
-                [
-                    'name' => 'Tangail Sadar',
-                    'bn_name' => 'টাঙ্গাইল সদর',
-                    'url' => 'tangailsadar.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.343
-                [
-                    'name' => 'Kalihati',
-                    'bn_name' => 'কালিহাতী',
-                    'url' => 'kalihati.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.344
-                [
-                    'name' => 'Dhanbari',
-                    'bn_name' => 'ধনবাড়ী',
-                    'url' => 'dhanbari.tangail.gov.bd',
-                    'district_id' => 44,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12.345
-        //==============================================================================================================
-        //************************** kishoreganj District 45 ***********************************************************
-                [
-                    'name' => 'Itna',
-                    'bn_name' => 'ইটনা',
-                    'url' => 'itna.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.346
-                [
-                    'name' => 'Katiadi',
-                    'bn_name' => 'কটিয়াদী',
-                    'url' => 'katiadi.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.347
-                [
-                    'name' => 'Bhairab',
-                    'bn_name' => 'ভৈরব',
-                    'url' => 'bhairab.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.348
-                [
-                    'name' => 'Tarail',
-                    'bn_name' => 'তাড়াইল',
-                    'url' => 'tarail.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.349
-                [
-                    'name' => 'Hossainpur',
-                    'bn_name' => 'হোসেনপুর',
-                    'url' => 'hossainpur.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.350
-                [
-                    'name' => 'Pakundia',
-                    'bn_name' => 'পাকুন্দিয়া',
-                    'url' => 'pakundia.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.351
-                [
-                    'name' => 'Kuliarchar',
-                    'bn_name' => 'কুলিয়ারচর',
-                    'url' => 'kuliarchar.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.352
-                [
-                    'name' => 'Kishoreganj Sadar',
-                    'bn_name' => 'কিশোরগঞ্জ সদর',
-                    'url' => 'kishoreganjsadar.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //8.353
-                [
-                    'name' => 'Karimgonj',
-                    'bn_name' => 'করিমগঞ্জ',
-                    'url' => 'karimgonj.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //9.354
-                [
-                    'name' => 'Bajitpur',
-                    'bn_name' => 'বাজিতপুর',
-                    'url' => 'bajitpur.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //10.355
-                [
-                    'name' => 'Austagram',
-                    'bn_name' => 'অষ্টগ্রাম',
-                    'url' => 'austagram.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //11.356
-                [
-                    'name' => 'Mithamoin',
-                    'bn_name' => 'মিঠামইন',
-                    'url' => 'mithamoin.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //12.357
-                [
-                    'name' => 'Nikli',
-                    'bn_name' => 'নিকলী',
-                    'url' => 'nikli.kishoreganj.gov.bd',
-                    'district_id' => 45,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //13.358
-        //==============================================================================================================
-       //************************** Manikganj District 46 ************************************************************
-                [
-                    'name' => 'Harirampur',
-                    'bn_name' => 'হরিরামপুর',
-                    'url' => 'harirampur.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.359
-                [
-                    'name' => 'Saturia',
-                    'bn_name' => 'সাটুরিয়া',
-                    'url' => 'saturia.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.360
-                [
-                    'name' => 'Manikganj Sadar',
-                    'bn_name' => 'মানিকগঞ্জ সদর',
-                    'url' => 'sadar.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.361
-                [
-                    'name' => 'Gior',
-                    'bn_name' => 'ঘিওর',
-                    'url' => 'gior.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.362
-                [
-                    'name' => 'Shibaloy',
-                    'bn_name' => 'শিবালয়',
-                    'url' => 'shibaloy.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.363
-                [
-                    'name' => 'Doulatpur',
-                    'bn_name' => 'দৌলতপুর',
-                    'url' => 'doulatpur.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.364
-                [
-                    'name' => 'Singiar',
-                    'bn_name' => 'সিংগাইর',
-                    'url' => 'singiar.manikganj.gov.bd',
-                    'district_id' => 46,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //7.365
-        //==============================================================================================================
-        //************************** Dhaka District 47 ****************************************************************
-
-                [
-                    'name' => 'Savar',
-                    'bn_name' => 'সাভার',
-                    'url' => 'savar.dhaka.gov.bd',
-                    'district_id' => 47,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.366
-                [
-                    'name' => 'Dhamrai',
-                    'bn_name' => 'ধামরাই',
-                    'url' => 'dhamrai.dhaka.gov.bd',
-                    'district_id' => 47,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.367
-                [
-                    'name' => 'Keraniganj',
-                    'bn_name' => 'কেরাণীগঞ্জ',
-                    'url' => 'keraniganj.dhaka.gov.bd',
-                    'district_id' => 47,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.368
-                [
-                    'name' => 'Nawabganj',
-                    'bn_name' => 'নবাবগঞ্জ',
-                    'url' => 'nawabganj.dhaka.gov.bd',
-                    'district_id' => 47,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.369
-                [
-                    'name' => 'Dohar',
-                    'bn_name' => 'দোহার',
-                    'url' => 'dohar.dhaka.gov.bd',
-                    'district_id' => 47,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.370
-        //==============================================================================================================
-        //************************** Munshiganj District 48 ************************************************************
-                [
-                    'name' => 'Munshiganj Sadar',
-                    'bn_name' => 'মুন্সিগঞ্জ সদর',
-                    'url' => 'sadar.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.371
-                [
-                    'name' => 'Sreenagar',
-                    'bn_name' => 'শ্রীনগর',
-                    'url' => 'sreenagar.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.372
-                [
-                    'name' => 'Sirajdikhan',
-                    'bn_name' => 'সিরাজদিখান',
-                    'url' => 'sirajdikhan.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.373
-                [
-                    'name' => 'Louhajanj',
-                    'bn_name' => 'লৌহজং',
-                    'url' => 'louhajanj.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.374
-                [
-                    'name' => 'Gajaria',
-                    'bn_name' => 'গজারিয়া',
-                    'url' => 'gajaria.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.375
-                [
-                    'name' => 'Tongibari',
-                    'bn_name' => 'টংগীবাড়ি',
-                    'url' => 'tongibari.munshiganj.gov.bd',
-                    'district_id' => 48,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //6.376
-        //==============================================================================================================
-        //************************** Rajbari District 49 ***************************************************************
-                [
-                    'name' => 'Rajbari Sadar',
-                    'bn_name' => 'রাজবাড়ী সদর',
-                    'url' => 'sadar.rajbari.gov.bd',
-                    'district_id' => 49,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.377
-                [
-                    'name' => 'Goalanda',
-                    'bn_name' => 'গোয়ালন্দ',
-                    'url' => 'goalanda.rajbari.gov.bd',
-                    'district_id' => 49,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.378
-                [
-                    'name' => 'Pangsa',
-                    'bn_name' => 'পাংশা',
-                    'url' => 'pangsa.rajbari.gov.bd',
-                    'district_id' => 49,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.379
-                [
-                    'name' => 'Baliakandi',
-                    'bn_name' => 'বালিয়াকান্দি',
-                    'url' => 'baliakandi.rajbari.gov.bd',
-                    'district_id' => 49,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.380
-                [
-                    'name' => 'Kalukhali',
-                    'bn_name' => 'কালুখালী',
-                    'url' => 'kalukhali.rajbari.gov.bd',
-                    'district_id' => 49,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.381
-        //==============================================================================================================
-        //************************** Madaripur District 50 *************************************************************
-                [
-                    'name' => 'Madaripur Sadar',
-                    'bn_name' => 'মাদারীপুর সদর',
-                    'url' => 'sadar.madaripur.gov.bd',
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //1.382
-                [
-                    'name' => 'Shibchar',
-                    'bn_name' => 'শিবচর',
-                    'url' => 'shibchar.madaripur.gov.bd',
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //2.383
-                [
-                    'name' => 'Kalkini',
-                    'bn_name' => 'কালকিনি',
-                    'url' => 'kalkini.madaripur.gov.bd',
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //3.384
-                [
-                    'name' => 'Rajoir',
-                    'bn_name' => 'রাজৈর',
-                    'url' => 'rajoir.madaripur.gov.bd',
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //4.385
-                [
-                    'name' => 'Dasar',
-                    'bn_name' => 'ডাসার',
-                    'url' => null,
-                    'district_id' => 50,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ], //5.386
-        //==============================================================================================================
-        //************************** Gopalganj District 51 *************************************************************
-                [
-                    'name' => 'Gopalganj Sadar',
-                    'bn_name' => 'গোপালগঞ্জ সদর',
-                    'url' => 'sadar.gopalganj.gov.bd',
-                    'district_id' => 51,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kashiani',
-                    'bn_name' => 'কাশিয়ানী',
-                    'url' => 'kashiani.gopalganj.gov.bd',
-                    'district_id' => 51,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Tungipara',
-                    'bn_name' => 'টুংগীপাড়া',
-                    'url' => 'tungipara.gopalganj.gov.bd',
-                    'district_id' => 51,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kotalipara',
-                    'bn_name' => 'কোটালীপাড়া',
-                    'url' => 'kotalipara.gopalganj.gov.bd',
-                    'district_id' => 51,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Muksudpur',
-                    'bn_name' => 'মুকসুদপুর',
-                    'url' => 'muksudpur.gopalganj.gov.bd',
-                    'district_id' => 51,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Faridpur District 52 **************************************************************
-                [
-                    'name' => 'Faridpur Sadar',
-                    'bn_name' => 'ফরিদপুর সদর',
-                    'url' => 'sadar.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Alfadanga',
-                    'bn_name' => 'আলফাডাঙ্গা',
-                    'url' => 'alfadanga.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Boalmari',
-                    'bn_name' => 'বোযালমারী',
-                    'url' => 'boalmari.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Sadarpur',
-                    'bn_name' => 'সদরপুর',
-                    'url' => 'sadarpur.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nagarkanda',
-                    'bn_name' => 'নগরকান্দা',
-                    'url' => 'nagarkanda.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bhanga',
-                    'bn_name' => 'ভাঙ্গা',
-                    'url' => 'bhanga.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Charbhadrasan',
-                    'bn_name' => 'চরভদ্রাসন',
-                    'url' => 'charbhadrasan.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Madhukhali',
-                    'bn_name' => 'মধুখালী',
-                    'url' => 'madhukhali.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Saltha',
-                    'bn_name' => 'সালথা',
-                    'url' => 'saltha.faridpur.gov.bd',
-                    'district_id' => 52,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Jamalpur District 53 **************************************************************
-
-                [
-                    'name' => 'Jamalpur Sadar',
-                    'bn_name' => 'জামালপুর সদর',
-                    'url' => 'jamalpursadar.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Melandah',
-                    'bn_name' => 'মেলান্দহ',
-                    'url' => 'melandah.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Islampur',
-                    'bn_name' => 'ইসলামপুর',
-                    'url' => 'islampur.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dewangonj',
-                    'bn_name' => 'দেওয়ানগঞ্জ',
-                    'url' => 'dewangonj.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Sarishabari',
-                    'bn_name' => 'সরিষাবাড়ী',
-                    'url' => 'sarishabari.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Madarganj',
-                    'bn_name' => 'মাদারগঞ্জ',
-                    'url' => 'madarganj.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bokshiganj',
-                    'bn_name' => 'বকশীগঞ্জ',
-                    'url' => 'bokshiganj.jamalpur.gov.bd',
-                    'district_id' => 53,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-       //************************** Mymensingh District 54 *************************************************************
-                [
-                    'name' => 'Fulbaria',
-                    'bn_name' => 'ফুলবাড়ীয়া',
-                    'url' => 'fulbaria.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Trishal',
-                    'bn_name' => 'ত্রিশাল',
-                    'url' => 'trishal.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bhaluka',
-                    'bn_name' => 'ভালুকা',
-                    'url' => 'bhaluka.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Muktagacha',
-                    'bn_name' => 'মুক্তাগাছা',
-                    'url' => 'muktagacha.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Mymensingh Sadar',
-                    'bn_name' => 'ময়মনসিংহ সদর',
-                    'url' => 'mymensinghsadar.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dhobaura',
-                    'bn_name' => 'ধোবাউড়া',
-                    'url' => 'dhobaura.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Phulpur',
-                    'bn_name' => 'ফুলপুর',
-                    'url' => 'phulpur.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Haluaghat',
-                    'bn_name' => 'হালুয়াঘাট',
-                    'url' => 'haluaghat.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gouripur',
-                    'bn_name' => 'গৌরীপুর',
-                    'url' => 'gouripur.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gafargaon',
-                    'bn_name' => 'গফরগাঁও',
-                    'url' => 'gafargaon.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Iswarganj',
-                    'bn_name' => 'ঈশ্বরগঞ্জ',
-                    'url' => 'iswarganj.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nandail',
-                    'bn_name' => 'নান্দাইল',
-                    'url' => 'nandail.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Tarakanda',
-                    'bn_name' => 'তারাকান্দা',
-                    'url' => 'tarakanda.mymensingh.gov.bd',
-                    'district_id' => 54,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-       //************************** Netrokona District 55 **************************************************************
-                [
-                    'name' => 'Barhatta',
-                    'bn_name' => 'বারহাট্টা',
-                    'url' => 'barhatta.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Durgapur',
-                    'bn_name' => 'দুর্গাপুর',
-                    'url' => 'durgapur.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kendua',
-                    'bn_name' => 'কেন্দুয়া',
-                    'url' => 'kendua.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Atpara',
-                    'bn_name' => 'আটপাড়া',
-                    'url' => 'atpara.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Madan',
-                    'bn_name' => 'মদন',
-                    'url' => 'madan.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Khaliajuri',
-                    'bn_name' => 'খালিয়াজুরী',
-                    'url' => 'khaliajuri.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kalmakanda',
-                    'bn_name' => 'কলমাকান্দা',
-                    'url' => 'kalmakanda.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Mohongonj',
-                    'bn_name' => 'মোহনগঞ্জ',
-                    'url' => 'mohongonj.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Purbadhala',
-                    'bn_name' => 'পূর্বধলা',
-                    'url' => 'purbadhala.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Netrokona Sadar',
-                    'bn_name' => 'নেত্রকোণা সদর',
-                    'url' => 'netrokonasadar.netrokona.gov.bd',
-                    'district_id' => 55,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-
-
-       //************************** Sherpur District 56 ****************************************************************
-                [
-                    'name' => 'Sherpur Sadar',
-                    'bn_name' => 'শেরপুর সদর',
-                    'url' => 'sherpursadar.sherpur.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nalitabari',
-                    'bn_name' => 'নালিতাবাড়ী',
-                    'url' => 'nalitabari.sherpur.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Sreebordi',
-                    'bn_name' => 'শ্রীবরদী',
-                    'url' => 'sreebordi.sherpur.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nokla',
-                    'bn_name' => 'নকলা',
-                    'url' => 'nokla.sherpur.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Jhenaigati',
-                    'bn_name' => 'ঝিনাইগাতী',
-                    'url' => 'jhenaigati.sherpur.gov.bd',
-                    'district_id' => 56,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //************************** Dinajpur District 57 **************************************************************
-                [
-                    'name' => 'Nawabganj',
-                    'bn_name' => 'নবাবগঞ্জ',
-                    'url' => 'nawabganj.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Birganj',
-                    'bn_name' => 'বীরগঞ্জ',
-                    'url' => 'birganj.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Ghoraghat',
-                    'bn_name' => 'ঘোড়াঘাট',
-                    'url' => 'ghoraghat.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Birampur',
-                    'bn_name' => 'বিরামপুর',
-                    'url' => 'birampur.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Parbatipur',
-                    'bn_name' => 'পার্বতীপুর',
-                    'url' => 'parbatipur.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bochaganj',
-                    'bn_name' => 'বোচাগঞ্জ',
-                    'url' => 'bochaganj.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kaharol',
-                    'bn_name' => 'কাহারোল',
-                    'url' => 'kaharol.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Fulbari',
-                    'bn_name' => 'ফুলবাড়ী',
-                    'url' => 'fulbari.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dinajpur Sadar',
-                    'bn_name' => 'দিনাজপুর সদর',
-                    'url' => 'dinajpursadar.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Hakimpur',
-                    'bn_name' => 'হাকিমপুর',
-                    'url' => 'hakimpur.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Khansama',
-                    'bn_name' => 'খানসামা',
-                    'url' => 'khansama.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Birol',
-                    'bn_name' => 'বিরল',
-                    'url' => 'birol.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Chirirbandar',
-                    'bn_name' => 'চিরিরবন্দর',
-                    'url' => 'chirirbandar.dinajpur.gov.bd',
-                    'district_id' => 57,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Gaibandha District 58 *************************************************************
-                [
-                    'name' => 'Sadullapur',
-                    'bn_name' => 'সাদুল্লাপুর',
-                    'url' => 'sadullapur.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gaibandha Sadar',
-                    'bn_name' => 'গাইবান্ধা সদর',
-                    'url' => 'gaibandhasadar.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Palashbari',
-                    'bn_name' => 'পলাশবাড়ী',
-                    'url' => 'palashbari.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Saghata',
-                    'bn_name' => 'সাঘাটা',
-                    'url' => 'saghata.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gobindaganj',
-                    'bn_name' => 'গোবিন্দগঞ্জ',
-                    'url' => 'gobindaganj.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Sundarganj',
-                    'bn_name' => 'সুন্দরগঞ্জ',
-                    'url' => 'sundarganj.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Phulchari',
-                    'bn_name' => 'ফুলছড়ি',
-                    'url' => 'phulchari.gaibandha.gov.bd',
-                    'district_id' => 58,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Rangpur District 59 **************************************************************
-                [
-                    'name' => 'Rangpur Sadar',
-                    'bn_name' => 'রংপুর সদর',
-                    'url' => 'rangpursadar.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Gangachara',
-                    'bn_name' => 'গংগাচড়া',
-                    'url' => 'gangachara.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Taragonj',
-                    'bn_name' => 'তারাগঞ্জ',
-                    'url' => 'taragonj.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Badargonj',
-                    'bn_name' => 'বদরগঞ্জ',
-                    'url' => 'badargonj.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Mithapukur',
-                    'bn_name' => 'মিঠাপুকুর',
-                    'url' => 'mithapukur.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Pirgonj',
-                    'bn_name' => 'পীরগঞ্জ',
-                    'url' => 'pirgonj.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kaunia',
-                    'bn_name' => 'কাউনিয়া',
-                    'url' => 'kaunia.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Pirgacha',
-                    'bn_name' => 'পীরগাছা',
-                    'url' => 'pirgacha.rangpur.gov.bd',
-                    'district_id' => 59,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Kurigram District 60 *************************************************************
-                [
-                    'name' => 'Kurigram Sadar',
-                    'bn_name' => 'কুড়িগ্রাম সদর',
-                    'url' => 'kurigramsadar.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nageshwari',
-                    'bn_name' => 'নাগেশ্বরী',
-                    'url' => 'nageshwari.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Bhurungamari',
-                    'bn_name' => 'ভুরুঙ্গামারী',
-                    'url' => 'bhurungamari.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Phulbari',
-                    'bn_name' => 'ফুলবাড়ী',
-                    'url' => 'phulbari.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Rajarhat',
-                    'bn_name' => 'রাজারহাট',
-                    'url' => 'rajarhat.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Ulipur',
-                    'bn_name' => 'উলিপুর',
-                    'url' => 'ulipur.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Chilmari',
-                    'bn_name' => 'চিলমারী',
-                    'url' => 'chilmari.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Rowmari',
-                    'bn_name' => 'রৌমারী',
-                    'url' => 'rowmari.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Charrajibpur',
-                    'bn_name' => 'চর রাজিবপুর',
-                    'url' => 'charrajibpur.kurigram.gov.bd',
-                    'district_id' => 60,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Nilphamari District 61 ************************************************************
-                [
-                    'name' => 'Syedpur',
-                    'bn_name' => 'সৈয়দপুর',
-                    'url' => 'syedpur.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Domar',
-                    'bn_name' => 'ডোমার',
-                    'url' => 'domar.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Dimla',
-                    'bn_name' => 'ডিমলা',
-                    'url' => 'dimla.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Jaldhaka',
-                    'bn_name' => 'জলঢাকা',
-                    'url' => 'jaldhaka.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kishorganj',
-                    'bn_name' => 'কিশোরগঞ্জ',
-                    'url' => 'kishorganj.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Nilphamari Sadar',
-                    'bn_name' => 'নীলফামারী সদর',
-                    'url' => 'nilphamarisadar.nilphamari.gov.bd',
-                    'district_id' => 61,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-       //************************** Lalmonirhat District 62 ************************************************************
-                [
-                    'name' => 'Lalmonirhat Sadar',
-                    'bn_name' => 'লালমনিরহাট সদর',
-                    'url' => 'sadar.lalmonirhat.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Kaliganj',
-                    'bn_name' => 'কালীগঞ্জ',
-                    'url' => 'kaliganj.lalmonirhat.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Hatibandha',
-                    'bn_name' => 'হাতীবান্ধা',
-                    'url' => 'hatibandha.lalmonirhat.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Patgram',
-                    'bn_name' => 'পাটগ্রাম',
-                    'url' => 'patgram.lalmonirhat.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Aditmari',
-                    'bn_name' => 'আদিতমারী',
-                    'url' => 'aditmari.lalmonirhat.gov.bd',
-                    'district_id' => 62,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Thakurgaon District 63 ************************************************************
-                [
-                    'name' => 'Thakurgaon Sadar',
-                    'bn_name' => 'ঠাকুরগাঁও সদর',
-                    'url' => 'thakurgaonsadar.thakurgaon.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Pirganj',
-                    'bn_name' => 'পীরগঞ্জ',
-                    'url' => 'pirganj.thakurgaon.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Ranisankail',
-                    'bn_name' => 'রাণীশংকৈল',
-                    'url' => 'ranisankail.thakurgaon.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Haripur',
-                    'bn_name' => 'হরিপুর',
-                    'url' => 'haripur.thakurgaon.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Baliadangi',
-                    'bn_name' => 'বালিয়াডাঙ্গী',
-                    'url' => 'baliadangi.thakurgaon.gov.bd',
-                    'district_id' => 63,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-        //************************** Panchagarh District 64 ************************************************************
-                [
-                    'name' => 'Panchagarh Sadar',
-                    'bn_name' => 'পঞ্চগড় সদর',
-                    'url' => 'panchagarhsadar.panchagarh.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Debiganj',
-                    'bn_name' => 'দেবীগঞ্জ',
-                    'url' => 'debiganj.panchagarh.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Boda',
-                    'bn_name' => 'বোদা',
-                    'url' => 'boda.panchagarh.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Atwari',
-                    'bn_name' => 'আটোয়ারী',
-                    'url' => 'atwari.panchagarh.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-                [
-                    'name' => 'Tetulia',
-                    'bn_name' => 'তেতুলিয়া',
-                    'url' => 'tetulia.panchagarh.gov.bd',
-                    'district_id' => 64,
-                    'status_active' => 1,
-                    'is_delete' => 0,
-                ],
-        //==============================================================================================================
-
-
-
-
-
-
-
-            ];
+            {
+                "id": "145",
+                "district_id": "1",
+                "name": "Dhaka North City Corporation",
+                "bn_name": "ঢাকা উত্তর সিটি কর্পোরেশন"
+            },
+            {
+                "id": "146",
+                "district_id": "1",
+                "name": "Dhaka South City Corporation",
+                "bn_name": "ঢাকা দক্ষিণ সিটি কর্পোরেশন"
+            },
+            {
+                "id": "147",
+                "district_id": "1",
+                "name": "Keraniganj",
+                "bn_name": "কেরানীগঞ্জ"
+            },
+            {
+                "id": "148",
+                "district_id": "1",
+                "name": "Nawabganj",
+                "bn_name": "নবাবগঞ্জ"
+            },
+            {
+                "id": "149",
+                "district_id": "1",
+                "name": "Savar",
+                "bn_name": "সাভার"
+            },
+            {
+                "id": "150",
+                "district_id": "2",
+                "name": "Faridpur Sadar",
+                "bn_name": "ফরিদপুর সদর"
+            },
+            {
+                "id": "151",
+                "district_id": "2",
+                "name": "Boalmari",
+                "bn_name": "বোয়ালমারী"
+            },
+            {
+                "id": "152",
+                "district_id": "2",
+                "name": "Alfadanga",
+                "bn_name": "আলফাডাঙ্গা"
+            },
+            {
+                "id": "153",
+                "district_id": "2",
+                "name": "Madhukhali",
+                "bn_name": "মধুখালি"
+            },
+            {
+                "id": "154",
+                "district_id": "2",
+                "name": "Bhanga",
+                "bn_name": "ভাঙ্গা"
+            },
+            {
+                "id": "155",
+                "district_id": "2",
+                "name": "Nagarkanda",
+                "bn_name": "নগরকান্ড"
+            },
+            {
+                "id": "156",
+                "district_id": "2",
+                "name": "Charbhadrasan",
+                "bn_name": "চরভদ্রাসন "
+            },
+            {
+                "id": "157",
+                "district_id": "2",
+                "name": "Sadarpur",
+                "bn_name": "সদরপুর"
+            },
+            {
+                "id": "158",
+                "district_id": "2",
+                "name": "Shaltha",
+                "bn_name": "শালথা"
+            },
+            {
+                "id": "159",
+                "district_id": "3",
+                "name": "Gazipur Sadar-Joydebpur",
+                "bn_name": "গাজীপুর সদর"
+            },
+            {
+                "id": "160",
+                "district_id": "3",
+                "name": "Kaliakior",
+                "bn_name": "কালিয়াকৈর"
+            },
+            {
+                "id": "161",
+                "district_id": "3",
+                "name": "Kapasia",
+                "bn_name": "কাপাসিয়া"
+            },
+            {
+                "id": "162",
+                "district_id": "3",
+                "name": "Sripur",
+                "bn_name": "শ্রীপুর"
+            },
+            {
+                "id": "163",
+                "district_id": "3",
+                "name": "Kaliganj",
+                "bn_name": "কালীগঞ্জ"
+            },
+            {
+                "id": "164",
+                "district_id": "3",
+                "name": "Tongi",
+                "bn_name": "টঙ্গি"
+            },
+            {
+                "id": "165",
+                "district_id": "4",
+                "name": "Gopalganj Sadar",
+                "bn_name": "গোপালগঞ্জ সদর"
+            },
+            {
+                "id": "166",
+                "district_id": "4",
+                "name": "Kashiani",
+                "bn_name": "কাশিয়ানি"
+            },
+            {
+                "id": "167",
+                "district_id": "4",
+                "name": "Kotalipara",
+                "bn_name": "কোটালিপাড়া"
+            },
+            {
+                "id": "168",
+                "district_id": "4",
+                "name": "Muksudpur",
+                "bn_name": "মুকসুদপুর"
+            },
+            {
+                "id": "169",
+                "district_id": "4",
+                "name": "Tungipara",
+                "bn_name": "টুঙ্গিপাড়া"
+            },
+            {
+                "id": "170",
+                "district_id": "5",
+                "name": "Dewanganj",
+                "bn_name": "দেওয়ানগঞ্জ"
+            },
+            {
+                "id": "171",
+                "district_id": "5",
+                "name": "Baksiganj",
+                "bn_name": "বকসিগঞ্জ"
+            },
+            {
+                "id": "172",
+                "district_id": "5",
+                "name": "Islampur",
+                "bn_name": "ইসলামপুর"
+            },
+            {
+                "id": "173",
+                "district_id": "5",
+                "name": "Jamalpur Sadar",
+                "bn_name": "জামালপুর সদর"
+            },
+            {
+                "id": "174",
+                "district_id": "5",
+                "name": "Madarganj",
+                "bn_name": "মাদারগঞ্জ"
+            },
+            {
+                "id": "175",
+                "district_id": "5",
+                "name": "Melandaha",
+                "bn_name": "মেলানদাহা"
+            },
+            {
+                "id": "176",
+                "district_id": "5",
+                "name": "Sarishabari",
+                "bn_name": "সরিষাবাড়ি "
+            },
+            {
+                "id": "177",
+                "district_id": "5",
+                "name": "Narundi Police I.C",
+                "bn_name": "নারুন্দি"
+            },
+            {
+                "id": "178",
+                "district_id": "6",
+                "name": "Astagram",
+                "bn_name": "অষ্টগ্রাম"
+            },
+            {
+                "id": "179",
+                "district_id": "6",
+                "name": "Bajitpur",
+                "bn_name": "বাজিতপুর"
+            },
+            {
+                "id": "180",
+                "district_id": "6",
+                "name": "Bhairab",
+                "bn_name": "ভৈরব"
+            },
+            {
+                "id": "181",
+                "district_id": "6",
+                "name": "Hossainpur",
+                "bn_name": "হোসেনপুর "
+            },
+            {
+                "id": "182",
+                "district_id": "6",
+                "name": "Itna",
+                "bn_name": "ইটনা"
+            },
+            {
+                "id": "183",
+                "district_id": "6",
+                "name": "Karimganj",
+                "bn_name": "করিমগঞ্জ"
+            },
+            {
+                "id": "184",
+                "district_id": "6",
+                "name": "Katiadi",
+                "bn_name": "কতিয়াদি"
+            },
+            {
+                "id": "185",
+                "district_id": "6",
+                "name": "Kishoreganj Sadar",
+                "bn_name": "কিশোরগঞ্জ সদর"
+            },
+            {
+                "id": "186",
+                "district_id": "6",
+                "name": "Kuliarchar",
+                "bn_name": "কুলিয়ারচর"
+            },
+            {
+                "id": "187",
+                "district_id": "6",
+                "name": "Mithamain",
+                "bn_name": "মিঠামাইন"
+            },
+            {
+                "id": "188",
+                "district_id": "6",
+                "name": "Nikli",
+                "bn_name": "নিকলি"
+            },
+            {
+                "id": "189",
+                "district_id": "6",
+                "name": "Pakundia",
+                "bn_name": "পাকুন্ডা"
+            },
+            {
+                "id": "190",
+                "district_id": "6",
+                "name": "Tarail",
+                "bn_name": "তাড়াইল"
+            },
+            {
+                "id": "191",
+                "district_id": "7",
+                "name": "Madaripur Sadar",
+                "bn_name": "মাদারীপুর সদর"
+            },
+            {
+                "id": "192",
+                "district_id": "7",
+                "name": "Kalkini",
+                "bn_name": "কালকিনি"
+            },
+            {
+                "id": "193",
+                "district_id": "7",
+                "name": "Rajoir",
+                "bn_name": "রাজইর"
+            },
+            {
+                "id": "194",
+                "district_id": "7",
+                "name": "Shibchar",
+                "bn_name": "শিবচর"
+            },
+            {
+                "id": "195",
+                "district_id": "8",
+                "name": "Manikganj Sadar",
+                "bn_name": "মানিকগঞ্জ সদর"
+            },
+            {
+                "id": "196",
+                "district_id": "8",
+                "name": "Singair",
+                "bn_name": "সিঙ্গাইর"
+            },
+            {
+                "id": "197",
+                "district_id": "8",
+                "name": "Shibalaya",
+                "bn_name": "শিবালয়"
+            },
+            {
+                "id": "198",
+                "district_id": "8",
+                "name": "Saturia",
+                "bn_name": "সাটুরিয়া"
+            },
+            {
+                "id": "199",
+                "district_id": "8",
+                "name": "Harirampur",
+                "bn_name": "হরিরামপুর"
+            },
+            {
+                "id": "200",
+                "district_id": "8",
+                "name": "Ghior",
+                "bn_name": "ঘিওর"
+            },
+            {
+                "id": "201",
+                "district_id": "8",
+                "name": "Daulatpur",
+                "bn_name": "দৌলতপুর"
+            },
+            {
+                "id": "202",
+                "district_id": "9",
+                "name": "Lohajang",
+                "bn_name": "লোহাজং"
+            },
+            {
+                "id": "203",
+                "district_id": "9",
+                "name": "Sreenagar",
+                "bn_name": "শ্রীনগর"
+            },
+            {
+                "id": "204",
+                "district_id": "9",
+                "name": "Munshiganj Sadar",
+                "bn_name": "মুন্সিগঞ্জ সদর"
+            },
+            {
+                "id": "205",
+                "district_id": "9",
+                "name": "Sirajdikhan",
+                "bn_name": "সিরাজদিখান"
+            },
+            {
+                "id": "206",
+                "district_id": "9",
+                "name": "Tongibari",
+                "bn_name": "টঙ্গিবাড়ি"
+            },
+            {
+                "id": "207",
+                "district_id": "9",
+                "name": "Gazaria",
+                "bn_name": "গজারিয়া"
+            },
+            {
+                "id": "208",
+                "district_id": "10",
+                "name": "Bhaluka",
+                "bn_name": "ভালুকা"
+            },
+            {
+                "id": "209",
+                "district_id": "10",
+                "name": "Trishal",
+                "bn_name": "ত্রিশাল"
+            },
+            {
+                "id": "210",
+                "district_id": "10",
+                "name": "Haluaghat",
+                "bn_name": "হালুয়াঘাট"
+            },
+            {
+                "id": "211",
+                "district_id": "10",
+                "name": "Muktagachha",
+                "bn_name": "মুক্তাগাছা"
+            },
+            {
+                "id": "212",
+                "district_id": "10",
+                "name": "Dhobaura",
+                "bn_name": "ধবারুয়া"
+            },
+            {
+                "id": "213",
+                "district_id": "10",
+                "name": "Fulbaria",
+                "bn_name": "ফুলবাড়িয়া"
+            },
+            {
+                "id": "214",
+                "district_id": "10",
+                "name": "Gaffargaon",
+                "bn_name": "গফরগাঁও"
+            },
+            {
+                "id": "215",
+                "district_id": "10",
+                "name": "Gauripur",
+                "bn_name": "গৌরিপুর"
+            },
+            {
+                "id": "216",
+                "district_id": "10",
+                "name": "Ishwarganj",
+                "bn_name": "ঈশ্বরগঞ্জ"
+            },
+            {
+                "id": "217",
+                "district_id": "10",
+                "name": "Mymensingh Sadar",
+                "bn_name": "ময়মনসিং সদর"
+            },
+            {
+                "id": "218",
+                "district_id": "10",
+                "name": "Nandail",
+                "bn_name": "নন্দাইল"
+            },
+            {
+                "id": "219",
+                "district_id": "10",
+                "name": "Phulpur",
+                "bn_name": "ফুলপুর"
+            },
+            {
+                "id": "220",
+                "district_id": "11",
+                "name": "Araihazar",
+                "bn_name": "আড়াইহাজার"
+            },
+            {
+                "id": "221",
+                "district_id": "11",
+                "name": "Sonargaon",
+                "bn_name": "সোনারগাঁও"
+            },
+            {
+                "id": "222",
+                "district_id": "11",
+                "name": "Bandar",
+                "bn_name": "বান্দার"
+            },
+            {
+                "id": "223",
+                "district_id": "11",
+                "name": "Naryanganj Sadar",
+                "bn_name": "নারায়ানগঞ্জ সদর"
+            },
+            {
+                "id": "224",
+                "district_id": "11",
+                "name": "Rupganj",
+                "bn_name": "রূপগঞ্জ"
+            },
+            {
+                "id": "225",
+                "district_id": "11",
+                "name": "Siddirgonj",
+                "bn_name": "সিদ্ধিরগঞ্জ"
+            },
+            {
+                "id": "226",
+                "district_id": "12",
+                "name": "Belabo",
+                "bn_name": "বেলাবো"
+            },
+            {
+                "id": "227",
+                "district_id": "12",
+                "name": "Monohardi",
+                "bn_name": "মনোহরদি"
+            },
+            {
+                "id": "228",
+                "district_id": "12",
+                "name": "Narsingdi Sadar",
+                "bn_name": "নরসিংদী সদর"
+            },
+            {
+                "id": "229",
+                "district_id": "12",
+                "name": "Palash",
+                "bn_name": "পলাশ"
+            },
+            {
+                "id": "230",
+                "district_id": "12",
+                "name": "Raipura, Narsingdi",
+                "bn_name": "রায়পুর"
+            },
+            {
+                "id": "231",
+                "district_id": "12",
+                "name": "Shibpur",
+                "bn_name": "শিবপুর"
+            },
+            {
+                "id": "232",
+                "district_id": "13",
+                "name": "Kendua Upazilla",
+                "bn_name": "কেন্দুয়া"
+            },
+            {
+                "id": "233",
+                "district_id": "13",
+                "name": "Atpara Upazilla",
+                "bn_name": "আটপাড়া"
+            },
+            {
+                "id": "234",
+                "district_id": "13",
+                "name": "Barhatta Upazilla",
+                "bn_name": "বরহাট্টা"
+            },
+            {
+                "id": "235",
+                "district_id": "13",
+                "name": "Durgapur Upazilla",
+                "bn_name": "দুর্গাপুর"
+            },
+            {
+                "id": "236",
+                "district_id": "13",
+                "name": "Kalmakanda Upazilla",
+                "bn_name": "কলমাকান্দা"
+            },
+            {
+                "id": "237",
+                "district_id": "13",
+                "name": "Madan Upazilla",
+                "bn_name": "মদন"
+            },
+            {
+                "id": "238",
+                "district_id": "13",
+                "name": "Mohanganj Upazilla",
+                "bn_name": "মোহনগঞ্জ"
+            },
+            {
+                "id": "239",
+                "district_id": "13",
+                "name": "Netrakona-S Upazilla",
+                "bn_name": "নেত্রকোনা সদর"
+            },
+            {
+                "id": "240",
+                "district_id": "13",
+                "name": "Purbadhala Upazilla",
+                "bn_name": "পূর্বধলা"
+            },
+            {
+                "id": "241",
+                "district_id": "13",
+                "name": "Khaliajuri Upazilla",
+                "bn_name": "খালিয়াজুরি"
+            },
+            {
+                "id": "242",
+                "district_id": "14",
+                "name": "Baliakandi",
+                "bn_name": "বালিয়াকান্দি"
+            },
+            {
+                "id": "243",
+                "district_id": "14",
+                "name": "Goalandaghat",
+                "bn_name": "গোয়ালন্দ ঘাট"
+            },
+            {
+                "id": "244",
+                "district_id": "14",
+                "name": "Pangsha",
+                "bn_name": "পাংশা"
+            },
+            {
+                "id": "245",
+                "district_id": "14",
+                "name": "Kalukhali",
+                "bn_name": "কালুখালি"
+            },
+            {
+                "id": "246",
+                "district_id": "14",
+                "name": "Rajbari Sadar",
+                "bn_name": "রাজবাড়ি সদর"
+            },
+            {
+                "id": "247",
+                "district_id": "15",
+                "name": "Shariatpur Sadar -Palong",
+                "bn_name": "শরীয়তপুর সদর "
+            },
+            {
+                "id": "248",
+                "district_id": "15",
+                "name": "Damudya",
+                "bn_name": "দামুদিয়া"
+            },
+            {
+                "id": "249",
+                "district_id": "15",
+                "name": "Naria",
+                "bn_name": "নড়িয়া"
+            },
+            {
+                "id": "250",
+                "district_id": "15",
+                "name": "Jajira",
+                "bn_name": "জাজিরা"
+            },
+            {
+                "id": "251",
+                "district_id": "15",
+                "name": "Bhedarganj",
+                "bn_name": "ভেদারগঞ্জ"
+            },
+            {
+                "id": "252",
+                "district_id": "15",
+                "name": "Gosairhat",
+                "bn_name": "গোসাইর হাট "
+            },
+            {
+                "id": "253",
+                "district_id": "16",
+                "name": "Jhenaigati",
+                "bn_name": "ঝিনাইগাতি"
+            },
+            {
+                "id": "254",
+                "district_id": "16",
+                "name": "Nakla",
+                "bn_name": "নাকলা"
+            },
+            {
+                "id": "255",
+                "district_id": "16",
+                "name": "Nalitabari",
+                "bn_name": "নালিতাবাড়ি"
+            },
+            {
+                "id": "256",
+                "district_id": "16",
+                "name": "Sherpur Sadar",
+                "bn_name": "শেরপুর সদর"
+            },
+            {
+                "id": "257",
+                "district_id": "16",
+                "name": "Sreebardi",
+                "bn_name": "শ্রীবরদি"
+            },
+            {
+                "id": "258",
+                "district_id": "17",
+                "name": "Tangail Sadar",
+                "bn_name": "টাঙ্গাইল সদর"
+            },
+            {
+                "id": "259",
+                "district_id": "17",
+                "name": "Sakhipur",
+                "bn_name": "সখিপুর"
+            },
+            {
+                "id": "260",
+                "district_id": "17",
+                "name": "Basail",
+                "bn_name": "বসাইল"
+            },
+            {
+                "id": "261",
+                "district_id": "17",
+                "name": "Madhupur",
+                "bn_name": "মধুপুর"
+            },
+            {
+                "id": "262",
+                "district_id": "17",
+                "name": "Ghatail",
+                "bn_name": "ঘাটাইল"
+            },
+            {
+                "id": "263",
+                "district_id": "17",
+                "name": "Kalihati",
+                "bn_name": "কালিহাতি"
+            },
+            {
+                "id": "264",
+                "district_id": "17",
+                "name": "Nagarpur",
+                "bn_name": "নগরপুর"
+            },
+            {
+                "id": "265",
+                "district_id": "17",
+                "name": "Mirzapur",
+                "bn_name": "মির্জাপুর"
+            },
+            {
+                "id": "266",
+                "district_id": "17",
+                "name": "Gopalpur",
+                "bn_name": "গোপালপুর"
+            },
+            {
+                "id": "267",
+                "district_id": "17",
+                "name": "Delduar",
+                "bn_name": "দেলদুয়ার"
+            },
+            {
+                "id": "268",
+                "district_id": "17",
+                "name": "Bhuapur",
+                "bn_name": "ভুয়াপুর"
+            },
+            {
+                "id": "269",
+                "district_id": "17",
+                "name": "Dhanbari",
+                "bn_name": "ধানবাড়ি"
+            },
+            {
+                "id": "270",
+                "district_id": "55",
+                "name": "Bagerhat Sadar",
+                "bn_name": "বাগেরহাট সদর"
+            },
+            {
+                "id": "271",
+                "district_id": "55",
+                "name": "Chitalmari",
+                "bn_name": "চিতলমাড়ি"
+            },
+            {
+                "id": "272",
+                "district_id": "55",
+                "name": "Fakirhat",
+                "bn_name": "ফকিরহাট"
+            },
+            {
+                "id": "273",
+                "district_id": "55",
+                "name": "Kachua",
+                "bn_name": "কচুয়া"
+            },
+            {
+                "id": "274",
+                "district_id": "55",
+                "name": "Mollahat",
+                "bn_name": "মোল্লাহাট "
+            },
+            {
+                "id": "275",
+                "district_id": "55",
+                "name": "Mongla",
+                "bn_name": "মংলা"
+            },
+            {
+                "id": "276",
+                "district_id": "55",
+                "name": "Morrelganj",
+                "bn_name": "মরেলগঞ্জ"
+            },
+            {
+                "id": "277",
+                "district_id": "55",
+                "name": "Rampal",
+                "bn_name": "রামপাল"
+            },
+            {
+                "id": "278",
+                "district_id": "55",
+                "name": "Sarankhola",
+                "bn_name": "স্মরণখোলা"
+            },
+            {
+                "id": "279",
+                "district_id": "56",
+                "name": "Damurhuda",
+                "bn_name": "দামুরহুদা"
+            },
+            {
+                "id": "280",
+                "district_id": "56",
+                "name": "Chuadanga-S",
+                "bn_name": "চুয়াডাঙ্গা সদর"
+            },
+            {
+                "id": "281",
+                "district_id": "56",
+                "name": "Jibannagar",
+                "bn_name": "জীবন নগর "
+            },
+            {
+                "id": "282",
+                "district_id": "56",
+                "name": "Alamdanga",
+                "bn_name": "আলমডাঙ্গা"
+            },
+            {
+                "id": "283",
+                "district_id": "57",
+                "name": "Abhaynagar",
+                "bn_name": "অভয়নগর"
+            },
+            {
+                "id": "284",
+                "district_id": "57",
+                "name": "Keshabpur",
+                "bn_name": "কেশবপুর"
+            },
+            {
+                "id": "285",
+                "district_id": "57",
+                "name": "Bagherpara",
+                "bn_name": "বাঘের পাড়া "
+            },
+            {
+                "id": "286",
+                "district_id": "57",
+                "name": "Jessore Sadar",
+                "bn_name": "যশোর সদর"
+            },
+            {
+                "id": "287",
+                "district_id": "57",
+                "name": "Chaugachha",
+                "bn_name": "চৌগাছা"
+            },
+            {
+                "id": "288",
+                "district_id": "57",
+                "name": "Manirampur",
+                "bn_name": "মনিরামপুর "
+            },
+            {
+                "id": "289",
+                "district_id": "57",
+                "name": "Jhikargachha",
+                "bn_name": "ঝিকরগাছা"
+            },
+            {
+                "id": "290",
+                "district_id": "57",
+                "name": "Sharsha",
+                "bn_name": "সারশা"
+            },
+            {
+                "id": "291",
+                "district_id": "58",
+                "name": "Jhenaidah Sadar",
+                "bn_name": "ঝিনাইদহ সদর"
+            },
+            {
+                "id": "292",
+                "district_id": "58",
+                "name": "Maheshpur",
+                "bn_name": "মহেশপুর"
+            },
+            {
+                "id": "293",
+                "district_id": "58",
+                "name": "Kaliganj",
+                "bn_name": "কালীগঞ্জ"
+            },
+            {
+                "id": "294",
+                "district_id": "58",
+                "name": "Kotchandpur",
+                "bn_name": "কোট চাঁদপুর "
+            },
+            {
+                "id": "295",
+                "district_id": "58",
+                "name": "Shailkupa",
+                "bn_name": "শৈলকুপা"
+            },
+            {
+                "id": "296",
+                "district_id": "58",
+                "name": "Harinakunda",
+                "bn_name": "হাড়িনাকুন্দা"
+            },
+            {
+                "id": "297",
+                "district_id": "59",
+                "name": "Terokhada",
+                "bn_name": "তেরোখাদা"
+            },
+            {
+                "id": "298",
+                "district_id": "59",
+                "name": "Batiaghata",
+                "bn_name": "বাটিয়াঘাটা "
+            },
+            {
+                "id": "299",
+                "district_id": "59",
+                "name": "Dacope",
+                "bn_name": "ডাকপে"
+            },
+            {
+                "id": "300",
+                "district_id": "59",
+                "name": "Dumuria",
+                "bn_name": "ডুমুরিয়া"
+            },
+            {
+                "id": "301",
+                "district_id": "59",
+                "name": "Dighalia",
+                "bn_name": "দিঘলিয়া"
+            },
+            {
+                "id": "302",
+                "district_id": "59",
+                "name": "Koyra",
+                "bn_name": "কয়ড়া"
+            },
+            {
+                "id": "303",
+                "district_id": "59",
+                "name": "Paikgachha",
+                "bn_name": "পাইকগাছা"
+            },
+            {
+                "id": "304",
+                "district_id": "59",
+                "name": "Phultala",
+                "bn_name": "ফুলতলা"
+            },
+            {
+                "id": "305",
+                "district_id": "59",
+                "name": "Rupsa",
+                "bn_name": "রূপসা"
+            },
+            {
+                "id": "306",
+                "district_id": "60",
+                "name": "Kushtia Sadar",
+                "bn_name": "কুষ্টিয়া সদর"
+            },
+            {
+                "id": "307",
+                "district_id": "60",
+                "name": "Kumarkhali",
+                "bn_name": "কুমারখালি"
+            },
+            {
+                "id": "308",
+                "district_id": "60",
+                "name": "Daulatpur",
+                "bn_name": "দৌলতপুর"
+            },
+            {
+                "id": "309",
+                "district_id": "60",
+                "name": "Mirpur",
+                "bn_name": "মিরপুর"
+            },
+            {
+                "id": "310",
+                "district_id": "60",
+                "name": "Bheramara",
+                "bn_name": "ভেরামারা"
+            },
+            {
+                "id": "311",
+                "district_id": "60",
+                "name": "Khoksa",
+                "bn_name": "খোকসা"
+            },
+            {
+                "id": "312",
+                "district_id": "61",
+                "name": "Magura Sadar",
+                "bn_name": "মাগুরা সদর"
+            },
+            {
+                "id": "313",
+                "district_id": "61",
+                "name": "Mohammadpur",
+                "bn_name": "মোহাম্মাদপুর"
+            },
+            {
+                "id": "314",
+                "district_id": "61",
+                "name": "Shalikha",
+                "bn_name": "শালিখা"
+            },
+            {
+                "id": "315",
+                "district_id": "61",
+                "name": "Sreepur",
+                "bn_name": "শ্রীপুর"
+            },
+            {
+                "id": "316",
+                "district_id": "62",
+                "name": "angni",
+                "bn_name": "আংনি"
+            },
+            {
+                "id": "317",
+                "district_id": "62",
+                "name": "Mujib Nagar",
+                "bn_name": "মুজিব নগর"
+            },
+            {
+                "id": "318",
+                "district_id": "62",
+                "name": "Meherpur-S",
+                "bn_name": "মেহেরপুর সদর"
+            },
+            {
+                "id": "319",
+                "district_id": "63",
+                "name": "Narail-S Upazilla",
+                "bn_name": "নড়াইল সদর"
+            },
+            {
+                "id": "320",
+                "district_id": "63",
+                "name": "Lohagara Upazilla",
+                "bn_name": "লোহাগাড়া"
+            },
+            {
+                "id": "321",
+                "district_id": "63",
+                "name": "Kalia Upazilla",
+                "bn_name": "কালিয়া"
+            },
+            {
+                "id": "322",
+                "district_id": "64",
+                "name": "Satkhira Sadar",
+                "bn_name": "সাতক্ষীরা সদর"
+            },
+            {
+                "id": "323",
+                "district_id": "64",
+                "name": "Assasuni",
+                "bn_name": "আসসাশুনি "
+            },
+            {
+                "id": "324",
+                "district_id": "64",
+                "name": "Debhata",
+                "bn_name": "দেভাটা"
+            },
+            {
+                "id": "325",
+                "district_id": "64",
+                "name": "Tala",
+                "bn_name": "তালা"
+            },
+            {
+                "id": "326",
+                "district_id": "64",
+                "name": "Kalaroa",
+                "bn_name": "কলরোয়া"
+            },
+            {
+                "id": "327",
+                "district_id": "64",
+                "name": "Kaliganj",
+                "bn_name": "কালীগঞ্জ"
+            },
+            {
+                "id": "328",
+                "district_id": "64",
+                "name": "Shyamnagar",
+                "bn_name": "শ্যামনগর"
+            },
+            {
+                "id": "329",
+                "district_id": "18",
+                "name": "Adamdighi",
+                "bn_name": "আদমদিঘী"
+            },
+            {
+                "id": "330",
+                "district_id": "18",
+                "name": "Bogra Sadar",
+                "bn_name": "বগুড়া সদর"
+            },
+            {
+                "id": "331",
+                "district_id": "18",
+                "name": "Sherpur",
+                "bn_name": "শেরপুর"
+            },
+            {
+                "id": "332",
+                "district_id": "18",
+                "name": "Dhunat",
+                "bn_name": "ধুনট"
+            },
+            {
+                "id": "333",
+                "district_id": "18",
+                "name": "Dhupchanchia",
+                "bn_name": "দুপচাচিয়া"
+            },
+            {
+                "id": "334",
+                "district_id": "18",
+                "name": "Gabtali",
+                "bn_name": "গাবতলি"
+            },
+            {
+                "id": "335",
+                "district_id": "18",
+                "name": "Kahaloo",
+                "bn_name": "কাহালু"
+            },
+            {
+                "id": "336",
+                "district_id": "18",
+                "name": "Nandigram",
+                "bn_name": "নন্দিগ্রাম"
+            },
+            {
+                "id": "337",
+                "district_id": "18",
+                "name": "Sahajanpur",
+                "bn_name": "শাহজাহানপুর"
+            },
+            {
+                "id": "338",
+                "district_id": "18",
+                "name": "Sariakandi",
+                "bn_name": "সারিয়াকান্দি"
+            },
+            {
+                "id": "339",
+                "district_id": "18",
+                "name": "Shibganj",
+                "bn_name": "শিবগঞ্জ"
+            },
+            {
+                "id": "340",
+                "district_id": "18",
+                "name": "Sonatala",
+                "bn_name": "সোনাতলা"
+            },
+            {
+                "id": "341",
+                "district_id": "19",
+                "name": "Joypurhat S",
+                "bn_name": "জয়পুরহাট সদর"
+            },
+            {
+                "id": "342",
+                "district_id": "19",
+                "name": "Akkelpur",
+                "bn_name": "আক্কেলপুর"
+            },
+            {
+                "id": "343",
+                "district_id": "19",
+                "name": "Kalai",
+                "bn_name": "কালাই"
+            },
+            {
+                "id": "344",
+                "district_id": "19",
+                "name": "Khetlal",
+                "bn_name": "খেতলাল"
+            },
+            {
+                "id": "345",
+                "district_id": "19",
+                "name": "Panchbibi",
+                "bn_name": "পাঁচবিবি"
+            },
+            {
+                "id": "346",
+                "district_id": "20",
+                "name": "Naogaon Sadar",
+                "bn_name": "নওগাঁ সদর"
+            },
+            {
+                "id": "347",
+                "district_id": "20",
+                "name": "Mohadevpur",
+                "bn_name": "মহাদেবপুর"
+            },
+            {
+                "id": "348",
+                "district_id": "20",
+                "name": "Manda",
+                "bn_name": "মান্দা"
+            },
+            {
+                "id": "349",
+                "district_id": "20",
+                "name": "Niamatpur",
+                "bn_name": "নিয়ামতপুর"
+            },
+            {
+                "id": "350",
+                "district_id": "20",
+                "name": "Atrai",
+                "bn_name": "আত্রাই"
+            },
+            {
+                "id": "351",
+                "district_id": "20",
+                "name": "Raninagar",
+                "bn_name": "রাণীনগর"
+            },
+            {
+                "id": "352",
+                "district_id": "20",
+                "name": "Patnitala",
+                "bn_name": "পত্নীতলা"
+            },
+            {
+                "id": "353",
+                "district_id": "20",
+                "name": "Dhamoirhat",
+                "bn_name": "ধামইরহাট "
+            },
+            {
+                "id": "354",
+                "district_id": "20",
+                "name": "Sapahar",
+                "bn_name": "সাপাহার"
+            },
+            {
+                "id": "355",
+                "district_id": "20",
+                "name": "Porsha",
+                "bn_name": "পোরশা"
+            },
+            {
+                "id": "356",
+                "district_id": "20",
+                "name": "Badalgachhi",
+                "bn_name": "বদলগাছি"
+            },
+            {
+                "id": "357",
+                "district_id": "21",
+                "name": "Natore Sadar",
+                "bn_name": "নাটোর সদর"
+            },
+            {
+                "id": "358",
+                "district_id": "21",
+                "name": "Baraigram",
+                "bn_name": "বড়াইগ্রাম"
+            },
+            {
+                "id": "359",
+                "district_id": "21",
+                "name": "Bagatipara",
+                "bn_name": "বাগাতিপাড়া"
+            },
+            {
+                "id": "360",
+                "district_id": "21",
+                "name": "Lalpur",
+                "bn_name": "লালপুর"
+            },
+            {
+                "id": "361",
+                "district_id": "21",
+                "name": "Natore Sadar",
+                "bn_name": "নাটোর সদর"
+            },
+            {
+                "id": "362",
+                "district_id": "21",
+                "name": "Baraigram",
+                "bn_name": "বড়াই গ্রাম"
+            },
+            {
+                "id": "363",
+                "district_id": "22",
+                "name": "Bholahat",
+                "bn_name": "ভোলাহাট"
+            },
+            {
+                "id": "364",
+                "district_id": "22",
+                "name": "Gomastapur",
+                "bn_name": "গোমস্তাপুর"
+            },
+            {
+                "id": "365",
+                "district_id": "22",
+                "name": "Nachole",
+                "bn_name": "নাচোল"
+            },
+            {
+                "id": "366",
+                "district_id": "22",
+                "name": "Nawabganj Sadar",
+                "bn_name": "নবাবগঞ্জ সদর"
+            },
+            {
+                "id": "367",
+                "district_id": "22",
+                "name": "Shibganj",
+                "bn_name": "শিবগঞ্জ"
+            },
+            {
+                "id": "368",
+                "district_id": "23",
+                "name": "Atgharia",
+                "bn_name": "আটঘরিয়া"
+            },
+            {
+                "id": "369",
+                "district_id": "23",
+                "name": "Bera",
+                "bn_name": "বেড়া"
+            },
+            {
+                "id": "370",
+                "district_id": "23",
+                "name": "Bhangura",
+                "bn_name": "ভাঙ্গুরা"
+            },
+            {
+                "id": "371",
+                "district_id": "23",
+                "name": "Chatmohar",
+                "bn_name": "চাটমোহর"
+            },
+            {
+                "id": "372",
+                "district_id": "23",
+                "name": "Faridpur",
+                "bn_name": "ফরিদপুর"
+            },
+            {
+                "id": "373",
+                "district_id": "23",
+                "name": "Ishwardi",
+                "bn_name": "ঈশ্বরদী"
+            },
+            {
+                "id": "374",
+                "district_id": "23",
+                "name": "Pabna Sadar",
+                "bn_name": "পাবনা সদর"
+            },
+            {
+                "id": "375",
+                "district_id": "23",
+                "name": "Santhia",
+                "bn_name": "সাথিয়া"
+            },
+            {
+                "id": "376",
+                "district_id": "23",
+                "name": "Sujanagar",
+                "bn_name": "সুজানগর"
+            },
+            {
+                "id": "377",
+                "district_id": "24",
+                "name": "Bagha",
+                "bn_name": "বাঘা"
+            },
+            {
+                "id": "378",
+                "district_id": "24",
+                "name": "Bagmara",
+                "bn_name": "বাগমারা"
+            },
+            {
+                "id": "379",
+                "district_id": "24",
+                "name": "Charghat",
+                "bn_name": "চারঘাট"
+            },
+            {
+                "id": "380",
+                "district_id": "24",
+                "name": "Durgapur",
+                "bn_name": "দুর্গাপুর"
+            },
+            {
+                "id": "381",
+                "district_id": "24",
+                "name": "Godagari",
+                "bn_name": "গোদাগারি"
+            },
+            {
+                "id": "382",
+                "district_id": "24",
+                "name": "Mohanpur",
+                "bn_name": "মোহনপুর"
+            },
+            {
+                "id": "383",
+                "district_id": "24",
+                "name": "Paba",
+                "bn_name": "পবা"
+            },
+            {
+                "id": "384",
+                "district_id": "24",
+                "name": "Puthia",
+                "bn_name": "পুঠিয়া"
+            },
+            {
+                "id": "385",
+                "district_id": "24",
+                "name": "Tanore",
+                "bn_name": "তানোর"
+            },
+            {
+                "id": "386",
+                "district_id": "25",
+                "name": "Sirajganj Sadar",
+                "bn_name": "সিরাজগঞ্জ সদর"
+            },
+            {
+                "id": "387",
+                "district_id": "25",
+                "name": "Belkuchi",
+                "bn_name": "বেলকুচি"
+            },
+            {
+                "id": "388",
+                "district_id": "25",
+                "name": "Chauhali",
+                "bn_name": "চৌহালি"
+            },
+            {
+                "id": "389",
+                "district_id": "25",
+                "name": "Kamarkhanda",
+                "bn_name": "কামারখান্দা"
+            },
+            {
+                "id": "390",
+                "district_id": "25",
+                "name": "Kazipur",
+                "bn_name": "কাজীপুর"
+            },
+            {
+                "id": "391",
+                "district_id": "25",
+                "name": "Raiganj",
+                "bn_name": "রায়গঞ্জ"
+            },
+            {
+                "id": "392",
+                "district_id": "25",
+                "name": "Shahjadpur",
+                "bn_name": "শাহজাদপুর"
+            },
+            {
+                "id": "393",
+                "district_id": "25",
+                "name": "Tarash",
+                "bn_name": "তারাশ"
+            },
+            {
+                "id": "394",
+                "district_id": "25",
+                "name": "Ullahpara",
+                "bn_name": "উল্লাপাড়া"
+            },
+            {
+                "id": "395",
+                "district_id": "26",
+                "name": "Birampur",
+                "bn_name": "বিরামপুর"
+            },
+            {
+                "id": "396",
+                "district_id": "26",
+                "name": "Birganj",
+                "bn_name": "বীরগঞ্জ"
+            },
+            {
+                "id": "397",
+                "district_id": "26",
+                "name": "Biral",
+                "bn_name": "বিড়াল"
+            },
+            {
+                "id": "398",
+                "district_id": "26",
+                "name": "Bochaganj",
+                "bn_name": "বোচাগঞ্জ"
+            },
+            {
+                "id": "399",
+                "district_id": "26",
+                "name": "Chirirbandar",
+                "bn_name": "চিরিরবন্দর"
+            },
+            {
+                "id": "400",
+                "district_id": "26",
+                "name": "Phulbari",
+                "bn_name": "ফুলবাড়ি"
+            },
+            {
+                "id": "401",
+                "district_id": "26",
+                "name": "Ghoraghat",
+                "bn_name": "ঘোড়াঘাট"
+            },
+            {
+                "id": "402",
+                "district_id": "26",
+                "name": "Hakimpur",
+                "bn_name": "হাকিমপুর"
+            },
+            {
+                "id": "403",
+                "district_id": "26",
+                "name": "Kaharole",
+                "bn_name": "কাহারোল"
+            },
+            {
+                "id": "404",
+                "district_id": "26",
+                "name": "Khansama",
+                "bn_name": "খানসামা"
+            },
+            {
+                "id": "405",
+                "district_id": "26",
+                "name": "Dinajpur Sadar",
+                "bn_name": "দিনাজপুর সদর"
+            },
+            {
+                "id": "406",
+                "district_id": "26",
+                "name": "Nawabganj",
+                "bn_name": "নবাবগঞ্জ"
+            },
+            {
+                "id": "407",
+                "district_id": "26",
+                "name": "Parbatipur",
+                "bn_name": "পার্বতীপুর"
+            },
+            {
+                "id": "408",
+                "district_id": "27",
+                "name": "Fulchhari",
+                "bn_name": "ফুলছড়ি"
+            },
+            {
+                "id": "409",
+                "district_id": "27",
+                "name": "Gaibandha sadar",
+                "bn_name": "গাইবান্ধা সদর"
+            },
+            {
+                "id": "410",
+                "district_id": "27",
+                "name": "Gobindaganj",
+                "bn_name": "গোবিন্দগঞ্জ"
+            },
+            {
+                "id": "411",
+                "district_id": "27",
+                "name": "Palashbari",
+                "bn_name": "পলাশবাড়ী"
+            },
+            {
+                "id": "412",
+                "district_id": "27",
+                "name": "Sadullapur",
+                "bn_name": "সাদুল্যাপুর"
+            },
+            {
+                "id": "413",
+                "district_id": "27",
+                "name": "Saghata",
+                "bn_name": "সাঘাটা"
+            },
+            {
+                "id": "414",
+                "district_id": "27",
+                "name": "Sundarganj",
+                "bn_name": "সুন্দরগঞ্জ"
+            },
+            {
+                "id": "415",
+                "district_id": "28",
+                "name": "Kurigram Sadar",
+                "bn_name": "কুড়িগ্রাম সদর"
+            },
+            {
+                "id": "416",
+                "district_id": "28",
+                "name": "Nageshwari",
+                "bn_name": "নাগেশ্বরী"
+            },
+            {
+                "id": "417",
+                "district_id": "28",
+                "name": "Bhurungamari",
+                "bn_name": "ভুরুঙ্গামারি"
+            },
+            {
+                "id": "418",
+                "district_id": "28",
+                "name": "Phulbari",
+                "bn_name": "ফুলবাড়ি"
+            },
+            {
+                "id": "419",
+                "district_id": "28",
+                "name": "Rajarhat",
+                "bn_name": "রাজারহাট"
+            },
+            {
+                "id": "420",
+                "district_id": "28",
+                "name": "Ulipur",
+                "bn_name": "উলিপুর"
+            },
+            {
+                "id": "421",
+                "district_id": "28",
+                "name": "Chilmari",
+                "bn_name": "চিলমারি"
+            },
+            {
+                "id": "422",
+                "district_id": "28",
+                "name": "Rowmari",
+                "bn_name": "রউমারি"
+            },
+            {
+                "id": "423",
+                "district_id": "28",
+                "name": "Char Rajibpur",
+                "bn_name": "চর রাজিবপুর"
+            },
+            {
+                "id": "424",
+                "district_id": "29",
+                "name": "Lalmanirhat Sadar",
+                "bn_name": "লালমনিরহাট সদর"
+            },
+            {
+                "id": "425",
+                "district_id": "29",
+                "name": "Aditmari",
+                "bn_name": "আদিতমারি"
+            },
+            {
+                "id": "426",
+                "district_id": "29",
+                "name": "Kaliganj",
+                "bn_name": "কালীগঞ্জ"
+            },
+            {
+                "id": "427",
+                "district_id": "29",
+                "name": "Hatibandha",
+                "bn_name": "হাতিবান্ধা"
+            },
+            {
+                "id": "428",
+                "district_id": "29",
+                "name": "Patgram",
+                "bn_name": "পাটগ্রাম"
+            },
+            {
+                "id": "429",
+                "district_id": "30",
+                "name": "Nilphamari Sadar",
+                "bn_name": "নীলফামারী সদর"
+            },
+            {
+                "id": "430",
+                "district_id": "30",
+                "name": "Saidpur",
+                "bn_name": "সৈয়দপুর"
+            },
+            {
+                "id": "431",
+                "district_id": "30",
+                "name": "Jaldhaka",
+                "bn_name": "জলঢাকা"
+            },
+            {
+                "id": "432",
+                "district_id": "30",
+                "name": "Kishoreganj",
+                "bn_name": "কিশোরগঞ্জ"
+            },
+            {
+                "id": "433",
+                "district_id": "30",
+                "name": "Domar",
+                "bn_name": "ডোমার"
+            },
+            {
+                "id": "434",
+                "district_id": "30",
+                "name": "Dimla",
+                "bn_name": "ডিমলা"
+            },
+            {
+                "id": "435",
+                "district_id": "31",
+                "name": "Panchagarh Sadar",
+                "bn_name": "পঞ্চগড় সদর"
+            },
+            {
+                "id": "436",
+                "district_id": "31",
+                "name": "Debiganj",
+                "bn_name": "দেবীগঞ্জ"
+            },
+            {
+                "id": "437",
+                "district_id": "31",
+                "name": "Boda",
+                "bn_name": "বোদা"
+            },
+            {
+                "id": "438",
+                "district_id": "31",
+                "name": "Atwari",
+                "bn_name": "আটোয়ারি"
+            },
+            {
+                "id": "439",
+                "district_id": "31",
+                "name": "Tetulia",
+                "bn_name": "তেঁতুলিয়া"
+            },
+            {
+                "id": "440",
+                "district_id": "32",
+                "name": "Badarganj",
+                "bn_name": "বদরগঞ্জ"
+            },
+            {
+                "id": "441",
+                "district_id": "32",
+                "name": "Mithapukur",
+                "bn_name": "মিঠাপুকুর"
+            },
+            {
+                "id": "442",
+                "district_id": "32",
+                "name": "Gangachara",
+                "bn_name": "গঙ্গাচরা"
+            },
+            {
+                "id": "443",
+                "district_id": "32",
+                "name": "Kaunia",
+                "bn_name": "কাউনিয়া"
+            },
+            {
+                "id": "444",
+                "district_id": "32",
+                "name": "Rangpur Sadar",
+                "bn_name": "রংপুর সদর"
+            },
+            {
+                "id": "445",
+                "district_id": "32",
+                "name": "Pirgachha",
+                "bn_name": "পীরগাছা"
+            },
+            {
+                "id": "446",
+                "district_id": "32",
+                "name": "Pirganj",
+                "bn_name": "পীরগঞ্জ"
+            },
+            {
+                "id": "447",
+                "district_id": "32",
+                "name": "Taraganj",
+                "bn_name": "তারাগঞ্জ"
+            },
+            {
+                "id": "448",
+                "district_id": "33",
+                "name": "Thakurgaon Sadar",
+                "bn_name": "ঠাকুরগাঁও সদর"
+            },
+            {
+                "id": "449",
+                "district_id": "33",
+                "name": "Pirganj",
+                "bn_name": "পীরগঞ্জ"
+            },
+            {
+                "id": "450",
+                "district_id": "33",
+                "name": "Baliadangi",
+                "bn_name": "বালিয়াডাঙ্গি"
+            },
+            {
+                "id": "451",
+                "district_id": "33",
+                "name": "Haripur",
+                "bn_name": "হরিপুর"
+            },
+            {
+                "id": "452",
+                "district_id": "33",
+                "name": "Ranisankail",
+                "bn_name": "রাণীসংকইল"
+            },
+            {
+                "id": "453",
+                "district_id": "51",
+                "name": "Ajmiriganj",
+                "bn_name": "আজমিরিগঞ্জ"
+            },
+            {
+                "id": "454",
+                "district_id": "51",
+                "name": "Baniachang",
+                "bn_name": "বানিয়াচং"
+            },
+            {
+                "id": "455",
+                "district_id": "51",
+                "name": "Bahubal",
+                "bn_name": "বাহুবল"
+            },
+            {
+                "id": "456",
+                "district_id": "51",
+                "name": "Chunarughat",
+                "bn_name": "চুনারুঘাট"
+            },
+            {
+                "id": "457",
+                "district_id": "51",
+                "name": "Habiganj Sadar",
+                "bn_name": "হবিগঞ্জ সদর"
+            },
+            {
+                "id": "458",
+                "district_id": "51",
+                "name": "Lakhai",
+                "bn_name": "লাক্ষাই"
+            },
+            {
+                "id": "459",
+                "district_id": "51",
+                "name": "Madhabpur",
+                "bn_name": "মাধবপুর"
+            },
+            {
+                "id": "460",
+                "district_id": "51",
+                "name": "Nabiganj",
+                "bn_name": "নবীগঞ্জ"
+            },
+            {
+                "id": "461",
+                "district_id": "51",
+                "name": "Shaistagonj",
+                "bn_name": "শায়েস্তাগঞ্জ"
+            },
+            {
+                "id": "462",
+                "district_id": "52",
+                "name": "Moulvibazar Sadar",
+                "bn_name": "মৌলভীবাজার"
+            },
+            {
+                "id": "463",
+                "district_id": "52",
+                "name": "Barlekha",
+                "bn_name": "বড়লেখা"
+            },
+            {
+                "id": "464",
+                "district_id": "52",
+                "name": "Juri",
+                "bn_name": "জুড়ি"
+            },
+            {
+                "id": "465",
+                "district_id": "52",
+                "name": "Kamalganj",
+                "bn_name": "কামালগঞ্জ"
+            },
+            {
+                "id": "466",
+                "district_id": "52",
+                "name": "Kulaura",
+                "bn_name": "কুলাউরা"
+            },
+            {
+                "id": "467",
+                "district_id": "52",
+                "name": "Rajnagar",
+                "bn_name": "রাজনগর"
+            },
+            {
+                "id": "468",
+                "district_id": "52",
+                "name": "Sreemangal",
+                "bn_name": "শ্রীমঙ্গল"
+            },
+            {
+                "id": "469",
+                "district_id": "53",
+                "name": "Bishwamvarpur",
+                "bn_name": "বিসশম্ভারপুর"
+            },
+            {
+                "id": "470",
+                "district_id": "53",
+                "name": "Chhatak",
+                "bn_name": "ছাতক"
+            },
+            {
+                "id": "471",
+                "district_id": "53",
+                "name": "Derai",
+                "bn_name": "দেড়াই"
+            },
+            {
+                "id": "472",
+                "district_id": "53",
+                "name": "Dharampasha",
+                "bn_name": "ধরমপাশা"
+            },
+            {
+                "id": "473",
+                "district_id": "53",
+                "name": "Dowarabazar",
+                "bn_name": "দোয়ারাবাজার"
+            },
+            {
+                "id": "474",
+                "district_id": "53",
+                "name": "Jagannathpur",
+                "bn_name": "জগন্নাথপুর"
+            },
+            {
+                "id": "475",
+                "district_id": "53",
+                "name": "Jamalganj",
+                "bn_name": "জামালগঞ্জ"
+            },
+            {
+                "id": "476",
+                "district_id": "53",
+                "name": "Sulla",
+                "bn_name": "সুল্লা"
+            },
+            {
+                "id": "477",
+                "district_id": "53",
+                "name": "Sunamganj Sadar",
+                "bn_name": "সুনামগঞ্জ সদর"
+            },
+            {
+                "id": "478",
+                "district_id": "53",
+                "name": "Shanthiganj",
+                "bn_name": "শান্তিগঞ্জ"
+            },
+            {
+                "id": "479",
+                "district_id": "53",
+                "name": "Tahirpur",
+                "bn_name": "তাহিরপুর"
+            },
+            {
+                "id": "480",
+                "district_id": "54",
+                "name": "Sylhet Sadar",
+                "bn_name": "সিলেট সদর"
+            },
+            {
+                "id": "481",
+                "district_id": "54",
+                "name": "Beanibazar",
+                "bn_name": "বেয়ানিবাজার"
+            },
+            {
+                "id": "482",
+                "district_id": "54",
+                "name": "Bishwanath",
+                "bn_name": "বিশ্বনাথ"
+            },
+            {
+                "id": "483",
+                "district_id": "54",
+                "name": "Dakshin Surma",
+                "bn_name": "দক্ষিণ সুরমা"
+            },
+            {
+                "id": "484",
+                "district_id": "54",
+                "name": "Balaganj",
+                "bn_name": "বালাগঞ্জ"
+            },
+            {
+                "id": "485",
+                "district_id": "54",
+                "name": "Companiganj",
+                "bn_name": "কোম্পানিগঞ্জ"
+            },
+            {
+                "id": "486",
+                "district_id": "54",
+                "name": "Fenchuganj",
+                "bn_name": "ফেঞ্চুগঞ্জ"
+            },
+            {
+                "id": "487",
+                "district_id": "54",
+                "name": "Golapganj",
+                "bn_name": "গোলাপগঞ্জ"
+            },
+            {
+                "id": "488",
+                "district_id": "54",
+                "name": "Gowainghat",
+                "bn_name": "গোয়াইনঘাট"
+            },
+            {
+                "id": "489",
+                "district_id": "54",
+                "name": "Jointapur",
+                "bn_name": "জৈন্তাপুর"
+            },
+            {
+                "id": "490",
+                "district_id": "54",
+                "name": "Kanaighat",
+                "bn_name": "কানাইঘাট"
+            },
+            {
+                "id": "491",
+                "district_id": "54",
+                "name": "Zakiganj",
+                "bn_name": "জাকিগঞ্জ"
+            },
+            {
+                "id": "492",
+                "district_id": "54",
+                "name": "Nobigonj",
+                "bn_name": "নবীগঞ্জ"
+            },
+            {
+                "id": "493",
+                "district_id": "45",
+                "name": "Eidgaon",
+                "bn_name": "ঈদগাঁও"
+            },
+            {
+                "id": "494",
+                "district_id": "53",
+                "name": "Modhyanagar",
+                "bn_name": "মধ্যনগর"
+            },
+            {
+                "id": "495",
+                "district_id": "7",
+                "name": "Dasar",
+                "bn_name": "দশর"
+            },
+            {
+                "id": "496",
+                "district_id": "1",
+                "name": "Dhamrai",
+                "bn_name": "ধামরাই"
+            },
+            {
+                "id": "497",
+                "district_id": "1",
+                "name": "Dohar",
+                "bn_name": "দোহার"
+            }
+        ]';
+        return json_decode($data, true);
     }
 }

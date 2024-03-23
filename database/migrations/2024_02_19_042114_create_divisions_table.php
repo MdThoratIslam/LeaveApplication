@@ -15,8 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('bn_name');
-            $table->string('url');
-            $table->integer('code');
+            $table->string('lat');
+            $table->string('long');
             $table->integer('status_active')->default(1);
             $table->integer('is_delete')->default(0);
             $table->timestamps();
