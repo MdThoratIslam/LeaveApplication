@@ -80,8 +80,24 @@ Route::middleware(['auth', 'verified'])->group(function ()
     Route::delete('/union-destroy/{id}', [UnionsController::class,'destroy'])->name('union.destroy');
     //==================================================================================================================
 
-
-
+    Route::get('/image', function ()
+    {
+        $imagePath = public_path('assets\images\users\cover.jpg');
+        if ($imagePath)
+        {
+            //dd($imagePath);
+            // need $imagePath extension to save image
+            $extension = pathinfo($imagePath, PATHINFO_EXTENSION);
+            $filename = time(). '.' . $extension;
+            $manager = new \Intervention\Image\ImageManager(new \Intervention\Image\Drivers\Gd\Driver());
+            // need to read image from path
+            dd($manager);
+            $photo = $manager->make($imagePath);
+            // need to resize image
+            //$photo->resize(600, 360)->save(public_path('admin/assets/photo/'. $filename));
+            $data['photo'] = $filename;
+        }
+    });
 });
 
 Route::middleware('auth')->group(function ()

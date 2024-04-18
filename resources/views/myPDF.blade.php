@@ -141,12 +141,10 @@
         <td style="width: 25%;border: 1px solid black; text-align: center;">Remarks if any</td>
         <td style="width: 25%;border: 1px solid black; text-align: center;">Signature</td>
     </tr>
-
     <tr>
         <td valign="middle" style="width: 25%;height:80px;border: 1px solid black; text-align: center;">Recommending Authority</td>
         <td valign="middle" style="width: 25%;border: 1px solid black; text-align: center;">
             <ul style="list-style-type: circle;text-align: left">
-
                 <li class="@if($leave->rcomnd_auth_status == 1) custom-list  @endif">
                     @if($leave->rcomnd_auth_status == 1)
                         <sapn class="@if($leave->rcomnd_auth_status == 1)tick-mark  @endif">Recommended</sapn>
@@ -154,8 +152,7 @@
                         Not Recommended
                     @endif
                 </li>
-
-                <li>Not Recommended</li>
+{{--                <li>Not Recommended</li>--}}
             </ul>
         </td>
         <td style="width: 25%;border: 1px solid black; text-align: center;">&nbsp;</td>
@@ -182,13 +179,12 @@
     <tr>
         <td style="line-height: 1; vertical-align: bottom;">
             @if(Auth::check() && Auth::user()->signature_path && Auth::user()->status_active ===1)
-                <img src="{{ Auth::user()->signature_path }}" alt="User Signature" width="140" height="40">
+                <img src="{{Auth::user()->signature_path}}" style="height: 50px" class="img-thumbnail p-0" />
                 <p style="margin: 0; font-size: 12px;">{{ \Carbon\Carbon::now()->format('d-F-Y') }}</p>
             @else
                 &nbsp;
             @endif
         </td>
-
         <td>
         </td>
     </tr>

@@ -21,7 +21,6 @@ class LeaveController extends Controller
         try
         {
             Paginator::useBootstrap();
-            // use user model relationship with leave model and get the data from the database using try case and error handling and pagination use for the data limit 10
             $leave = Leave::with('user')->where('user_id','=',Auth::user()->id)->paginate(10);
             return view('pages.leave.index', ['leaveResource' => LeaveResource::collection($leave)]);
         }
@@ -100,12 +99,14 @@ class LeaveController extends Controller
         //$users = User::get();
 //        $leave = Leave::with('users')->where('user_id', Auth::id())->find($leaveId);
         $leave = Leave::with('user')->where('id', $leaveId)->first();
+        //dd($leave);
         $data = [
             'title' => 'STAFF LEAVE APPLICATION FROM',
             'date' => date('d-F-Y'),
             'leave' => $leave
         ];
         $pdf = PDF::loadView('myPDF', $data);
+//        return view('myPDF', $data);
         return $pdf->download('leaveApplication.pdf');
     }
 }
